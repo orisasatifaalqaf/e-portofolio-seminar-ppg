@@ -1,0 +1,294 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1067" width="800" height="1067">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradPpl" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#041a2f"/>
+      <stop offset="35%" stop-color="#082f49"/>
+      <stop offset="70%" stop-color="#0c4a6e"/>
+      <stop offset="100%" stop-color="#031526"/>
+    </linearGradient>
+
+    <linearGradient id="goldFoil" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#fef9c3"/>
+      <stop offset="25%" stop-color="#fde047"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="75%" stop-color="#a16207"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+
+    <radialGradient id="centerGlowPpl" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.28"/>
+      <stop offset="45%" stop-color="#0284c7" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="torchGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="shadowTitlePpl" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#020b14" flood-opacity="0.9"/>
+    </filter>
+    <filter id="glowEmblemPpl" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="subtleNoisePpl" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.06 0" in="noise" result="coloredNoise"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+
+    <pattern id="archPattern" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="30" cy="30" r="18" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1.2"/>
+      <path d="M12 30 L48 30 M30 12 L30 48" stroke="rgba(255,255,255,0.025)" stroke-width="1"/>
+      <circle cx="30" cy="30" r="3" fill="rgba(254,240,138,0.05)"/>
+    </pattern>
+
+    <!-- Book Spine Lighting & Crease (Matches Filosofi Pendidikan) -->
+    <linearGradient id="spineLighting" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.25"/>
+      <stop offset="25%" stop-color="#000000" stop-opacity="0.06"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="80%" stop-color="#000000" stop-opacity="0.02"/>
+      <stop offset="90%" stop-color="#000000" stop-opacity="0.20"/>
+      <stop offset="94%" stop-color="#000000" stop-opacity="0.06"/>
+      <stop offset="98%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base Background -->
+  <rect width="800" height="1067" fill="url(#bgGradPpl)"/>
+
+  <!-- Organic Curved Waves / Sapphire Architectural Shapes -->
+  <path d="M480 80 Q780 180 800 480 L800 80 Z" fill="rgba(14, 165, 233, 0.1)"/>
+  <circle cx="720" cy="380" r="190" fill="rgba(12, 74, 110, 0.45)"/>
+  <path d="M100 80 C260 180 320 420 180 580 C90 680 0 620 0 480 Z" fill="rgba(4, 26, 47, 0.5)"/>
+
+  <!-- Subtle Pattern Layer -->
+  <rect x="0" y="64" width="800" height="921" fill="url(#archPattern)"/>
+
+  <!-- Ambient Glow Behind Center -->
+  <circle cx="390" cy="385" r="350" fill="url(#centerGlowPpl)"/>
+
+  <!-- Decorative Corner Filigree -->
+  <g stroke="url(#goldFoil)" stroke-width="1.5" fill="none" opacity="0.45">
+    <path d="M60 85 L100 85 M60 85 L60 125"/>
+    <circle cx="60" cy="85" r="3" fill="#d4af37"/>
+    <path d="M65 90 Q85 90 85 110"/>
+    <path d="M775 85 L735 85 M775 85 L775 125"/>
+    <circle cx="775" cy="85" r="3" fill="#d4af37"/>
+    <path d="M770 90 Q750 90 750 110"/>
+  </g>
+
+  <!-- ==================== SIDE CAMEO (SMAN 8 YOGYAKARTA & SEKOLAH MITRA) ==================== -->
+  <g transform="translate(680, 360)">
+    <!-- School & LPTK Seal Medallion -->
+    <circle cx="0" cy="-35" r="36" fill="rgba(8, 47, 73, 0.85)" stroke="url(#goldFoil)" stroke-width="1.8"/>
+    <!-- Classical School Portal / Crest Motif -->
+    <polygon points="0,-50 18,-40 -18,-40" fill="#fde047"/>
+    <rect x="-14" y="-40" width="28" height="18" fill="rgba(4, 26, 47, 0.8)" stroke="#d4af37" stroke-width="1"/>
+    <!-- Gateway Arch inside -->
+    <path d="M-6 -22 C-6 -32 6 -32 6 -22 Z" fill="#bae6fd"/>
+
+    <text x="0" y="24" text-anchor="middle" font-family="'Georgia', serif" font-weight="bold" font-size="8.5" fill="#fef08a" letter-spacing="1">
+      “SMAN 8 YOGYAKARTA”
+    </text>
+    <text x="0" y="37" text-anchor="middle" font-family="'Georgia', serif" font-style="italic" font-size="8" fill="#bae6fd" letter-spacing="0.5">
+      Dedikasi, Asistensi
+    </text>
+    <text x="0" y="49" text-anchor="middle" font-family="'Georgia', serif" font-style="italic" font-size="8" fill="#bae6fd" letter-spacing="0.5">
+      &amp; Lesson Study Nyata
+    </text>
+  </g>
+
+  <!-- ==================== CENTRAL EMBLEM (PPL TERBIMBING) ==================== -->
+  <g transform="translate(390, 385)">
+    <!-- Radiance Aura -->
+    <circle r="190" fill="url(#torchGlow)"/>
+
+    <!-- Concentric Decorative Medallion Rings -->
+    <circle r="185" fill="none" stroke="rgba(254, 240, 138, 0.18)" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <circle r="172" fill="none" stroke="url(#goldFoil)" stroke-width="1.2" opacity="0.65"/>
+
+    <!-- Outer Compass / Radiating Accents -->
+    <g stroke="url(#goldFoil)" stroke-width="2" opacity="0.75" stroke-linecap="round">
+      <line x1="0" y1="-175" x2="0" y2="-188"/>
+      <line x1="124" y1="-124" x2="133" y2="-133"/>
+      <line x1="175" y1="0" x2="188" y2="0"/>
+      <line x1="124" y1="124" x2="133" y2="133"/>
+      <line x1="0" y1="175" x2="0" y2="188"/>
+      <line x1="-124" y1="124" x2="-133" y2="133"/>
+      <line x1="-175" y1="0" x2="-188" y2="0"/>
+      <line x1="-124" y1="-124" x2="-133" y2="-133"/>
+    </g>
+
+    <!-- Academic Laurels of Excellence -->
+    <g fill="url(#goldFoil)" opacity="0.55">
+      <path d="M-160 -40 Q-175 -55 -165 -70 Q-155 -60 -160 -40 Z"/>
+      <path d="M-170 10 Q-188 0 -182 -18 Q-168 -10 -170 10 Z"/>
+      <path d="M-165 60 Q-185 55 -180 35 Q-165 45 -165 60 Z"/>
+      <path d="M-145 110 Q-165 110 -162 90 Q-145 98 -145 110 Z"/>
+      <path d="M160 -40 Q175 -55 165 -70 Q155 -60 160 -40 Z"/>
+      <path d="M170 10 Q188 0 182 -18 Q168 -10 170 10 Z"/>
+      <path d="M165 60 Q185 55 180 35 Q165 45 165 60 Z"/>
+      <path d="M145 110 Q165 110 162 90 Q145 98 145 110 Z"/>
+    </g>
+
+    <!-- Main Disc -->
+    <circle r="158" fill="#021526" stroke="url(#goldFoil)" stroke-width="3.5" filter="url(#shadowTitlePpl)"/>
+    <circle r="152" fill="none" stroke="rgba(254, 240, 138, 0.25)" stroke-width="1"/>
+    <circle r="150" fill="url(#bgGradPpl)" opacity="0.85"/>
+
+    <!-- 1. Classical School Pediment & Portal (Gerbang Sekolah Mitra) -->
+    <g transform="translate(0, -25)">
+      <polygon points="0,-75 80,-45 -80,-45" fill="rgba(8, 47, 73, 0.85)" stroke="url(#goldFoil)" stroke-width="2.5"/>
+      <line x1="-85" y1="-45" x2="85" y2="-45" stroke="url(#goldFoil)" stroke-width="3"/>
+      <circle cx="0" cy="-55" r="7" fill="url(#goldFoil)"/>
+      <circle cx="0" cy="-55" r="3" fill="#021526"/>
+
+      <!-- Twin Classical Columns of Education -->
+      <rect x="-70" y="-42" width="14" height="95" fill="rgba(2, 21, 38, 0.9)" stroke="url(#goldFoil)" stroke-width="2"/>
+      <line x1="-66" y1="-40" x2="-66" y2="50" stroke="rgba(254,240,138,0.4)" stroke-width="1.2"/>
+      <line x1="-60" y1="-40" x2="-60" y2="50" stroke="rgba(254,240,138,0.4)" stroke-width="1.2"/>
+      <rect x="-75" y="52" width="24" height="6" fill="url(#goldFoil)"/>
+
+      <rect x="56" y="-42" width="14" height="95" fill="rgba(2, 21, 38, 0.9)" stroke="url(#goldFoil)" stroke-width="2"/>
+      <line x1="60" y1="-40" x2="60" y2="50" stroke="rgba(254,240,138,0.4)" stroke-width="1.2"/>
+      <line x1="66" y1="-40" x2="66" y2="50" stroke="rgba(254,240,138,0.4)" stroke-width="1.2"/>
+      <rect x="51" y="52" width="24" height="6" fill="url(#goldFoil)"/>
+    </g>
+
+    <!-- 2. Open Teacher Lesson Planner Book & Lesson Study Circle at Portal Base -->
+    <g transform="translate(0, 50)">
+      <path d="M-60 -15 C-30 -26 -10 -20 0 -10 C10 -20 30 -26 60 -15 L60 30 C30 18 10 24 0 32 C-10 24 -30 18 -60 30 Z" 
+            fill="#f8fafc" stroke="#082f49" stroke-width="2"/>
+      <path d="M-55 -10 C-30 -20 -10 -16 0 -5 C10 -16 30 -20 55 -10 L55 25 C30 14 10 20 0 27 C-10 20 -30 14 -55 25 Z" 
+            fill="#f1f5f9" stroke="#d4af37" stroke-width="1.2"/>
+      <line x1="0" y1="-8" x2="0" y2="30" stroke="#a16207" stroke-width="2.5"/>
+      <line x1="-45" y1="-2" x2="-12" y2="-8" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="-45" y1="8" x2="-12" y2="2" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="-45" y1="18" x2="-18" y2="12" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="12" y1="-8" x2="45" y2="-2" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="12" y1="2" x2="45" y2="8" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="18" y1="12" x2="45" y2="18" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- 3. Graduation Mortarboard (Topi Toga Guru Profesional) & Laurel Resting Gracefully -->
+    <g transform="translate(0, -32)" filter="url(#glowEmblemPpl)">
+      <polygon points="0,-25 55,-10 0,5 -55,-10" fill="#0284c7" stroke="url(#goldFoil)" stroke-width="2.5"/>
+      <path d="M-28 -5 C-28 15 28 15 28 -5 Z" fill="#0369a1" stroke="url(#goldFoil)" stroke-width="2"/>
+      <circle cx="0" cy="-10" r="4" fill="#fef08a"/>
+      <path d="M0 -10 Q30 -5 38 12" fill="none" stroke="url(#goldFoil)" stroke-width="2.5"/>
+      <circle cx="38" cy="14" r="3.5" fill="#fef08a"/>
+    </g>
+
+    <!-- 4. Navigational Compass of Pedagogy / Collaborative Mentor Torch in Center -->
+    <g transform="translate(0, 15)">
+      <circle cx="0" cy="0" r="22" fill="rgba(8, 47, 73, 0.7)" stroke="url(#goldFoil)" stroke-width="2"/>
+      <polygon points="0,-18 4,-4 18,0 4,4 0,18 -4,4 -18,0 -4,-4" fill="url(#goldFoil)"/>
+      <polygon points="0,-18 4,-4 0,0 -4,-4" fill="#ffffff"/>
+      <circle cx="0" cy="0" r="3.5" fill="#fef08a"/>
+    </g>
+
+    <!-- 5. Golden Five-Star Rank of Professional Accreditation at Apex -->
+    <g transform="translate(0, -112)" filter="url(#glowEmblemPpl)">
+      <polygon points="0,-18 4,-5 17,-5 7,3 11,15 0,7 -11,15 -7,3 -17,-5 -4,-5" 
+               fill="url(#goldFoil)" stroke="#a16207" stroke-width="1.2"/>
+      <circle cx="0" cy="0" r="3.5" fill="#ffffff"/>
+      <line x1="0" y1="-26" x2="0" y2="-20" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="20" y1="0" x2="26" y2="0" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="-26" y1="0" x2="-20" y2="0" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Side Motifs -->
+    <g transform="translate(-115, -45) scale(0.85)">
+      <circle cx="0" cy="0" r="14" fill="rgba(254, 240, 138, 0.15)" stroke="url(#goldFoil)" stroke-width="2"/>
+      <circle cx="0" cy="-4" r="4.5" fill="none" stroke="#fef08a" stroke-width="1.8"/>
+      <circle cx="0" cy="4" r="5" fill="none" stroke="#fef08a" stroke-width="1.8"/>
+    </g>
+
+    <g transform="translate(115, -45) scale(0.85)">
+      <circle cx="0" cy="0" r="14" fill="rgba(254, 240, 138, 0.15)" stroke="url(#goldFoil)" stroke-width="2"/>
+      <circle cx="0" cy="-5" r="3" fill="#fef08a"/>
+      <circle cx="-5" cy="4" r="3" fill="#fef08a"/>
+      <circle cx="5" cy="4" r="3" fill="#fef08a"/>
+      <path d="M0 -5 L-5 4 L5 4 Z" fill="none" stroke="#fef08a" stroke-width="1.2"/>
+    </g>
+  </g>
+
+  <!-- Quote Ribbon Below Emblem -->
+  <text x="418" y="605" text-anchor="middle" font-family="'Georgia', serif" font-style="italic" font-size="14.5" fill="#fde68a" letter-spacing="1.5">
+    “Dedikasi Nyata Pendidik Profesional di SMAN 8 Yogyakarta”
+  </text>
+
+  <!-- Sub-Category Pill -->
+  <g transform="translate(418, 642)">
+    <rect x="-215" y="-17" width="430" height="34" rx="17" 
+          fill="rgba(14, 165, 233, 0.2)" stroke="#0284c7" stroke-width="1.5"/>
+    <text x="0" y="5" text-anchor="middle" font-family="'Outfit', 'Segoe UI', sans-serif" font-weight="700" font-size="11.5" fill="#fef08a" letter-spacing="2.2">
+      OBSERVASI, ASISTENSI &amp; PRAKTIK PEMBELAJARAN
+    </text>
+  </g>
+
+  <!-- ==================== MAIN EDITORIAL TITLE ==================== -->
+  <g filter="url(#shadowTitlePpl)">
+    <text x="418" y="728" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-weight="bold" font-size="36" fill="#f8fafc" letter-spacing="2.5">
+      PRAKTIK PENGALAMAN
+    </text>
+
+    <text x="418" y="784" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-weight="bold" font-size="46" fill="url(#goldFoil)" letter-spacing="3.5">
+      LAPANGAN (PPL)
+    </text>
+
+    <text x="418" y="836" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-weight="normal" font-size="32" fill="#bae6fd" letter-spacing="3.5">
+      TERBIMBING
+    </text>
+  </g>
+
+  <!-- Decorative Divider -->
+  <g transform="translate(418, 874)">
+    <line x1="-120" y1="0" x2="-20" y2="0" stroke="url(#goldFoil)" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="4" fill="#d4af37"/>
+    <polygon points="0,-6 2,-2 6,0 2,2 0,6 -2,2 -6,0 -2,-2" fill="#fef08a"/>
+    <line x1="20" y1="0" x2="120" y2="0" stroke="url(#goldFoil)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="418" y="910" text-anchor="middle" font-family="'Segoe UI', 'Outfit', sans-serif" font-weight="400" font-size="15.5" fill="#e0f2fe" letter-spacing="0.5">
+    Pengalaman Nyata Mengajar di SMAN 8 Yogyakarta, Kolaborasi
+  </text>
+  <text x="418" y="936" text-anchor="middle" font-family="'Segoe UI', 'Outfit', sans-serif" font-weight="400" font-size="15.5" fill="#e0f2fe" letter-spacing="0.5">
+    Dosen Pembimbing Lapangan dan Guru Pamong
+  </text>
+
+  <!-- ==================== TOP CREAM BANNER ==================== -->
+  <rect x="0" y="0" width="800" height="64" fill="#f5f1e8"/>
+  <line x1="0" y1="64" x2="800" y2="64" stroke="#d5cebe" stroke-width="1"/>
+  <!-- Top Header Text: Adjusted position to clear top-right badge -->
+  <text x="350" y="40" text-anchor="middle" font-family="'Outfit', 'Segoe UI', sans-serif" font-weight="700" font-size="13" fill="#3e4a3d" letter-spacing="3">
+    SEMINAR PENDIDIKAN PROFESI GURU
+  </text>
+
+  <!-- ==================== BOTTOM GROUNDED BAR ==================== -->
+  <rect x="0" y="985" width="800" height="82" fill="#082f49"/>
+  <line x1="0" y1="985" x2="800" y2="985" stroke="url(#goldFoil)" stroke-width="2"/>
+  <text x="400" y="1035" text-anchor="middle" font-family="'Outfit', 'Segoe UI', sans-serif" font-weight="700" font-size="14.5" fill="#fef08a" letter-spacing="3.5">
+    PROGRAM PENDIDIKAN PROFESI GURU
+  </text>
+
+  <!-- Paper Grain Overlay -->
+  <rect x="0" y="64" width="800" height="921" fill="none" opacity="0.3" filter="url(#subtleNoisePpl)"/>
+
+  <!-- ==================== BOOK SPINE / HINGE CREASE (SEAMLESS LIKE FILOSOFI) ==================== -->
+  <g pointer-events="none">
+    <!-- Semi-transparent spine lighting overlay that preserves underlying colors -->
+    <rect x="0" y="0" width="46" height="1067" fill="url(#spineLighting)"/>
+    <!-- Subtle realistic book groove lines -->
+    <line x1="40" y1="0" x2="40" y2="1067" stroke="rgba(0,0,0,0.22)" stroke-width="1.5"/>
+    <line x1="42" y1="0" x2="42" y2="1067" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
+    <line x1="43" y1="0" x2="43" y2="1067" stroke="rgba(0,0,0,0.10)" stroke-width="1"/>
+  </g>
+</svg>

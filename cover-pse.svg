@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1067" width="800" height="1067">
+  <defs>
+    <!-- Master Gradients -->
+    <linearGradient id="bgGradPse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f0a0d"/>
+      <stop offset="35%" stop-color="#3b1219"/>
+      <stop offset="70%" stop-color="#4c1822"/>
+      <stop offset="100%" stop-color="#1a070a"/>
+    </linearGradient>
+
+    <linearGradient id="goldFoil" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#fdf0cd"/>
+      <stop offset="25%" stop-color="#f5d485"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="75%" stop-color="#aa820a"/>
+      <stop offset="100%" stop-color="#e2bf55"/>
+    </linearGradient>
+
+    <linearGradient id="softGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="50%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+
+    <linearGradient id="rosePatch" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#be123c" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <radialGradient id="centerGlow" cx="50%" cy="40%" r="48%">
+      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#e11d48" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#fef08a" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="shadowTitle" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#080203" flood-opacity="0.85"/>
+    </filter>
+
+    <pattern id="batikKawung" width="56" height="56" patternUnits="userSpaceOnUse">
+      <ellipse cx="28" cy="14" rx="9" ry="14" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1.2"/>
+      <ellipse cx="28" cy="42" rx="9" ry="14" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1.2"/>
+      <ellipse cx="14" cy="28" rx="14" ry="9" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1.2"/>
+      <ellipse cx="42" cy="28" rx="14" ry="9" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1.2"/>
+      <circle cx="28" cy="28" r="3" fill="rgba(254,240,138,0.06)"/>
+    </pattern>
+
+    <linearGradient id="spineLighting" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.25"/>
+      <stop offset="25%" stop-color="#000000" stop-opacity="0.06"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="80%" stop-color="#000000" stop-opacity="0.02"/>
+      <stop offset="90%" stop-color="#000000" stop-opacity="0.20"/>
+      <stop offset="94%" stop-color="#000000" stop-opacity="0.06"/>
+      <stop offset="98%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1067" fill="url(#bgGradPse)"/>
+
+  <path d="M480 90 Q780 180 800 480 L800 90 Z" fill="url(#rosePatch)"/>
+  <circle cx="720" cy="360" r="190" fill="rgba(244, 63, 94, 0.08)"/>
+  <path d="M120 90 C300 180 350 430 200 580 C100 680 0 630 0 480 Z" fill="rgba(59, 18, 25, 0.5)"/>
+
+  <rect x="0" y="64" width="800" height="921" fill="url(#batikKawung)"/>
+  <circle cx="395" cy="385" r="340" fill="url(#centerGlow)"/>
+
+  <!-- Corner Filigree -->
+  <g stroke="url(#goldFoil)" stroke-width="1.5" fill="none" opacity="0.45">
+    <path d="M60 85 L100 85 M60 85 L60 125"/>
+    <circle cx="60" cy="85" r="3" fill="#d4af37"/>
+    <path d="M65 90 Q85 90 85 110"/>
+    <path d="M775 85 L735 85 M775 85 L775 125"/>
+    <circle cx="775" cy="85" r="3" fill="#d4af37"/>
+    <path d="M770 90 Q750 90 750 110"/>
+  </g>
+
+  <!-- Side Scholar Cameo -->
+  <g transform="translate(680, 360)">
+    <circle cx="0" cy="-35" r="36" fill="rgba(35, 12, 17, 0.85)" stroke="url(#goldFoil)" stroke-width="1.8"/>
+    <path d="M-15 -25 C-15 -48 15 -48 15 -25 C15 -18 10 -14 10 -10 C10 -6 18 5 24 15 L-24 15 C-18 5 -10 -6 -10 -10 C-10 -14 -15 -18 -15 -25 Z" fill="#f5d485" opacity="0.85"/>
+    <!-- Heart Symbol in cameo -->
+    <path d="M-6 -30 A 3 3 0 0 0 0 -25 A 3 3 0 0 0 6 -30 Q 6 -33 0 -36 Q -6 -33 -6 -30 Z" fill="#f43f5e"/>
+    <text x="0" y="24" text-anchor="middle" font-family="'Georgia', serif" font-weight="bold" font-size="8.5" fill="#fef08a" letter-spacing="1">
+      “CASEL &amp; EMPATHY”
+    </text>
+    <text x="0" y="37" text-anchor="middle" font-family="'Georgia', serif" font-style="italic" font-size="8" fill="#fecdd3" letter-spacing="0.5">
+      Kesejahteraan Emosional
+    </text>
+  </g>
+
+  <!-- Central Emblem (PSE) -->
+  <g transform="translate(390, 385)">
+    <circle r="190" fill="url(#sunGlow)"/>
+    <circle r="185" fill="none" stroke="rgba(254, 240, 138, 0.18)" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <circle r="172" fill="none" stroke="url(#goldFoil)" stroke-width="1.2" opacity="0.6"/>
+    
+    <!-- Outer Star Ray Accents -->
+    <g stroke="url(#goldFoil)" stroke-width="2" opacity="0.75" stroke-linecap="round">
+      <line x1="0" y1="-175" x2="0" y2="-188"/>
+      <line x1="124" y1="-124" x2="133" y2="-133"/>
+      <line x1="175" y1="0" x2="188" y2="0"/>
+      <line x1="124" y1="124" x2="133" y2="133"/>
+      <line x1="0" y1="175" x2="0" y2="188"/>
+      <line x1="-124" y1="124" x2="-133" y2="133"/>
+      <line x1="-175" y1="0" x2="-188" y2="0"/>
+      <line x1="-124" y1="-124" x2="-133" y2="-133"/>
+    </g>
+
+    <g fill="url(#goldFoil)" opacity="0.55">
+      <path d="M-160 -40 Q-175 -55 -165 -70 Q-155 -60 -160 -40 Z"/>
+      <path d="M-170 10 Q-188 0 -182 -18 Q-168 -10 -170 10 Z"/>
+      <path d="M-165 60 Q-185 55 -180 35 Q-165 45 -165 60 Z"/>
+      <path d="M160 -40 Q175 -55 165 -70 Q155 -60 160 -40 Z"/>
+      <path d="M170 10 Q188 0 182 -18 Q168 -10 170 10 Z"/>
+      <path d="M165 60 Q185 55 180 35 Q165 45 165 60 Z"/>
+    </g>
+
+    <!-- Main Circular Disc -->
+    <circle r="158" fill="#2b0e14" stroke="url(#goldFoil)" stroke-width="3.5" filter="url(#shadowTitle)"/>
+    <circle r="152" fill="none" stroke="rgba(254, 240, 138, 0.25)" stroke-width="1"/>
+
+    <!-- CASEL Lotus / Heart of Empathy & Harmony -->
+    <g transform="translate(0, -10)">
+      <!-- Radiant Rings of Social Interaction -->
+      <circle cx="0" cy="0" r="50" fill="none" stroke="rgba(254, 240, 138, 0.3)" stroke-width="1.5" stroke-dasharray="3 4"/>
+      
+      <!-- 5 Petals of CASEL Framework -->
+      <g fill="none" stroke="url(#goldFoil)" stroke-width="2.5">
+        <path d="M0 -15 C-18 -45 -18 -60 0 -70 C18 -60 18 -45 0 -15 Z" fill="rgba(244, 63, 94, 0.25)"/>
+        <path d="M-12 -5 C-45 -25 -58 -15 -62 5 C-48 18 -30 10 -12 -5 Z" fill="rgba(244, 63, 94, 0.25)"/>
+        <path d="M12 -5 C45 -25 58 -15 62 5 C48 18 30 10 12 -5 Z" fill="rgba(244, 63, 94, 0.25)"/>
+        <path d="M-10 12 C-35 35 -25 55 -5 60 C5 48 -2 30 -10 12 Z" fill="rgba(244, 63, 94, 0.25)"/>
+        <path d="M10 12 C35 35 25 55 5 60 C-5 48 2 30 10 12 Z" fill="rgba(244, 63, 94, 0.25)"/>
+      </g>
+      
+      <!-- Center Caring Sparkle -->
+      <circle cx="0" cy="0" r="12" fill="url(#goldFoil)"/>
+      <circle cx="0" cy="0" r="6" fill="#fff"/>
+    </g>
+
+    <!-- Open Book of Humanistic Education -->
+    <g transform="translate(0, 75)">
+      <path d="M-65 -15 C-35 -28 -10 -22 0 -10 C10 -22 35 -28 65 -15 L65 25 C35 15 10 20 0 28 C-10 20 -35 15 -65 25 Z" 
+            fill="#3a131b" stroke="url(#goldFoil)" stroke-width="2"/>
+      <line x1="0" y1="-10" x2="0" y2="28" stroke="url(#goldFoil)" stroke-width="2"/>
+    </g>
+
+    <!-- Star of Mindfulness -->
+    <g transform="translate(0, -95)">
+      <polygon points="0,-18 4,-5 17,-5 7,3 11,15 0,7 -11,15 -7,3 -17,-5 -4,-5" fill="url(#softGold)" stroke="#aa820a" stroke-width="1.2"/>
+      <circle cx="0" cy="0" r="3.5" fill="#ffffff"/>
+    </g>
+  </g>
+
+  <!-- Quote Below Emblem -->
+  <text x="418" y="605" text-anchor="middle" font-family="'Georgia', serif" font-style="italic" font-size="14.5" fill="#f5d485" letter-spacing="1.5">
+    “Kesadaran Diri, Manajemen Emosi, dan Welas Asih Menuju Well-being Murid”
+  </text>
+
+  <!-- Sub-Category Pill -->
+  <g transform="translate(418, 642)">
+    <rect x="-185" y="-17" width="370" height="34" rx="17" 
+          fill="rgba(244, 63, 94, 0.25)" stroke="#fb7185" stroke-width="1.5"/>
+    <text x="0" y="5" text-anchor="middle" font-family="'Outfit', 'Segoe UI', sans-serif" font-weight="700" font-size="12" fill="#fecdd3" letter-spacing="2.5">
+      SOSIAL EMOSIONAL &amp; KESEJAHTERAAN DIRI
+    </text>
+  </g>
+
+  <!-- Main Title -->
+  <g filter="url(#shadowTitle)">
+    <text x="418" y="730" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-weight="bold" font-size="44" fill="#fefcf3" letter-spacing="3">
+      PEMBELAJARAN
+    </text>
+    <text x="418" y="792" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-weight="bold" font-size="52" fill="url(#goldFoil)" letter-spacing="4">
+      SOSIAL
+    </text>
+    <text x="418" y="848" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-weight="normal" font-size="34" fill="#fde68a" letter-spacing="3.5">
+      EMOSIONAL (PSE)
+    </text>
+  </g>
+
+  <!-- Decorative Divider -->
+  <g transform="translate(418, 874)">
+    <line x1="-120" y1="0" x2="-20" y2="0" stroke="url(#goldFoil)" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="4" fill="#d4af37"/>
+    <polygon points="0,-6 2,-2 6,0 2,2 0,6 -2,2 -6,0 -2,-2" fill="#fef08a"/>
+    <line x1="20" y1="0" x2="120" y2="0" stroke="url(#goldFoil)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="418" y="910" text-anchor="middle" font-family="'Segoe UI', 'Outfit', sans-serif" font-weight="400" font-size="16" fill="#fecdd3" letter-spacing="0.6">
+    Implementasi Kerangka 5 Kompetensi CASEL, Mindfulness,
+  </text>
+  <text x="418" y="936" text-anchor="middle" font-family="'Segoe UI', 'Outfit', sans-serif" font-weight="400" font-size="16" fill="#fecdd3" letter-spacing="0.6">
+    dan Penciptaan Ekosistem Belajar yang Aman &amp; Menyenangkan
+  </text>
+
+  <!-- Top Cream Banner -->
+  <rect x="0" y="0" width="800" height="64" fill="#f5f1e8"/>
+  <line x1="0" y1="64" x2="800" y2="64" stroke="#d5cebe" stroke-width="1"/>
+  <text x="350" y="40" text-anchor="middle" font-family="'Outfit', 'Segoe UI', sans-serif" font-weight="700" font-size="13" fill="#3e4a3d" letter-spacing="3">
+    SEMINAR PENDIDIKAN PROFESI GURU
+  </text>
+
+  <!-- Bottom Grounded Bar -->
+  <rect x="0" y="985" width="800" height="82" fill="#1f0a0d"/>
+  <line x1="0" y1="985" x2="800" y2="985" stroke="url(#goldFoil)" stroke-width="2"/>
+  <text x="400" y="1035" text-anchor="middle" font-family="'Outfit', 'Segoe UI', sans-serif" font-weight="700" font-size="14.5" fill="#fef08a" letter-spacing="3.5">
+    PROGRAM PENDIDIKAN PROFESI GURU
+  </text>
+
+  <!-- Book Spine / Hinge Crease -->
+  <g pointer-events="none">
+    <rect x="0" y="0" width="46" height="1067" fill="url(#spineLighting)"/>
+    <line x1="40" y1="0" x2="40" y2="1067" stroke="rgba(0,0,0,0.22)" stroke-width="1.5"/>
+    <line x1="42" y1="0" x2="42" y2="1067" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
+    <line x1="43" y1="0" x2="43" y2="1067" stroke="rgba(0,0,0,0.10)" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,341 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1067" width="800" height="1067">
+  <defs>
+    <!-- Master Gradients -->
+    <linearGradient id="bgGradPmad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14261f"/>
+      <stop offset="35%" stop-color="#1d382d"/>
+      <stop offset="70%" stop-color="#2a4a3e"/>
+      <stop offset="100%" stop-color="#101e18"/>
+    </linearGradient>
+
+    <linearGradient id="goldFoil" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#fdf0cd"/>
+      <stop offset="25%" stop-color="#f5d485"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="75%" stop-color="#aa820a"/>
+      <stop offset="100%" stop-color="#e2bf55"/>
+    </linearGradient>
+
+    <linearGradient id="softGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="50%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+
+    <linearGradient id="terraPatch" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c25e2e" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#7c2d12" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <radialGradient id="centerGlow" cx="50%" cy="40%" r="48%">
+      <stop offset="0%" stop-color="#6ee7b7" stop-opacity="0.22"/>
+      <stop offset="45%" stop-color="#34d399" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#fef08a" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="shadowTitle" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#050a08" flood-opacity="0.8"/>
+    </filter>
+    <filter id="glowEmblem" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="subtleNoise" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" result="noise"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.06 0" in="noise" result="coloredNoise"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+
+    <!-- Batik Pattern -->
+    <pattern id="batikKawung" width="56" height="56" patternUnits="userSpaceOnUse">
+      <ellipse cx="28" cy="14" rx="9" ry="14" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1.2"/>
+      <ellipse cx="28" cy="42" rx="9" ry="14" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1.2"/>
+      <ellipse cx="14" cy="28" rx="14" ry="9" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1.2"/>
+      <ellipse cx="42" cy="28" rx="14" ry="9" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1.2"/>
+      <circle cx="28" cy="28" r="3" fill="rgba(254,240,138,0.06)"/>
+    </pattern>
+
+    <!-- Book Spine Lighting & Crease (Matches Filosofi Pendidikan) -->
+    <linearGradient id="spineLighting" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.25"/>
+      <stop offset="25%" stop-color="#000000" stop-opacity="0.06"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="80%" stop-color="#000000" stop-opacity="0.02"/>
+      <stop offset="90%" stop-color="#000000" stop-opacity="0.20"/>
+      <stop offset="94%" stop-color="#000000" stop-opacity="0.06"/>
+      <stop offset="98%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="1067" fill="url(#bgGradPmad)"/>
+
+  <!-- Organic Warm Shapes (Matching Filosofi Style) -->
+  <path d="M480 90 Q780 180 800 480 L800 90 Z" fill="url(#terraPatch)"/>
+  <circle cx="720" cy="360" r="190" fill="rgba(42, 74, 62, 0.4)"/>
+  <path d="M120 90 C300 180 350 430 200 580 C100 680 0 630 0 480 Z" fill="rgba(20, 45, 35, 0.5)"/>
+
+  <!-- Subtle Batik Layer -->
+  <rect x="0" y="64" width="800" height="921" fill="url(#batikKawung)"/>
+
+  <!-- Ambient Glow Behind Center -->
+  <circle cx="395" cy="385" r="340" fill="url(#centerGlow)"/>
+
+  <!-- Corner Filigree -->
+  <g stroke="url(#goldFoil)" stroke-width="1.5" fill="none" opacity="0.45">
+    <path d="M60 85 L100 85 M60 85 L60 125"/>
+    <circle cx="60" cy="85" r="3" fill="#d4af37"/>
+    <path d="M65 90 Q85 90 85 110"/>
+    <path d="M775 85 L735 85 M775 85 L775 125"/>
+    <circle cx="775" cy="85" r="3" fill="#d4af37"/>
+    <path d="M770 90 Q750 90 750 110"/>
+  </g>
+
+  <!-- Left Botanical Foliage -->
+  <g fill="rgba(255,255,255,0.035)" transform="translate(85, 230) rotate(-20)">
+    <path d="M0 0 Q25 -45 0 -90 Q-25 -45 0 0 Z"/>
+    <path d="M0 -35 Q35 -55 25 -80 Q5 -65 0 -35 Z"/>
+    <path d="M0 -35 Q-35 -55 -25 -80 Q-5 -65 0 -35 Z"/>
+  </g>
+
+  <!-- ==================== SIDE PORTRAIT / CAMEO (BENJAMIN BLOOM & JOHN DEWEY) ==================== -->
+  <g transform="translate(680, 360)">
+    <!-- Scholar Silhouette Cameo -->
+    <circle cx="0" cy="-35" r="36" fill="rgba(20, 38, 30, 0.85)" stroke="url(#goldFoil)" stroke-width="1.8"/>
+    <!-- Head & Bust Profile in Warm Sepia -->
+    <path d="M-15 -25 C-15 -48 15 -48 15 -25 C15 -18 10 -14 10 -10 C10 -6 18 5 24 15 L-24 15 C-18 5 -10 -6 -10 -10 C-10 -14 -15 -18 -15 -25 Z" 
+          fill="#f5d485" opacity="0.85"/>
+    <!-- Spectacles of Scholarship -->
+    <circle cx="-3" cy="-30" r="5" fill="none" stroke="#aa820a" stroke-width="1.2"/>
+    <circle cx="7" cy="-30" r="5" fill="none" stroke="#aa820a" stroke-width="1.2"/>
+    <line x1="2" y1="-30" x2="2" y2="-30" stroke="#aa820a" stroke-width="1.2"/>
+    
+    <!-- Quote Ribbon Text -->
+    <text x="0" y="24" text-anchor="middle" font-family="'Georgia', serif" font-weight="bold" font-size="8.5" fill="#fef08a" letter-spacing="1">
+      “LEARNING BY DOING”
+    </text>
+    <text x="0" y="37" text-anchor="middle" font-family="'Georgia', serif" font-style="italic" font-size="8" fill="#d1fae5" letter-spacing="0.5">
+      Pendidikan Menyalakan Api
+    </text>
+    <text x="0" y="49" text-anchor="middle" font-family="'Georgia', serif" font-style="italic" font-size="8" fill="#d1fae5" letter-spacing="0.5">
+      Pemahaman Bermakna
+    </text>
+  </g>
+
+  <!-- ==================== CENTRAL EMBLEM (PMAD) ==================== -->
+  <g transform="translate(390, 385)">
+    <!-- Sunburst Radiance -->
+    <circle r="190" fill="url(#sunGlow)"/>
+
+    <!-- Concentric Decorative Medallion Rings -->
+    <circle r="185" fill="none" stroke="rgba(254, 240, 138, 0.18)" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <circle r="172" fill="none" stroke="url(#goldFoil)" stroke-width="1.2" opacity="0.6"/>
+    
+    <!-- Outer Star Ray Accents -->
+    <g stroke="url(#goldFoil)" stroke-width="2" opacity="0.75" stroke-linecap="round">
+      <line x1="0" y1="-175" x2="0" y2="-188"/>
+      <line x1="124" y1="-124" x2="133" y2="-133"/>
+      <line x1="175" y1="0" x2="188" y2="0"/>
+      <line x1="124" y1="124" x2="133" y2="133"/>
+      <line x1="0" y1="175" x2="0" y2="188"/>
+      <line x1="-124" y1="124" x2="-133" y2="133"/>
+      <line x1="-175" y1="0" x2="-188" y2="0"/>
+      <line x1="-124" y1="-124" x2="-133" y2="-133"/>
+    </g>
+
+    <!-- Laurel Wreath Arching Outside Disc -->
+    <g fill="url(#goldFoil)" opacity="0.5">
+      <path d="M-160 -40 Q-175 -55 -165 -70 Q-155 -60 -160 -40 Z"/>
+      <path d="M-170 10 Q-188 0 -182 -18 Q-168 -10 -170 10 Z"/>
+      <path d="M-165 60 Q-185 55 -180 35 Q-165 45 -165 60 Z"/>
+      <path d="M-145 110 Q-165 110 -162 90 Q-145 98 -145 110 Z"/>
+      <path d="M160 -40 Q175 -55 165 -70 Q155 -60 160 -40 Z"/>
+      <path d="M170 10 Q188 0 182 -18 Q168 -10 170 10 Z"/>
+      <path d="M165 60 Q185 55 180 35 Q165 45 165 60 Z"/>
+      <path d="M145 110 Q165 110 162 90 Q145 98 145 110 Z"/>
+    </g>
+
+    <!-- Main Circular Disc -->
+    <circle r="158" fill="#13231c" stroke="url(#goldFoil)" stroke-width="3.5" filter="url(#shadowTitle)"/>
+    <circle r="152" fill="none" stroke="rgba(254, 240, 138, 0.25)" stroke-width="1"/>
+    <circle r="150" fill="url(#bgGradPmad)" opacity="0.85"/>
+
+    <!-- ================= INTRICATE ARTWORK ================= -->
+    <!-- Roots intertwined with books -->
+    <g fill="none" stroke="url(#goldFoil)" stroke-width="2.5" stroke-linecap="round">
+      <path d="M0 60 Q-15 95 -45 115 M0 60 Q15 95 45 115"/>
+      <path d="M-10 65 Q-30 90 -70 100 M10 65 Q30 90 70 100"/>
+      <path d="M0 70 Q0 100 0 120"/>
+    </g>
+
+    <!-- Open Book of Foundations at Tree Base -->
+    <g transform="translate(0, 75)">
+      <path d="M-65 -15 C-35 -28 -10 -22 0 -10 C10 -22 35 -28 65 -15 L65 30 C35 18 10 22 0 32 C-10 22 -35 18 -65 30 Z" 
+            fill="#fefcf3" stroke="#2a4a3e" stroke-width="2"/>
+      <path d="M-60 -10 C-35 -22 -10 -18 0 -5 C10 -18 35 -22 60 -10 L60 25 C35 14 10 18 0 27 C-10 18 -35 14 -60 25 Z" 
+            fill="#f7f2e4" stroke="#d4af37" stroke-width="1.2"/>
+      <line x1="0" y1="-8" x2="0" y2="30" stroke="#aa820a" stroke-width="2.5"/>
+      <line x1="-50" y1="-2" x2="-15" y2="-8" stroke="#8c9e94" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="-50" y1="8" x2="-15" y2="2" stroke="#8c9e94" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="-50" y1="18" x2="-20" y2="12" stroke="#8c9e94" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="15" y1="-8" x2="50" y2="-2" stroke="#8c9e94" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="15" y1="2" x2="50" y2="8" stroke="#8c9e94" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="20" y1="12" x2="50" y2="18" stroke="#8c9e94" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Tree Trunk Rising from Book -->
+    <path d="M-14 62 C-8 20 -18 -15 -25 -40 C-15 -35 0 -35 0 -45 C0 -35 15 -35 25 -40 C18 -15 8 20 14 62 Z" 
+          fill="url(#goldFoil)" stroke="#854d0e" stroke-width="1.5"/>
+
+    <!-- Tree Canopy Branches -->
+    <g fill="none" stroke="url(#goldFoil)" stroke-width="3" stroke-linecap="round">
+      <path d="M0 -45 Q-40 -70 -75 -60"/>
+      <path d="M0 -45 Q40 -70 75 -60"/>
+      <path d="M-25 -55 Q-50 -95 -30 -115"/>
+      <path d="M25 -55 Q50 -95 30 -115"/>
+      <path d="M0 -45 L0 -90"/>
+    </g>
+
+    <!-- Botanical Foliage / Leaves on Branches -->
+    <g fill="url(#goldFoil)">
+      <path d="M-75 -60 Q-90 -75 -75 -90 Q-60 -75 -75 -60 Z"/>
+      <path d="M-60 -70 Q-70 -90 -55 -100 Q-45 -85 -60 -70 Z"/>
+      <path d="M-30 -115 Q-45 -130 -30 -140 Q-20 -125 -30 -115 Z"/>
+      <path d="M-45 -100 Q-65 -115 -50 -125 Q-35 -110 -45 -100 Z"/>
+      <path d="M75 -60 Q90 -75 75 -90 Q60 -75 75 -60 Z"/>
+      <path d="M60 -70 Q70 -90 55 -100 Q45 -85 60 -70 Z"/>
+      <path d="M30 -115 Q45 -130 30 -140 Q20 -125 30 -115 Z"/>
+      <path d="M45 -100 Q65 -115 50 -125 Q35 -110 45 -100 Z"/>
+      <path d="M0 -90 Q-15 -110 0 -125 Q15 -110 0 -90 Z"/>
+    </g>
+
+    <!-- Authentic Assessment Balance Scales -->
+    <path d="M0 10 L0 -75" stroke="#fef08a" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M-65 -35 Q0 -40 65 -35" stroke="url(#goldFoil)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <circle cx="0" cy="-38" r="5" fill="#fef08a" stroke="#aa820a" stroke-width="1.5"/>
+    <circle cx="-65" cy="-35" r="3.5" fill="#fef08a"/>
+    <circle cx="65" cy="-35" r="3.5" fill="#fef08a"/>
+
+    <line x1="-65" y1="-35" x2="-82" y2="-5" stroke="url(#goldFoil)" stroke-width="1.8"/>
+    <line x1="-65" y1="-35" x2="-48" y2="-5" stroke="url(#goldFoil)" stroke-width="1.8"/>
+    <line x1="65" y1="-35" x2="48" y2="-5" stroke="url(#goldFoil)" stroke-width="1.8"/>
+    <line x1="65" y1="-35" x2="82" y2="-5" stroke="url(#goldFoil)" stroke-width="1.8"/>
+
+    <path d="M-92 -5 Q-65 15 -38 -5 Z" fill="rgba(212, 175, 55, 0.45)" stroke="url(#goldFoil)" stroke-width="2"/>
+    <circle cx="-65" cy="-10" r="4" fill="#6ee7b7"/>
+    <path d="M-65 -10 Q-72 -18 -65 -22 Q-58 -18 -65 -10 Z" fill="#6ee7b7"/>
+
+    <path d="M38 -5 Q65 15 92 -5 Z" fill="rgba(212, 175, 55, 0.45)" stroke="url(#goldFoil)" stroke-width="2"/>
+    <polygon points="65,-18 67,-12 73,-12 68,-8 70,-2 65,-6 60,-2 62,-8 57,-12 63,-12" fill="#fef08a"/>
+
+    <!-- Crown of Insight: Glowing 8-Point Star and Radiant Beam -->
+    <g transform="translate(0, -112)" filter="url(#glowEmblem)">
+      <line x1="0" y1="-28" x2="0" y2="-18" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="18" y1="-18" x2="12" y2="-12" stroke="#fef08a" stroke-width="2" stroke-linecap="round"/>
+      <line x1="28" y1="0" x2="18" y2="0" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="-18" y1="-18" x2="-12" y2="-12" stroke="#fef08a" stroke-width="2" stroke-linecap="round"/>
+      <line x1="-28" y1="0" x2="-18" y2="0" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round"/>
+      <polygon points="0,-18 4,-5 17,-5 7,3 11,15 0,7 -11,15 -7,3 -17,-5 -4,-5" 
+               fill="url(#softGold)" stroke="#aa820a" stroke-width="1.2"/>
+      <circle cx="0" cy="0" r="3.5" fill="#ffffff"/>
+    </g>
+
+    <!-- Side Icons: Lightbulb & Gears -->
+    <g transform="translate(-115, -45) scale(0.85)">
+      <circle cx="0" cy="0" r="14" fill="rgba(254, 240, 138, 0.15)" stroke="url(#goldFoil)" stroke-width="2"/>
+      <path d="M-6 8 L6 8 M-4 12 L4 12" stroke="url(#goldFoil)" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="0" cy="-2" r="5" fill="#fef08a"/>
+      <line x1="-16" y1="-8" x2="-22" y2="-12" stroke="url(#goldFoil)" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="-20" y1="2" x2="-26" y2="2" stroke="url(#goldFoil)" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(115, -45) scale(0.85)">
+      <circle cx="0" cy="0" r="12" fill="none" stroke="url(#goldFoil)" stroke-width="2.5"/>
+      <circle cx="0" cy="0" r="4" fill="url(#goldFoil)"/>
+      <path d="M0 -15 L0 -12 M11 -11 L9 -9 M15 0 L12 0 M11 11 L9 9 M0 15 L0 12 M-11 11 L-9 9 M-15 0 L-12 0 M-11 -11 L-9 -9" 
+            stroke="url(#goldFoil)" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="16" cy="14" r="8" fill="none" stroke="url(#goldFoil)" stroke-width="2"/>
+      <circle cx="16" cy="14" r="2.5" fill="url(#goldFoil)"/>
+    </g>
+  </g>
+
+  <!-- Quote Below Emblem -->
+  <text x="418" y="605" text-anchor="middle" font-family="'Georgia', serif" font-style="italic" font-size="14.5" fill="#f5d485" letter-spacing="1.5">
+    “Asih, Asah, Asuh — Menyalakan Api Pemahaman Bermakna”
+  </text>
+
+  <!-- Sub-Category Pill -->
+  <g transform="translate(418, 642)">
+    <rect x="-185" y="-17" width="370" height="34" rx="17" 
+          fill="rgba(194, 94, 46, 0.25)" stroke="#d97706" stroke-width="1.5"/>
+    <text x="0" y="5" text-anchor="middle" font-family="'Outfit', 'Segoe UI', sans-serif" font-weight="700" font-size="12" fill="#fef08a" letter-spacing="2.5">
+      PEMBELAJARAN BERMAKNA &amp; ASESMEN OTENTIK
+    </text>
+  </g>
+
+  <!-- ==================== MAIN EDITORIAL TITLE ==================== -->
+  <g filter="url(#shadowTitle)">
+    <text x="418" y="730" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-weight="bold" font-size="46" fill="#fefcf3" letter-spacing="3">
+      PEMBELAJARAN
+    </text>
+
+    <text x="418" y="792" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-weight="bold" font-size="52" fill="url(#goldFoil)" letter-spacing="4">
+      MENDALAM
+    </text>
+
+    <text x="418" y="848" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-weight="normal" font-size="32" fill="#fde68a" letter-spacing="3.5">
+      DAN ASESMEN DASAR
+    </text>
+  </g>
+
+  <!-- Decorative Divider -->
+  <g transform="translate(418, 874)">
+    <line x1="-120" y1="0" x2="-20" y2="0" stroke="url(#goldFoil)" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="4" fill="#d4af37"/>
+    <polygon points="0,-6 2,-2 6,0 2,2 0,6 -2,2 -6,0 -2,-2" fill="#fef08a"/>
+    <line x1="20" y1="0" x2="120" y2="0" stroke="url(#goldFoil)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="418" y="910" text-anchor="middle" font-family="'Segoe UI', 'Outfit', sans-serif" font-weight="400" font-size="16" fill="#d1fae5" letter-spacing="0.6">
+    Desain Pembelajaran Konstruktivistik, Asesmen Diagnostik,
+  </text>
+  <text x="418" y="936" text-anchor="middle" font-family="'Segoe UI', 'Outfit', sans-serif" font-weight="400" font-size="16" fill="#d1fae5" letter-spacing="0.6">
+    Formatif, dan Sumatif Berkelanjutan
+  </text>
+
+  <!-- ==================== TOP CREAM BANNER ==================== -->
+  <rect x="0" y="0" width="800" height="64" fill="#f5f1e8"/>
+  <line x1="0" y1="64" x2="800" y2="64" stroke="#d5cebe" stroke-width="1"/>
+  <!-- Top Header Text: Adjusted position to clear top-right badge -->
+  <text x="350" y="40" text-anchor="middle" font-family="'Outfit', 'Segoe UI', sans-serif" font-weight="700" font-size="13" fill="#3e4a3d" letter-spacing="3">
+    SEMINAR PENDIDIKAN PROFESI GURU
+  </text>
+
+  <!-- ==================== BOTTOM GROUNDED BAR ==================== -->
+  <rect x="0" y="985" width="800" height="82" fill="#14261f"/>
+  <line x1="0" y1="985" x2="800" y2="985" stroke="url(#goldFoil)" stroke-width="2"/>
+  <text x="400" y="1035" text-anchor="middle" font-family="'Outfit', 'Segoe UI', sans-serif" font-weight="700" font-size="14.5" fill="#fef08a" letter-spacing="3.5">
+    PROGRAM PENDIDIKAN PROFESI GURU
+  </text>
+
+  <!-- Paper Grain Overlay -->
+  <rect x="0" y="64" width="800" height="921" fill="none" opacity="0.3" filter="url(#subtleNoise)"/>
+
+  <!-- ==================== BOOK SPINE / HINGE CREASE (SEAMLESS LIKE FILOSOFI) ==================== -->
+  <g pointer-events="none">
+    <!-- Semi-transparent spine lighting overlay that preserves underlying colors -->
+    <rect x="0" y="0" width="46" height="1067" fill="url(#spineLighting)"/>
+    <!-- Subtle realistic book groove lines -->
+    <line x1="40" y1="0" x2="40" y2="1067" stroke="rgba(0,0,0,0.22)" stroke-width="1.5"/>
+    <line x1="42" y1="0" x2="42" y2="1067" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
+    <line x1="43" y1="0" x2="43" y2="1067" stroke="rgba(0,0,0,0.10)" stroke-width="1"/>
+  </g>
+</svg>

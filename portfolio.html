@@ -1,0 +1,2574 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="E-Portfolio Guru Profesional. Dokumentasi perjalanan profesional, karya, dan refleksi pembelajaran." />
+  <title>E-Portfolio | Guru Profesional PPG</title>
+  
+  <!-- Favicon PPG -->
+  <link rel="icon" href="LOGO WEB.jpg" type="image/jpeg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css?v=4" />
+</head>
+<body>
+
+
+  <!-- Animated Particle Background -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo" aria-label="PPG Logo">
+        <span class="logo-text" style="color: #0F5EA8; display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 1.5rem;">
+          <i class="fa-solid fa-graduation-cap"></i> PPG
+        </span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="active">Beranda</a></li>
+        <li><a href="#about">Profil</a></li>
+        <li><a href="#education">Pendidikan</a></li>
+        <li><a href="#identifikasi-diri">Identifikasi Diri</a></li>
+        <li><a href="#refleksi-mk">Refleksi Mata Kuliah</a></li>
+        <li><a href="#refleksi-ppg">Refleksi Program PPG</a></li>
+        <li><a href="#karya-inovasi">Karya Inovasi Pendidikan</a></li>
+        <li><a href="#model-guru">Model Guru</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="action-btn theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Mode Gelap/Terang">
+          <i class="fa-solid fa-moon theme-icon"></i>
+        </button>
+        <button class="action-btn home-btn" id="homeBtn" aria-label="Home" title="Kembali ke Awal" onclick="window.location.href='index.html';">
+          <i class="fa-solid fa-house" style="color: #39BDE8;"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero section" id="hero">
+    <div class="hero-bg-text">
+      <div>PENDIDIKAN BAHASA DAN SASTRA INDONESIA</div>
+      <div>PENDIDIKAN BAHASA DAN SASTRA INDONESIA</div>
+      <div>PENDIDIKAN BAHASA DAN SASTRA INDONESIA</div>
+      <div>PENDIDIKAN BAHASA DAN SASTRA INDONESIA</div>
+    </div>
+    <div class="container hero-container">
+      <div class="hero-image-section">
+        <div class="hero-image-wrapper">
+          <img src="gambar3.jpg" alt="Orisa Satifa Alqaf" style="width: 100%; height: 100%; object-fit: cover; object-position: 30% center; transform: scale(1.15); transform-origin: left center;" onerror="this.src='https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-top-text">PPG PRAJABATAN 2026</div>
+        <div class="hero-greeting"><span class="wave">👋</span> Halo, Saya</div>
+        <h1 class="hero-name">Orisa <br class="mobile-name-break" /><span class="highlight-green">Satifa Alqaf</span></h1>
+        
+        <div class="hero-nim-badge">
+          <i class="fa-solid fa-book-open"></i> Pend. Bahasa Indonesia - UAD
+        </div>
+
+        <p class="hero-desc" style="margin-bottom: 1rem; text-align: justify;">
+          Saya adalah calon guru profesional dari Program Studi Pendidikan Bahasa dan Sastra Indonesia, Universitas Ahmad Dahlan.
+        </p>
+        <p class="hero-desc" style="text-align: justify;">
+          Seseorang yang percaya bahwa kelas bukan sekadar tempat menyampaikan materi, melainkan ruang untuk menumbuhkan makna. Melalui pendekatan yang berpusat pada peserta didik, saya berkomitmen menghadirkan pembelajaran yang aplikatif dan relevan dengan dunia nyata siswa, sekaligus membangun keterampilan literasi dan karakter yang akan terus mereka bawa jauh setelah meninggalkan bangku sekolah.
+        </p>
+
+        <div class="hero-social-circles">
+          <a href="#" target="_blank" class="social-circle"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank" class="social-circle"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" target="_blank" class="social-circle"><i class="fab fa-youtube"></i></a>
+          <a href="#" target="_blank" class="social-circle"><i class="fa-solid fa-envelope"></i></a>
+          <a href="#" target="_blank" class="social-circle"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#refleksi-mk" class="btn btn-primary">
+            <i class="fa-solid fa-book-open"></i> Lihat Refleksi Mata Kuliah
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fa-solid fa-envelope"></i> Hubungi Saya
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fa-solid fa-user"></i> Profil</div>
+        <h2 class="section-title">Mengenal Saya Lebih Dekat</h2>
+        <p class="section-subtitle">Narasi perjalanan hidup dan inspirasi karir saya</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-image" style="align-self: start;">
+          <div class="about-image-card" style="display: flex; flex-direction: column; align-items: center; margin-bottom: 2rem;">
+            <div style="width: 480px; height: 480px; border-radius: 50%; border: 6px solid #ffffff; box-shadow: var(--shadow-md); overflow: hidden; margin-bottom: 1.5rem;">
+              <img src="foto-profil.jpg" alt="Foto Profil" style="width: 100%; height: 100%; object-fit: cover; object-position: center 45%;">
+            </div>
+            <div style="display: flex; gap: 0.8rem; flex-wrap: wrap; justify-content: center;">
+              <div class="hero-badge" style="margin: 0; border: 1px solid rgba(0,0,0,0.05);">
+                <i class="fa-solid fa-graduation-cap" style="color: #4A154B;"></i> PPG Prajabatan 2026
+              </div>
+              <div class="hero-badge" style="margin: 0; border: 1px solid rgba(0,0,0,0.05);">
+                <i class="fa-solid fa-book" style="color: #E27D60;"></i> Pend. Bahasa Indonesia
+              </div>
+              <div class="hero-badge" style="margin: 0; border: 1px solid rgba(0,0,0,0.05);">
+                <i class="fa-solid fa-university" style="color: #85CDCA;"></i> Univ. Ahmad Dahlan
+              </div>
+            </div>
+          </div>
+          <blockquote class="profil-quote">
+            <p><em>"Jadikan setiap tempat sebagai sekolah.<br>Jadikan setiap orang sebagai guru."</em></p>
+            <cite>— Ki Hadjar Dewantara</cite>
+            <p style="margin-top: 1rem; font-size: 0.9rem; font-style: normal; color: var(--text-color); opacity: 0.9; text-align: justify; line-height: 1.6;">
+              Bagi saya, kutipan ini berarti bahwa belajar tidak terbatas oleh ruang kelas atau gelar formal seorang "guru", karena setiap tempat dan setiap orang menyimpan pelajarannya sendiri. Kutipan ini menjadi pengingat bagi saya untuk terus terbuka belajar dari mana pun, dan berusaha menjadi sosok yang layak diteladani, di dalam maupun di luar kelas.
+            </p>
+          </blockquote>
+        </div>
+        <div class="about-content">
+          <div class="profil-narasi">
+            <h3 class="narasi-heading">📌 Latar Belakang</h3>
+            <p class="about-text" style="text-align: justify;">
+              Saya Orisa Satifa Alqaf, seseorang yang tumbuh di antara putaran roda pelarik dan aroma tanah basah, di sebuah dusun kecil bernama Kasongan. Di Dusun Kasongan, hampir setiap rumah memiliki cerita yang sama — tanah liat yang dibentuk menjadi bernilai. Konon, dusun ini lahir dari sebuah kebetulan getir matinya seekor kuda kolonial Belanda di sawah seorang petani, yang kemudian merelakan tanahnya dan beralih menjadi perajin gerabah. Dari peristiwa kecil itu, tumbuh sebuah identitas yang besar: Kasongan, bagian dari Desa Bangunjiwo yang kini dikenal luas sebagai jantung kerajinan dan seni budaya Yogyakarta.
+            </p>
+            <p class="about-text" style="text-align: justify;">
+              Saya percaya, ada pelajaran yang diam-diam diwariskan tanah ini kepada saya, bahwa sesuatu yang awalnya tidak berbentuk (tanah liat) atau bahkan keterbatasan sekalipun bisa menjadi berharga di tangan yang tepat, dengan kesabaran yang tepat. Filosofi inilah yang kemudian saya bawa ke dalam cara saya memandang profesi guru — membentuk, bukan memaksa bentuk.
+            </p>
+          </div>
+          <div class="profil-narasi">
+            <h3 class="narasi-heading">💡 Inspirasi</h3>
+            <p class="about-text" style="text-align: justify;">
+              Cita-cita ini lahir di bangku kelas 3 sekolah dasar, dari seseorang yang tidak pernah benar-benar "meminta" saya menjadi seorang pendidik, namun menginspirasi di depan mata saya, Bulek saya. Sejak benih kecil itu tumbuh, perjalanan saya dipertemukan dengan guru demi guru, dari bangku SD hingga ruang kuliah, yang masing-masing meninggalkan satu hal yang sama, yaitu bukti bahwa mengajar adalah cara paling sunyi namun paling lama bertahan untuk mengubah hidup seseorang.
+            </p>
+          </div>
+          <div class="profil-narasi">
+            <h3 class="narasi-heading">🎯 Tujuan</h3>
+            <p class="about-text" style="text-align: justify;">
+              Bagi saya, menjadi guru bukan tentang berdiri di depan kelas dan menyampaikan materi. Ia adalah perpanjangan dari apa yang dulu Kasongan ajarkan kepada saya bahwa di tangan yang sabar, sesuatu yang awalnya rapuh bisa berubah menjadi sesuatu yang utuh, kuat, dan bermakna. Saya ingin menjadi guru yang tidak hanya mengisi, tetapi membentuk karakter, cara berpikir, dan keberanian siswa saya untuk menjadi versi terbaik dari diri mereka.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fa-solid fa-graduation-cap"></i> Riwayat Pendidikan</div>
+        <h2 class="section-title">Perjalanan Akademik</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <img src="uad-logo.png" alt="UAD Logo" class="school-logo" style="width: 60px; height: 60px; object-fit: contain; float: right; margin-left: 1rem; border-radius: 8px;">
+            <span class="timeline-year">Sekarang</span>
+            <h3>Program Profesi Guru</h3>
+            <p class="institution">Universitas Ahmad Dahlan</p>
+            <p>Melanjutkan pendidikan profesi untuk memantapkan langkah dan panggilan jiwa sebagai seorang pendidik.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <img src="LOGO UPY.jpg" alt="UPY Logo" class="school-logo" style="width: 60px; height: 60px; object-fit: contain; float: right; margin-left: 1rem; border-radius: 8px;">
+            <span class="timeline-year">Pendidikan Sarjana</span>
+            <h3>S1 Pendidikan Bahasa dan Sastra Indonesia</h3>
+            <p class="institution">Universitas PGRI Yogyakarta</p>
+            <p>Membawa tekad dari masa sekolah untuk mendalami ilmu pendidikan serta bahasa dan sastra.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <img src="LOGO SMA.png" alt="SMA Logo" class="school-logo" style="width: 60px; height: 60px; object-fit: contain; float: right; margin-left: 1rem; border-radius: 8px;">
+            <span class="timeline-year">Sekolah Menengah Atas</span>
+            <h3>Jurusan MIPA</h3>
+            <p class="institution">SMA Negeri Pajangan</p>
+            <p>Mempertemukan saya dengan banyak guru yang masing-masing meninggalkan jejak inspirasi tersendiri.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <img src="LOGO SMP.png" alt="SMP Logo" class="school-logo" style="width: 60px; height: 60px; object-fit: contain; float: right; margin-left: 1rem; border-radius: 8px; transform: scale(1.4);">
+            <span class="timeline-year">Sekolah Menengah Pertama</span>
+            <h3>Sekolah Menengah Pertama</h3>
+            <p class="institution">SMP Negeri 2 Sewon</p>
+            <p>Masa di mana saya mulai mengenal lebih jauh tentang minat dan semangat belajar.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <img src="LOGO SD.png" alt="SD Logo" class="school-logo" style="width: 60px; height: 60px; object-fit: contain; float: right; margin-left: 1rem; border-radius: 8px;">
+            <span class="timeline-year">Sekolah Dasar</span>
+            <h3>Sekolah Dasar</h3>
+            <p class="institution">SD Negeri Kasongan</p>
+            <p>Awal perjalanan pendidikan yang menjadi dasar dan fondasi pembentukan karakter saya.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Identifikasi Diri -->
+  <section class="identifikasi-diri section" id="identifikasi-diri">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fa-solid fa-id-card-clip"></i> IDENTIFIKASI DIRI</div>
+        <h2 class="section-title">Identifikasi Diri</h2>
+        <p class="section-subtitle">Refleksi visi pribadi untuk pendidikan di Indonesia, peran sebagai calon guru, dan langkah nyata mencapainya</p>
+      </div>
+
+      <div class="identifikasi-card">
+        <div class="identifikasi-table-wrapper">
+          <table class="identifikasi-table">
+            <tbody>
+              <tr>
+                <td class="identifikasi-label">
+                  <i class="fa-solid fa-earth-asia"></i> Visi pribadi untuk pendidikan di Indonesia
+                </td>
+                <td class="identifikasi-content">
+                  Visi pribadi saya untuk Pendidikan Indonesia adalah menciptakan ruang-ruang pembelajaran di manapun anak berada dan menanamkan pengetahuan baik kognitif maupun non-kognitif melalui apapun bentuk guru yang mereka temui dalam ruang-ruang pembelajaran tersebut, agar tumbuh sesuai keunikannya sendiri, bukan sistem yang menyeragamkan semua anak dalam satu cetakan yang sama.
+                </td>
+              </tr>
+              <tr>
+                <td class="identifikasi-label">
+                  <i class="fa-solid fa-chalkboard-user"></i> Visi pribadi sebagai calon guru
+                </td>
+                <td class="identifikasi-content">
+                  Sebagai calon guru, saya memiliki visi menjadi seorang pendidik yang membentuk karakter dan potensi anak dengan sabar, konsisten, selalu hadir dalam setiap proses pembelajaran tanpa pernah memaksa, sehingga anak tumbuh menjadi pembelajar yang percaya diri dengan jati dirinya sendiri, bukan hanya sekadar mengikuti satu bentuk keberhasilan yang seragam.
+                </td>
+              </tr>
+              <tr>
+                <td class="identifikasi-label">
+                  <i class="fa-solid fa-list-check"></i> Hal yang dilakukan untuk mencapai visi
+                </td>
+                <td class="identifikasi-content">
+                  Untuk mewujudkan visi tersebut, saya akan:
+                  <ol class="identifikasi-list">
+                    <li>Mengembangkan kompetensi pedagogik dan professional secara berkelanjutan;</li>
+                    <li>Menerapkan pembelajaran yang berpusat pada murid dan mengakomodasi keberagaman karakteristik mereka; dan</li>
+                    <li>Melakukan refleksi atas praktik mengajar secara rutin agar terus bertumbuh menjadi pendidik yang lebih baik.</li>
+                  </ol>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Refleksi Mata Kuliah Section -->
+  <section class="portfolio section" id="refleksi-mk">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fa-solid fa-book-open"></i> REFLEKSI MATA KULIAH</div>
+        <h2 class="section-title">Refleksi Mata Kuliah</h2>
+        <p class="section-subtitle">Koleksi artefak pembelajaran, perangkat ajar, dan refleksi mata kuliah</p>
+      </div>
+
+      <!-- Filter Controls (Semester 1 & Semester 2) -->
+      <div class="portfolio-filters">
+        <!-- Tier 1: Main Switch -->
+        <div class="filter-switch-wrapper">
+          <div class="filter-switch">
+            <button class="switch-btn active" data-tipe="sem1"><i class="fa-solid fa-book-bookmark"></i> Semester 1</button>
+            <button class="switch-btn" data-tipe="sem2"><i class="fa-solid fa-graduation-cap"></i> Semester 2</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio Grid -->
+      <div class="portfolio-grid" id="portfolioGrid">
+
+        <!-- Card 1: Filosofi Pendidikan dan Pendidikan Nilai -->
+        <div class="portfolio-card" data-tipe="sem1" data-siklus="1" data-kategori="rpp">
+          <div class="card-image-wrapper">
+            <img src="filosofi-cover.jpg?v=3" alt="Cover Filosofi Pendidikan dan Pendidikan Nilai" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='modul-cover.png'">
+            <div class="card-badge badge-rpp" style="background-color: #d97746;">MK Inti</div>
+            <div class="card-overlay">
+              <a href="https://drive.google.com/file/d/1TNvduxarlASGMuXjR-zUXO0_M1XkJDRx/view?usp=sharing" target="_blank" class="overlay-content" style="text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka LK 2 di Drive
+              </a>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Filosofi Pendidikan dan Pendidikan Nilai</h3>
+            <p class="card-desc">Kajian landasan filosofis Ki Hadjar Dewantara, Pancasila, growth mindset, serta internalisasi nilai karakter dalam pembelajaran.</p>
+            <a href="#" class="btn-analysis" data-target="analysisPanelFilosofi">Lihat Analisis <i class="fa-solid fa-chart-simple"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 2: Pembelajaran Mendalam dan Asesmen Dasar -->
+        <div class="portfolio-card" data-tipe="sem1" data-siklus="1" data-kategori="rpp">
+          <div class="card-image-wrapper">
+            <img src="cover-pmad.svg?v=4" alt="Cover Pembelajaran Mendalam dan Asesmen Dasar" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="card-badge badge-rpp" style="background-color: #235347;">MK Inti</div>
+            <div class="card-overlay">
+              <a href="https://drive.google.com/file/d/131Knei9ae3mvdp4mpOzd_yt9xrBvKyL4/view?usp=sharing" target="_blank" class="overlay-content" style="text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka LK 2 di Drive
+              </a>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Pembelajaran Mendalam dan Asesmen Dasar</h3>
+            <p class="card-desc">Perancangan pembelajaran konstruktivistik berbasis pemahaman konsep, diferensiasi, serta asesmen autentik berkelanjutan.</p>
+            <a href="#" class="btn-analysis" data-target="analysisPanelPMAD">Lihat Analisis <i class="fa-solid fa-chart-simple"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 3: Pemahaman Tentang Peserta Didik dan Pembelajaran -->
+        <div class="portfolio-card" data-tipe="sem1" data-siklus="1" data-kategori="rpp">
+          <div class="card-image-wrapper">
+            <img src="cover-ppdp.svg?v=4" alt="Cover Pemahaman Tentang Peserta Didik dan Pembelajaran" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="card-badge badge-rpp" style="background-color: #d97746;">MK Inti</div>
+            <div class="card-overlay">
+              <a href="https://drive.google.com/file/d/1xAXw_1c-pBm8HNWShA2LWZ8XZnriggCt/view?usp=sharing" target="_blank" class="overlay-content" style="text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka LK 2 di Drive
+              </a>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Pemahaman Tentang Peserta Didik dan Pembelajaran</h3>
+            <p class="card-desc">Pemetaan tahap perkembangan peserta didik, teori belajar, profiling kebutuhan belajar, dan pendekatan TaRL dalam pembelajaran.</p>
+            <a href="#" class="btn-analysis" data-target="analysisPanelPPDP">Lihat Analisis <i class="fa-solid fa-chart-simple"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 4: Literasi Anti-korupsi Berbasis Profil Pelajar Pancasila dalam Perspektif Islam -->
+        <div class="portfolio-card" data-tipe="sem1" data-siklus="1" data-kategori="rpp">
+          <div class="card-image-wrapper">
+            <img src="cover-antikorupsi.svg?v=4" alt="Cover Literasi Anti-korupsi Berbasis Profil Pelajar Pancasila dalam Perspektif Islam" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="card-badge badge-rpp" style="background-color: #065f46;">MK Elektif</div>
+            <div class="card-overlay">
+              <a href="https://drive.google.com/file/d/10YpEmlJynE8RC7WGVla9RQ59DEGLBmGy/view?usp=sharing" target="_blank" class="overlay-content" style="text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka LK 2 di Drive
+              </a>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Literasi Anti-korupsi Berbasis Profil Pelajar Pancasila dalam Perspektif Islam</h3>
+            <p class="card-desc">Penguatan karakter integritas, kejujuran akademik, dan penanaman budaya anti-korupsi berlandaskan nilai-nilai Islam dan Pancasila.</p>
+            <a href="#" class="btn-analysis" data-target="analysisPanelAntikorupsi">Lihat Analisis <i class="fa-solid fa-chart-simple"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 5: Pola Pikir Bertumbuh (Growth Mindset) dalam Pembelajaran -->
+        <div class="portfolio-card" data-tipe="sem1" data-siklus="1" data-kategori="rpp">
+          <div class="card-image-wrapper">
+            <img src="cover-growth-mindset.svg?v=4" alt="Cover Pola Pikir Bertumbuh (Growth Mindset) dalam Pembelajaran" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="card-badge badge-rpp" style="background-color: #1e293b;">MK Inti</div>
+            <div class="card-overlay">
+              <a href="https://drive.google.com/file/d/1EzXG4JBtLUMdS39jSJRQVnVpM3RlYNmX/view?usp=sharing" target="_blank" class="overlay-content" style="text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka LK 2 di Drive
+              </a>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Pola Pikir Bertumbuh (Growth Mindset) dalam Pembelajaran</h3>
+            <p class="card-desc">Pengembangan mindset berkembang (growth mindset), mengubah tantangan menjadi peluang, serta membangun ketahanan belajar murid.</p>
+            <a href="#" class="btn-analysis" data-target="analysisPanelGrowthMindset">Lihat Analisis <i class="fa-solid fa-chart-simple"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 6: Praktik Pengalaman Lapangan (PPL) Terbimbing -->
+        <div class="portfolio-card" data-tipe="sem1" data-siklus="1" data-kategori="rpp">
+          <div class="card-image-wrapper">
+            <img src="cover-ppl1.svg?v=4" alt="Cover Praktik Pengalaman Lapangan (PPL) Terbimbing" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="card-badge badge-rpp" style="background-color: #0c4a6e;">PPL 1</div>
+            <div class="card-overlay">
+              <a href="https://drive.google.com/file/d/15rFOX_flFvw_ZPl-Y1O3x57iQ2MyQ97H/view?usp=sharing" target="_blank" class="overlay-content" style="text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka LK 2 di Drive
+              </a>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Praktik Pengalaman Lapangan (PPL) Terbimbing</h3>
+            <p class="card-desc">Pengalaman nyata praktik mengajar terbimbing di SMAN 8 Yogyakarta, observasi kultur sekolah, dan evaluasi berkala Lesson Study.</p>
+            <a href="#" class="btn-analysis" data-target="analysisPanelPPL1">Lihat Analisis <i class="fa-solid fa-chart-simple"></i></a>
+          </div>
+        </div>
+
+        <!-- ==================== SEMESTER 2 MODULE CARDS ==================== -->
+
+        <!-- Card 7: Pembelajaran Mendalam dan Asesmen Lanjut -->
+        <div class="portfolio-card" data-tipe="sem2" data-siklus="1" data-kategori="rpp">
+          <div class="card-image-wrapper">
+            <img src="cover-pmal.svg?v=1" alt="Cover Pembelajaran Mendalam dan Asesmen Lanjut" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="card-badge badge-rpp" style="background-color: #0f766e;">MK Inti</div>
+            <div class="card-overlay">
+              <span class="overlay-content" style="text-decoration: none; cursor: default;">
+                <i class="fa-solid fa-clock"></i> Dokumen LK 2 Menyusul
+              </span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Pembelajaran Mendalam dan Asesmen Lanjut</h3>
+            <p class="card-desc">Pengembangan asesmen autentik tingkat lanjut, diferensiasi kompleks, evaluasi rubrik mendalam, dan portofolio belajar murid.</p>
+            <a href="#" class="btn-analysis" data-target="analysisPanelPMAL">Lihat Analisis <i class="fa-solid fa-chart-simple"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 8: Teknologi Baru dalam Pengajaran dan Pembelajaran -->
+        <div class="portfolio-card" data-tipe="sem2" data-siklus="1" data-kategori="rpp">
+          <div class="card-image-wrapper">
+            <img src="cover-tbpp.svg?v=1" alt="Cover Teknologi Baru dalam Pengajaran dan Pembelajaran" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="card-badge badge-rpp" style="background-color: #4338ca;">MK Inti</div>
+            <div class="card-overlay">
+              <span class="overlay-content" style="text-decoration: none; cursor: default;">
+                <i class="fa-solid fa-clock"></i> Dokumen LK 2 Menyusul
+              </span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Teknologi Baru dalam Pengajaran dan Pembelajaran</h3>
+            <p class="card-desc">Integrasi pedagogi digital, artificial intelligence (AI), model TPACK, dan media digital interaktif dalam pembelajaran abad 21.</p>
+            <a href="#" class="btn-analysis" data-target="analysisPanelTBPP">Lihat Analisis <i class="fa-solid fa-chart-simple"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 9: Pembelajaran Sosial Emosional -->
+        <div class="portfolio-card" data-tipe="sem2" data-siklus="1" data-kategori="rpp">
+          <div class="card-image-wrapper">
+            <img src="cover-pse.svg?v=1" alt="Cover Pembelajaran Sosial Emosional" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="card-badge badge-rpp" style="background-color: #be123c;">MK Inti</div>
+            <div class="card-overlay">
+              <span class="overlay-content" style="text-decoration: none; cursor: default;">
+                <i class="fa-solid fa-clock"></i> Dokumen LK 2 Menyusul
+              </span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Pembelajaran Sosial Emosional</h3>
+            <p class="card-desc">Penerapan 5 kompetensi CASEL, latihan mindfulness, kesadaran diri, dan penciptaan lingkungan belajar yang aman serta menyenangkan.</p>
+            <a href="#" class="btn-analysis" data-target="analysisPanelPSE">Lihat Analisis <i class="fa-solid fa-chart-simple"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 10: Praktik Pengalaman Lapangan Mandiri -->
+        <div class="portfolio-card" data-tipe="sem2" data-siklus="1" data-kategori="rpp">
+          <div class="card-image-wrapper">
+            <img src="cover-ppl2.svg?v=1" alt="Cover Praktik Pengalaman Lapangan Mandiri" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="card-badge badge-rpp" style="background-color: #0369a1;">PPL 2</div>
+            <div class="card-overlay">
+              <span class="overlay-content" style="text-decoration: none; cursor: default;">
+                <i class="fa-solid fa-clock"></i> Dokumen LK 2 Menyusul
+              </span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Praktik Pengalaman Lapangan Mandiri</h3>
+            <p class="card-desc">Praktik pembelajaran mandiri terpadu di sekolah mitra, pelaksanaan siklus penuh Lesson Study, dan refleksi pedagogis berkelanjutan.</p>
+            <a href="#" class="btn-analysis" data-target="analysisPanelPPL2">Lihat Analisis <i class="fa-solid fa-chart-simple"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 11: Projek Kepemimpinan -->
+        <div class="portfolio-card" data-tipe="sem2" data-siklus="1" data-kategori="rpp">
+          <div class="card-image-wrapper">
+            <img src="cover-pk.svg?v=1" alt="Cover Projek Kepemimpinan" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="card-badge badge-rpp" style="background-color: #7e22ce;">MK Inti</div>
+            <div class="card-overlay">
+              <span class="overlay-content" style="text-decoration: none; cursor: default;">
+                <i class="fa-solid fa-clock"></i> Dokumen LK 2 Menyusul
+              </span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Projek Kepemimpinan</h3>
+            <p class="card-desc">Inisiasi projek inovatif berbasis kebutuhan komunitas sekolah, kepemimpinan transformatif, dan service learning berdampak sosial.</p>
+            <a href="#" class="btn-analysis" data-target="analysisPanelPK">Lihat Analisis <i class="fa-solid fa-chart-simple"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Refleksi Program PPG Section -->
+  <section class="analisis section" id="refleksi-ppg">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fa-solid fa-graduation-cap"></i> REFLEKSI PROGRAM PPG</div>
+        <h2 class="section-title">Refleksi Program PPG</h2>
+        <p class="section-subtitle">Refleksi komprehensif perjalanan pembelajaran, transformasi profesional, dan pengalaman bermakna selama menempuh Program Pendidikan Profesi Guru (PPG).</p>
+      </div>
+
+      <div class="analisis-grid">
+        <!-- Card 1 -->
+        <div class="analisis-card card-red">
+          <div class="card-icon-wrapper">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+          </div>
+          <div class="aspect-badge">ASPEK 1</div>
+          <h3 class="analisis-title">Kendala Penyusunan</h3>
+          <p class="analisis-desc">
+            Saat menyusun perangkat pembelajaran dari Siklus 1 sampai 3, kendala paling terasa adalah pada manajemen alokasi waktu dan tingkat literasi siswa. Saya butuh ruang untuk menyelaraskan capaian pembelajaran menyusun Karya Tulis Ilmiah (KTI) dengan jam pelajaran di sekolah yang terbatas. Perbedaan kemampuan awal siswa dalam membaca dan menyintesis literatur juga membuat saya perlu menyiapkan pendampingan ekstra, terutama bagi siswa yang masih kesulitan merumuskan gagasan pokok. Di sisi lain, ketersediaan referensi atau akses perpustakaan digital tidak selalu stabil, sehingga saya sering harus menyesuaikan sumber bacaan pada hari H.
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="analisis-card card-purple">
+          <div class="card-icon-wrapper">
+            <i class="fa-solid fa-book-open-reader"></i>
+          </div>
+          <div class="aspect-badge">ASPEK 2</div>
+          <h3 class="analisis-title">Teori dan Konsep Pedagogi</h3>
+          <p class="analisis-desc">
+            Saya bertumpu pada beberapa pijakan teori yang saling melengkapi. Pendekatan <strong>Project-Based Learning (PjBL)</strong> menjadi kerangka utama agar siswa tidak hanya menghafal teori kebahasaan, tetapi mampu memproduksi Karya Tulis Ilmiah yang utuh dan kontekstual. Untuk menampung perbedaan tingkat literasi dan gaya belajar, saya menerapkan <strong>Differentiated Instruction</strong>. Sementara itu, konsep <strong>scaffolding</strong> Vygotsky saya gunakan untuk menjembatani tahap pramenulis, penyusunan kerangka, hingga proses penyuntingan (editing) teks yang lebih kompleks. Filosofi Among Ki Hadjar Dewantara juga menjaga peran saya tetap sebagai fasilitator yang menuntun, bukan sekadar mendikte tulisan siswa.
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="analisis-card card-teal">
+          <div class="card-icon-wrapper">
+            <i class="fa-solid fa-circle-check"></i>
+          </div>
+          <div class="aspect-badge">ASPEK 3</div>
+          <h3 class="analisis-title">Faktor Keberhasilan</h3>
+          <p class="analisis-desc">
+            Perangkat saya bisa berjalan dengan baik karena beberapa hal yang saling menopang. Modul ajar yang mengaitkan isu kontekstual di lingkungan sekitar membuat siswa merasa tema tulisan mereka relevan dan bermakna. Lembar Kerja Peserta Didik (LKPD) yang terstruktur memudahkan mereka mengeksekusi tahapan riset tanpa banyak kebingungan. Kolaborasi dengan Guru Pamong serta Dosen Pembimbing juga memberi saya umpan balik cepat saat ada langkah pembelajaran yang perlu diperbaiki. Antusiasme siswa meningkat karena proyek tulisan mereka berpotensi dipublikasikan. Yang tidak kalah penting, asesmen formatif berkala membantu saya mengoreksi arah tulisan siswa lebih awal sebelum draf akhir dikumpulkan.
+          </p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="analisis-card card-orange">
+          <div class="card-icon-wrapper">
+            <i class="fa-solid fa-rotate"></i>
+          </div>
+          <div class="aspect-badge">ASPEK 4</div>
+          <h3 class="analisis-title">Adaptasi untuk Kelas Berbeda</h3>
+          <p class="analisis-desc">
+            Perangkat ini dirancang agar mudah diadaptasi ke kondisi kelas dan sekolah lain. Tingkat kompleksitas tema Karya Tulis Ilmiah bisa diturunkan untuk kelas yang kemampuan literasinya masih dasar, dan topik penulisan bisa diganti menyesuaikan isu lokal yang dekat dengan lingkungan siswa masing-masing. Durasi serta urutan kegiatan (seperti riset lapangan atau wawancara) juga bisa digeser mengikuti ketersediaan jam pelajaran ekstra. Bila sekolah punya keterbatasan akses internet untuk riset digital, strategi pencarian literatur bisa saya alihkan ke kliping media cetak atau wawancara narasumber langsung, sehingga siswa tetap dapat menyusun argumen yang valid dan faktual.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Penilaian Section -->
+  <section class="penilaian section" id="penilaian">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fa-solid fa-shield-halved"></i> PENILAIAN DPL & GP</div>
+        <h2 class="section-title">Hasil Penilaian Praktik</h2>
+        <p class="section-subtitle">Lampiran 7 dan 8: Penilaian penyusunan perangkat dan praktik mengajar</p>
+      </div>
+
+      <div class="penilaian-grid">
+        <!-- Card 1 -->
+        <div class="penilaian-card card-cyan">
+          <div class="card-bg-number">07</div>
+          <div class="penilaian-card-body">
+            <div class="penilaian-text">
+              <div class="lampiran-badge badge-cyan"><i class="fa-solid fa-file-invoice"></i> LAMPIRAN 7</div>
+              <h3 class="penilaian-title">Penilaian Penyusunan Perangkat Pembelajaran</h3>
+              <p class="penilaian-desc">Dokumen penilaian resmi yang memuat evaluasi penyusunan perangkat pembelajaran sebagai bukti capaian perencanaan pembelajaran.</p>
+              
+              <ul class="penilaian-details">
+                <li><span class="detail-label">Format</span> <span class="detail-value">PDF Resmi</span></li>
+                <li><span class="detail-label">Penilai</span> <span class="detail-value">Guru Pamong</span></li>
+                <li><span class="detail-label">Status</span> <span class="detail-value">Terlampir</span></li>
+              </ul>
+              
+              <div class="penilaian-actions" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                <div style="width: 100%; font-size: 0.85rem; font-weight: 600; color: #cbd5e1; margin-bottom: 0.2rem; white-space: nowrap;">Asistensi:</div>
+                <a href="#" onclick="document.getElementById('iframe-lampiran-7').src='https://drive.google.com/file/d/1Idyl3tx5KiL5Jln9KB68eUAzLs96nBBf/preview'; return false;" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.85rem;"><i class="fa-solid fa-eye"></i> Preview</a>
+                <a href="https://drive.google.com/file/d/1Idyl3tx5KiL5Jln9KB68eUAzLs96nBBf/view?usp=sharing" target="_blank" class="btn btn-light-blue" style="padding: 0.5rem 1rem; font-size: 0.85rem;"><i class="fa-brands fa-google-drive"></i> Drive</a>
+                
+                <div style="width: 100%; font-size: 0.85rem; font-weight: 600; color: #cbd5e1; margin-top: 0.5rem; margin-bottom: 0.2rem; white-space: nowrap;">Praktik Mengajar Terbimbing:</div>
+                <a href="#" onclick="document.getElementById('iframe-lampiran-7').src='https://drive.google.com/file/d/1Frg2Q2rZZBdJWDdXuNJ3oSjVL7ptXGun/preview'; return false;" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.85rem;"><i class="fa-solid fa-eye"></i> Preview</a>
+                <a href="https://drive.google.com/file/d/1Frg2Q2rZZBdJWDdXuNJ3oSjVL7ptXGun/view?usp=sharing" target="_blank" class="btn btn-light-blue" style="padding: 0.5rem 1rem; font-size: 0.85rem;"><i class="fa-brands fa-google-drive"></i> Drive</a>
+              </div>
+            </div>
+            
+            <div class="penilaian-preview" style="padding: 0; background: transparent;">
+              <iframe id="iframe-lampiran-7" src="https://drive.google.com/file/d/1Idyl3tx5KiL5Jln9KB68eUAzLs96nBBf/preview" width="100%" height="100%" style="border: none; border-radius: 16px; min-height: 450px; background-color: #f1f5f9;"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="penilaian-card card-yellow">
+          <div class="card-bg-number">08</div>
+          <div class="penilaian-card-body">
+            <div class="penilaian-text">
+              <div class="lampiran-badge badge-yellow"><i class="fa-solid fa-file-invoice"></i> LAMPIRAN 8</div>
+              <h3 class="penilaian-title">Penilaian Praktik Mengajar Mahasiswa</h3>
+              <p class="penilaian-desc">Dokumen penilaian resmi yang merekam evaluasi praktik mengajar, pelaksanaan pembelajaran, refleksi, dan profesionalitas mahasiswa PPG.</p>
+              
+              <ul class="penilaian-details">
+                <li><span class="detail-label">Format</span> <span class="detail-value">PDF Resmi</span></li>
+                <li><span class="detail-label">Penilai</span> <span class="detail-value">Guru Pamong</span></li>
+                <li><span class="detail-label">Status</span> <span class="detail-value">Terlampir</span></li>
+              </ul>
+              
+              <div class="penilaian-actions" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                <div style="width: 100%; font-size: 0.85rem; font-weight: 600; color: #cbd5e1; margin-bottom: 0.2rem; white-space: nowrap;">PPLT Siklus 1:</div>
+                <a href="#" onclick="document.getElementById('iframe-lampiran-8').src='https://drive.google.com/file/d/1gt-P3kMTQ4HvpqCIrzanBCYjax7KDtIy/preview'; return false;" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.85rem;"><i class="fa-solid fa-eye"></i> Preview</a>
+                <a href="https://drive.google.com/file/d/1gt-P3kMTQ4HvpqCIrzanBCYjax7KDtIy/view?usp=sharing" target="_blank" class="btn btn-light-blue" style="padding: 0.5rem 1rem; font-size: 0.85rem;"><i class="fa-brands fa-google-drive"></i> Drive</a>
+                
+                <div style="width: 100%; font-size: 0.85rem; font-weight: 600; color: #cbd5e1; margin-top: 0.5rem; margin-bottom: 0.2rem; white-space: nowrap;">PPLT Siklus 2:</div>
+                <a href="#" onclick="document.getElementById('iframe-lampiran-8').src='https://drive.google.com/file/d/1lL-UVyyNfv9VlNVrJqMGjCC5AteSQzKZ/preview'; return false;" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.85rem;"><i class="fa-solid fa-eye"></i> Preview</a>
+                <a href="https://drive.google.com/file/d/1lL-UVyyNfv9VlNVrJqMGjCC5AteSQzKZ/view?usp=sharing" target="_blank" class="btn btn-light-blue" style="padding: 0.5rem 1rem; font-size: 0.85rem;"><i class="fa-brands fa-google-drive"></i> Drive</a>
+                
+                <div style="width: 100%; font-size: 0.85rem; font-weight: 600; color: #cbd5e1; margin-top: 0.5rem; margin-bottom: 0.2rem; white-space: nowrap;">PPLT Siklus 3:</div>
+                <a href="#" onclick="document.getElementById('iframe-lampiran-8').src='https://drive.google.com/file/d/1CTdzwKWO2R22yQH0CmPW_dH5ezZIERE-/preview'; return false;" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.85rem;"><i class="fa-solid fa-eye"></i> Preview</a>
+                <a href="https://drive.google.com/file/d/1CTdzwKWO2R22yQH0CmPW_dH5ezZIERE-/view?usp=sharing" target="_blank" class="btn btn-light-blue" style="padding: 0.5rem 1rem; font-size: 0.85rem;"><i class="fa-brands fa-google-drive"></i> Drive</a>
+              </div>
+            </div>
+            
+            <div class="penilaian-preview" style="padding: 0; background: transparent;">
+              <iframe id="iframe-lampiran-8" src="https://drive.google.com/file/d/1gt-P3kMTQ4HvpqCIrzanBCYjax7KDtIy/preview" width="100%" height="100%" style="border: none; border-radius: 16px; min-height: 450px; background-color: #f1f5f9;"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Bottom Pills -->
+      <div class="penilaian-bottom-pills">
+        <div class="bottom-pill pill-green"><i class="fa-solid fa-list-check"></i> Perencanaan</div>
+        <div class="bottom-pill pill-yellow"><i class="fa-solid fa-person-chalkboard"></i> Pelaksanaan</div>
+        <div class="bottom-pill pill-purple"><i class="fa-solid fa-arrows-rotate"></i> Refleksi</div>
+        <div class="bottom-pill pill-red"><i class="fa-solid fa-award"></i> Profesionalitas</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Model Guru Section -->
+  <section class="model-guru section" id="model-guru">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fa-solid fa-star"></i> MODEL GURU YANG DITUJU</div>
+        <h2 class="section-title">Guru Profesional Impian Saya</h2>
+        <p class="section-subtitle">Misi, kompetensi, dan karakter guru yang ingin saya bangun</p>
+      </div>
+
+      <div class="model-quote-card">
+        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+        <p class="quote-text">
+          "Tanah liat butuh tangan yang sabar untuk menjadi berharga. Saya percaya, murid pun butuh hal yang sama, ruang yang aman untuk menjadi diri mereka sendiri.<br><br>
+          Dari situlah misi ini tumbuh, menjadikan setiap kelas yang saya ampu terasa seperti rumah. Bukan ruang yang hanya menuntut siswa untuk siap belajar, melainkan ruang yang juga bersedia menerima mereka apa adanya.<br><br>
+          Pada akhirnya, saya tidak ingin sekadar dikenang sebagai guru yang mengajarkan Bahasa Indonesia. Saya ingin dikenang sebagai guru yang membuat muridnya merasa kelas ini, dan saya di dalamnya, adalah tempat yang aman untuk meraih masa depan yang lebih baik."
+        </p>
+        <p class="quote-author">Misi Guru Orisa Satifa Alqaf</p>
+      </div>
+
+      <div class="kompetensi-grid">
+        <!-- Card 1 -->
+        <div class="kompetensi-card">
+          <div class="kompetensi-icon icon-blue">
+            <i class="fa-solid fa-book-open"></i>
+          </div>
+          <h3 class="kompetensi-title">Kompetensi Pedagogik</h3>
+          <p class="kompetensi-desc">
+            Merancang pengalaman belajar yang berpusat pada peserta didik melalui pendekatan pembelajaran mendalam (deep learning), diferensiasi, dan asesmen autentik yang relevan dengan kebutuhan dunia kerja.
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="kompetensi-card">
+          <div class="kompetensi-icon icon-purple">
+            <i class="fa-solid fa-gear"></i>
+          </div>
+          <h3 class="kompetensi-title">Kompetensi Profesional</h3>
+          <p class="kompetensi-desc">
+            Menguasai dan terus memperbarui kompetensi di bidang Pendidikan Bahasa dan Sastra Indonesia, mulai dari keterampilan berbahasa, apresiasi sastra, hingga penerapan metode pembelajaran inovatif sesuai standar kurikulum.
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="kompetensi-card">
+          <div class="kompetensi-icon icon-yellow">
+            <i class="fa-solid fa-handshake"></i>
+          </div>
+          <h3 class="kompetensi-title">Kompetensi Sosial</h3>
+          <p class="kompetensi-desc">
+            Membangun komunikasi dan kolaborasi yang sehat dengan peserta didik, rekan guru, orang tua, serta masyarakat sebagai mitra pembelajaran untuk menciptakan ekosistem belajar yang saling mendukung.
+          </p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="kompetensi-card">
+          <div class="kompetensi-icon icon-cyan">
+            <i class="fa-solid fa-gem"></i>
+          </div>
+          <h3 class="kompetensi-title">Kompetensi Kepribadian</h3>
+          <p class="kompetensi-desc">
+            Menjadi teladan integritas, kedisiplinan, dan semangat belajar sepanjang hayat bagi peserta didik, menunjukkan bahwa seorang guru sejati adalah seorang pelajar yang tidak pernah berhenti bertumbuh.
+          </p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="kompetensi-card">
+          <div class="kompetensi-icon icon-blue">
+            <i class="fa-solid fa-eye"></i>
+          </div>
+          <h3 class="kompetensi-title">Peka membaca kelas</h3>
+          <p class="kompetensi-desc">
+            Mampu menangkap suasana kelas dalam hitungan menit pertama, lalu menyesuaikan langkah pembelajaran sesuai kondisi nyata siswa, bukan sekadar mengikuti rencana yang kaku.
+          </p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="kompetensi-card">
+          <div class="kompetensi-icon icon-purple">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <h3 class="kompetensi-title">Hangat secara personal</h3>
+          <p class="kompetensi-desc">
+            Dikenal bukan hanya sebagai pengajar Bahasa Indonesia, tetapi sebagai sosok yang benar-benar mendengar, sehingga kelas terasa seperti ruang yang dihuni, bukan sekadar dilewati.
+          </p>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="kompetensi-card">
+          <div class="kompetensi-icon icon-yellow">
+            <i class="fa-solid fa-puzzle-piece"></i>
+          </div>
+          <h3 class="kompetensi-title">Lentur dalam strategi</h3>
+          <p class="kompetensi-desc">
+            Terus mengasah kreativitas menghadapi situasi yang tidak ideal, agar pembelajaran tetap hidup dan bermakna, apa pun tantangan yang dihadapi.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fa-solid fa-image"></i> GALERI</div>
+        <h2 class="section-title">Dokumentasi Kegiatan</h2>
+        <p class="section-subtitle">Kumpulan momen bermakna selama proses belajar mengajar</p>
+      </div>
+
+      <!-- Custom Thumbnail CSS -->
+      <style>
+        .yt-thumb-card {
+          position: relative;
+          width: 100%;
+          height: 420px;
+          border-radius: 20px;
+          overflow: hidden;
+          background: linear-gradient(135deg, #fdfbf7 0%, #f3efe6 50%, #e8dec8 100%);
+          border: 1px solid rgba(217, 119, 70, 0.4);
+          box-shadow: 0 15px 35px rgba(62, 74, 61, 0.15);
+          display: flex;
+          align-items: center;
+        }
+
+        .yt-bg-pattern {
+          position: absolute;
+          top: 0; left: 0; width: 100%; height: 100%;
+          opacity: 0.5;
+          background-image: radial-gradient(circle at 10px 10px, rgba(217, 119, 70, 0.15) 2px, transparent 0);
+          background-size: 20px 20px;
+          z-index: 1;
+        }
+
+        .yt-bg-circles {
+          position: absolute;
+          top: -30%; left: -10%;
+          width: 500px; height: 500px;
+          border-radius: 50%;
+          background: radial-gradient(circle, rgba(244,114,182,0.4) 0%, transparent 70%);
+          z-index: 1;
+        }
+        .yt-bg-circles.right {
+          top: 20%; left: auto; right: -20%;
+          background: radial-gradient(circle, rgba(217, 119, 70,0.3) 0%, transparent 70%);
+        }
+
+        .yt-content {
+          position: relative;
+          z-index: 3;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          padding: 3rem;
+        }
+
+        .yt-text-left {
+          flex: 1;
+          max-width: 50%;
+          position: relative;
+          z-index: 4;
+        }
+
+        .yt-title {
+          font-family: 'Outfit', sans-serif;
+          font-size: 3.5rem;
+          font-weight: 900;
+          line-height: 1.05;
+          color: #3e4a3d;
+          text-transform: uppercase;
+          margin-bottom: 0.5rem;
+          text-shadow: 3px 3px 0px #fff, 6px 6px 15px rgba(217, 119, 70, 0.5);
+          letter-spacing: -1px;
+        }
+
+        .yt-subtitle {
+          font-family: 'Outfit', sans-serif;
+          font-size: 2rem;
+          font-weight: 800;
+          color: #d97746;
+          background: rgba(255, 255, 255, 0.9);
+          display: inline-block;
+          padding: 0.2rem 1.2rem;
+          border-radius: 12px;
+          margin-bottom: 2rem;
+          box-shadow: 0 6px 15px rgba(62, 74, 61, 0.2);
+          transform: rotate(-2deg);
+        }
+
+        .yt-details {
+          font-size: 1rem;
+          font-weight: 700;
+          color: #475569;
+          line-height: 1.6;
+          border-left: 5px solid #d97746;
+          padding-left: 1rem;
+          background: rgba(255,255,255,0.4);
+          padding: 1rem;
+          border-radius: 0 10px 10px 0;
+          backdrop-filter: blur(4px);
+          display: inline-block;
+        }
+
+        .yt-play-center {
+          position: absolute;
+          top: 50%; left: 60%;
+          transform: translate(-50%, -50%);
+          z-index: 10;
+        }
+
+        .yt-play-btn {
+          width: 90px; height: 90px;
+          border-radius: 50%;
+          background: #d97746;
+          color: #fff;
+          border: 4px solid #fff;
+          font-size: 2.2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          box-shadow: 0 10px 30px rgba(217, 119, 70, 0.4);
+          transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .yt-play-btn:hover {
+          transform: scale(1.15);
+          background: #b45f36;
+          box-shadow: 0 15px 40px rgba(217, 119, 70, 0.6);
+        }
+
+        .yt-photo {
+          position: absolute;
+          bottom: 2.5rem; right: 2.5rem;
+          height: 80%;
+          width: 280px;
+          object-fit: cover;
+          z-index: 2;
+          border-radius: 20px;
+          border: 6px solid #fff;
+          box-shadow: -10px 15px 30px rgba(62, 74, 61, 0.2);
+          transform: rotate(3deg);
+          transition: transform 0.3s ease;
+        }
+        .yt-thumb-card:hover .yt-photo {
+          transform: rotate(0deg) scale(1.05);
+        }
+
+        .yt-banner {
+          position: absolute;
+          bottom: 0; right: 0;
+          background: linear-gradient(90deg, #fff 0%, #f8fafc 100%);
+          color: #334155;
+          font-weight: 800;
+          font-size: 0.95rem;
+          padding: 0.8rem 2.5rem 0.8rem 4rem;
+          border-top-left-radius: 40px;
+          z-index: 5;
+          box-shadow: -5px -5px 25px rgba(0,0,0,0.08);
+          border-top: 3px solid #f1f5f9;
+          border-left: 3px solid #f1f5f9;
+        }
+
+        @media (max-width: 992px) {
+          .yt-thumb-card { height: 320px; }
+          .yt-title { font-size: 2.2rem; }
+          .yt-subtitle { font-size: 1.3rem; }
+          .yt-details { font-size: 0.8rem; padding: 0.5rem; }
+          .yt-photo { height: 70%; width: 180px; right: 1rem; bottom: 2.5rem; }
+          .yt-banner { font-size: 0.75rem; padding: 0.5rem 1.5rem 0.5rem 2rem; }
+          .yt-play-btn { width: 70px; height: 70px; font-size: 1.5rem; }
+        }
+      </style>
+
+      <!-- Featured Videos -->
+      <div style="display: grid; grid-template-columns: 1fr; gap: 3rem; margin-bottom: 4rem;">
+        
+        <!-- MICROTEACHING -->
+        <div class="gallery-featured" style="width: 100%;">
+          <div class="yt-thumb-card">
+            <div class="yt-bg-pattern"></div>
+            <div class="yt-bg-circles"></div>
+            <div class="yt-bg-circles right"></div>
+            
+            <img src="foto-profil.jpg" class="yt-photo" alt="Orisa Satifa Alqaf">
+            
+            <div class="yt-content">
+              <div class="yt-text-left">
+                <div class="yt-title">PRAKTIK<br>MICROTEACHING</div>
+                <div class="yt-subtitle">"Simulasi Kelas"</div>
+                <div class="yt-details">
+                  PENDIDIKAN BAHASA INDONESIA<br>
+                  KELAS SIMULASI<br>
+                  UNIVERSITAS AHMAD DAHLAN
+                </div>
+              </div>
+            </div>
+
+            <a href="https://drive.google.com/drive/folders/1T-R5YB8LerXehuorhB_zSUUy13LCvat1" target="_blank" class="yt-play-center" style="text-decoration: none;">
+              <button class="yt-play-btn"><i class="fa-solid fa-play" style="margin-left: 5px;"></i></button>
+            </a>
+
+            <div class="yt-banner">
+              ORISA SATIFA ALQAF | PPG PRAJABATAN 2026
+            </div>
+          </div>
+        </div>
+
+        <!-- PRAKTIK MENGAJAR -->
+        <div class="gallery-featured" style="width: 100%;">
+          <div class="yt-thumb-card">
+            <div class="yt-bg-pattern"></div>
+            <div class="yt-bg-circles"></div>
+            <div class="yt-bg-circles right"></div>
+            
+            <img src="gambar_transparent.png" class="yt-photo" alt="Orisa Satifa Alqaf" onerror="this.src='foto-profil.jpg'; this.style.borderRadius='16px'; this.style.right='2rem'; this.style.bottom='2rem'; this.style.height='80%';">
+            
+            <div class="yt-content">
+              <div class="yt-text-left">
+                <div class="yt-title">PRAKTIK<br>MENGAJAR</div>
+                <div class="yt-subtitle">"Pembelajaran Aktif"</div>
+                <div class="yt-details">
+                  PENDIDIKAN BAHASA INDONESIA<br>
+                  KELAS PRAKTIK TERBIMBING<br>
+                  UNIVERSITAS AHMAD DAHLAN
+                </div>
+              </div>
+            </div>
+
+            <a href="https://youtu.be/RsAKAduILZY?si=iUnQMnQJeAB8-EWs" target="_blank" class="yt-play-center" style="text-decoration: none;">
+              <button class="yt-play-btn"><i class="fa-solid fa-play" style="margin-left: 5px;"></i></button>
+            </a>
+
+            <div class="yt-banner">
+              ORISA SATIFA ALQAF | PPG PRAJABATAN 2026
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+        <!-- Image 1 -->
+        <div class="gallery-item item-main" style="background-image: url('galeri-1.jpg'); background-position: center; background-size: cover;">
+          <div class="item-overlay"></div>
+          <div class="item-content">
+            <h4 class="item-title">Sinergi Pembimbingan</h4>
+            <p class="item-desc">Bersama Guru Pamong dan Dosen Pembimbing Lapangan.</p>
+          </div>
+        </div>
+
+        <!-- Image 2 -->
+        <div class="gallery-item item-narrow" style="background-image: url('galeri-2.jpg'); background-position: center; background-size: cover;">
+          <div class="item-overlay"></div>
+          <div class="item-content">
+            <h4 class="item-title">Kelas Utama XI-F3</h4>
+            <p class="item-desc">Antusiasme belajar bersama seluruh peserta didik XI-F3.</p>
+          </div>
+        </div>
+        
+        <!-- Image 3 -->
+        <div class="gallery-item item-narrow" style="background-image: url('galeri-3.jpg'); background-position: center; background-size: cover;">
+          <div class="item-overlay"></div>
+          <div class="item-content">
+            <h4 class="item-title">Suasana Pembelajaran</h4>
+            <p class="item-desc">Menghadirkan kelas bermakna melalui interaksi dengan murid.</p>
+          </div>
+        </div>
+        
+        <!-- Image 4 -->
+        <div class="gallery-item item-narrow" style="background-image: url('galeri-4.jpg'); background-position: center; background-size: cover;">
+          <div class="item-overlay"></div>
+          <div class="item-content">
+            <h4 class="item-title">Kelas Kolaborasi XI-F8</h4>
+            <p class="item-desc">Membangun dinamika belajar yang aktif dan kolaboratif.</p>
+          </div>
+        </div>
+        
+        <!-- Image 5 -->
+        <div class="gallery-item item-narrow" style="background-image: url('galeri-5.jpg'); background-position: center; background-size: cover;">
+          <div class="item-overlay"></div>
+          <div class="item-content">
+            <h4 class="item-title">Bimbingan Guru Pamong</h4>
+            <p class="item-desc">Refleksi dan arahan menyempurnakan praktik mengajar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge"><i class="fa-solid fa-envelope"></i> KONTAK</div>
+        <h2 class="section-title">Hubungi Saya</h2>
+        <p class="section-subtitle">Jangan ragu untuk menghubungi saya untuk diskusi atau kolaborasi</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3 class="contact-heading">Mari Terhubung!</h3>
+          <p class="contact-desc">
+            Saya selalu terbuka untuk berdiskusi tentang pendidikan, berbagi pengalaman, atau berkolaborasi dalam proyek pembelajaran. Silakan hubungi melalui form atau kontak di bawah ini.
+          </p>
+
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon icon-red"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-text">
+                <span class="contact-label">EMAIL</span>
+                <span class="contact-value">orisasatifaalqaf@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon icon-green"><i class="fa-brands fa-whatsapp"></i></div>
+              <div class="contact-text">
+                <span class="contact-label">WHATSAPP</span>
+                <span class="contact-value">Chat via WhatsApp</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon icon-blue"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-text">
+                <span class="contact-label">LOKASI</span>
+                <span class="contact-value">Yogyakarta, Indonesia</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-socials">
+            <h4 class="social-heading">IKUTI SAYA</h4>
+            <div class="social-icons">
+              <a href="#" class="social-btn sb-linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" class="social-btn sb-instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-btn sb-youtube"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#" class="social-btn sb-github"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper">
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Subjek" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" placeholder="Pesan" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Kirim Pesan 🚀</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <i class="fa-solid fa-graduation-cap"></i> PPG
+          </div>
+          <p class="footer-brand-title">E-Portfolio</p>
+          <p class="footer-brand-desc">Calon Guru Pendidikan Bahasa dan Sastra Indonesia<br>PPG Prajabatan 2025-2026, UAD</p>
+          <div class="social-icons footer-socials">
+            <a href="#" class="social-btn sb-linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn sb-instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-btn sb-youtube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="social-btn sb-github"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="footer-heading">NAVIGASI</h4>
+          <div class="footer-links">
+            <ul class="footer-link-col">
+              <li><a href="#hero">Beranda</a></li>
+              <li><a href="#about">Profil</a></li>
+              <li><a href="#education">Pendidikan</a></li>
+              <li><a href="#identifikasi-diri">Identifikasi Diri</a></li>
+            </ul>
+            <ul class="footer-link-col">
+              <li><a href="#refleksi-mk">Refleksi Mata Kuliah</a></li>
+              <li><a href="#refleksi-ppg">Refleksi Program PPG</a></li>
+              <li><a href="#karya-inovasi">Karya Inovasi Pendidikan</a></li>
+            </ul>
+            <ul class="footer-link-col">
+              <li><a href="#model-guru">Model Guru</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Kontak</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="footer-actions">
+          <a href="index.html" class="btn-ganti-portfolio">
+            <div class="btn-gp-icon"><i class="fa-solid fa-right-left"></i></div>
+            <div class="btn-gp-text">
+              <span class="btn-gp-title">Ganti Portofolio</span>
+              <span class="btn-gp-desc">Kembali ke pemilihan E-Portfolio</span>
+            </div>
+            <i class="fa-solid fa-chevron-right btn-gp-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Analysis Side Panel / Drawer -->
+  <div class="analysis-overlay" id="analysisOverlay"></div>
+  <!-- Modal: Filosofi Pendidikan dan Pendidikan Nilai -->
+  <div class="analysis-panel" id="analysisPanelFilosofi">
+    <div class="panel-header">
+      <div>
+        <h3 class="panel-title">Analisis &amp; Refleksi Mata Kuliah</h3>
+        <p class="panel-subtitle">Filosofi Pendidikan dan Pendidikan Nilai — LK 2</p>
+      </div>
+      <button class="btn-close-panel" aria-label="Tutup Panel"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="panel-content">
+      
+      <!-- Dokumen Preview -->
+      <div class="panel-section">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px dashed var(--glass-border); padding-bottom: 0.5rem; margin-bottom: 1rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0;">
+            <i class="fa-solid fa-file-pdf" style="color: #EF4444; margin-right: 6px;"></i> Dokumen LK 2 (Refleksi Pengalaman Belajar)
+          </h4>
+          <a href="https://drive.google.com/file/d/1TNvduxarlASGMuXjR-zUXO0_M1XkJDRx/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Buka di Drive <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <div class="pdf-preview-container" style="margin-top: 1rem; border: 1px solid var(--glass-border); border-radius: 12px; overflow: hidden; height: 480px;">
+           <iframe src="https://drive.google.com/file/d/1TNvduxarlASGMuXjR-zUXO0_M1XkJDRx/preview" width="100%" height="100%" allow="autoplay" style="border: none; display: block;"></iframe>
+        </div>
+      </div>
+
+      <!-- 1. Connection -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-link" style="color: var(--accent); margin-right: 6px;"></i> 1. Keterkaitan Materi dengan Peran Calon Guru (Connection)</h4>
+        <p class="panel-text">Mata kuliah ini berkaitan langsung dengan peran yang sedang saya persiapkan. Lewat pemikiran Ki Hadjar Dewantara, Pancasila sebagai landasan filosofi pendidikan nasional, <em>growth mindset</em>, dan pendidikan nilai, saya belajar bahwa guru bukan sekadar penyampai pengetahuan. Guru adalah penuntun yang membantu murid tumbuh sesuai kodrat alam dan kodrat zamannya. Karena itu, pembelajaran seharusnya berangkat dari kebutuhan murid dan menjadi ruang untuk menumbuhkan karakter.</p>
+        <p class="panel-text" style="margin-top: 0.8rem;">Sebagai calon guru Bahasa Indonesia, saya melihat pembelajaran bahasa tidak berhenti pada kemampuan berbahasa. Saat PPL di SMAN 8 Yogyakarta, saya mengajarkan Karya Tulis Ilmiah di kelas XI dengan mengangkat isu krisis moral di era digital, seperti <em>cyberbullying</em> dan menurunnya empati di media sosial. Lewat menulis, murid tidak hanya berlatih menyusun argumen berbasis data, tetapi juga belajar berempati, bertanggung jawab, dan menghargai perbedaan.</p>
+      </div>
+
+      <!-- 2. Challenge -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-triangle-exclamation" style="color: #f59e0b; margin-right: 6px;"></i> 2. Tantangan &amp; Perbedaan dengan Praktik Selama Ini (Challenge)</h4>
+        <p class="panel-text">Dulu saya mengira pembelajaran berhasil jika materi tersampaikan sesuai tujuan dan RPP berjalan sesuai rencana. Setelah mempelajari filosofi Ki Hadjar Dewantara, pendidikan yang berpihak pada murid, dan <em>growth mindset</em>, pandangan saya berubah. Capaian akademik memang penting, tetapi menuntun karakter, potensi, dan kemandirian murid sama pentingnya. Kasus Sokola Rimba juga mengajarkan bahwa pendidikan sebaiknya menjembatani konteks dan budaya murid, bukan menggantikannya.</p>
+        <div class="panel-blockquote">
+          Tantangan terbesarnya ada pada penerapan. Selama PPL saya sering tergesa ingin semua yang saya tulis di RPP berjalan sesuai rencana, sehingga manajemen waktu menjadi tantangan nyata. Padahal, yang dibutuhkan murid adalah ruang untuk berpikir dan merasa didengar.
+        </div>
+        <p class="panel-text">Saya juga menemukan bahwa murid tidak selalu tampil sebagaimana kenyataannya. Ada satu murid yang jarang bicara saat diskusi. Awalnya saya mengira ia kurang memahami materi. Ketika saya mendekatinya secara pribadi, ternyata ia punya gagasan yang baik, tetapi belum cukup percaya diri menyampaikannya di depan seluruh kelas. Karena itu, saya menggunakan metode <em>gallery walk</em> untuk presentasi hasil karya tulis. Murid cukup menjelaskan hasil kerja kelompoknya kepada tim pengunjung kecil sehingga rasa percaya dirinya terlatih sedikit demi sedikit. Dari situ saya belajar bahwa diam tidak selalu berarti tidak paham.</p>
+      </div>
+
+      <!-- 3. Concept -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-lightbulb" style="color: #eab308; margin-right: 6px;"></i> 3. Konsep Utama dan Penting yang Dipelajari (Concept)</h4>
+        <ul class="panel-list">
+          <li><strong>Filosofi Pendidikan Ki Hadjar Dewantara:</strong> Guru sebagai penuntun (pamong) yang membantu murid tumbuh sesuai kodrat alam dan kodrat zamannya. Dalam KTI, ini saya wujudkan dengan memberi murid kebebasan memilih isu yang paling dekat dengan kehidupan mereka.</li>
+          <li><strong>Pancasila sebagai Landasan Filosofi Pendidikan Nasional:</strong> Pedoman membentuk murid berkarakter. Dalam pembelajaran KTI, saya mengintegrasikan sila ke-2 (kemanusiaan yang adil dan beradab) dan sila ke-3 (persatuan Indonesia) lewat pembahasan isu krisis moral digital.</li>
+          <li><strong>Growth Mindset:</strong> Pola pikir yang melihat tantangan dan kegagalan sebagai kesempatan bertumbuh. Dari kasus Sokola Rimba, saya merumuskan Manifesto Pendidik Bertumbuh dengan prinsip memahami sebelum mengajar, menjadi jembatan, mengajar fleksibel dan kontekstual, membangun kolaborasi, serta terus bertumbuh.</li>
+          <li><strong>Pendidikan Nilai:</strong> Tanggung jawab semua guru yang perlu hadir dalam setiap pembelajaran, dihidupkan lewat diskusi dilema moral, peer review, dan gallery walk yang melatih empati dan komunikasi.</li>
+          <li><strong>Keteladanan dan Kehadiran Guru:</strong> Pemahaman bahwa karakter tidak dibentuk lewat nasihat saja, tetapi lewat teladan, interaksi, dan pengalaman belajar yang murid jalani setiap hari.</li>
+        </ul>
+      </div>
+
+      <!-- 4. Change -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-arrows-rotate" style="color: #10b981; margin-right: 6px;"></i> 4. Perubahan dan Aksi Nyata (Change)</h4>
+        <ul class="panel-list">
+          <li><strong>Untuk Diri Sendiri:</strong> Menyusun jurnal refleksi setelah setiap pertemuan, mengikuti minimal satu kegiatan pengembangan profesional setiap bulan, dan memperbaiki modul ajar berdasarkan hasil refleksi (termasuk pengelolaan alokasi waktu).</li>
+          <li><strong>Untuk Murid:</strong> Memberi murid kesempatan menentukan topik dan menyuarakan gagasannya, memanfaatkan aktivitas seperti diskusi dilema moral, gallery walk, dan peer review, serta memberi umpan balik berkelanjutan agar murid memahami bahwa kesalahan adalah bagian dari proses belajar.</li>
+          <li><strong>Untuk Sekolah:</strong> Berbagi praktik baik dengan rekan sejawat, mendorong budaya integritas akademik dan anti-plagiarisme, serta mengupayakan karya terbaik murid dipublikasikan lewat media sekolah.</li>
+        </ul>
+      </div>
+
+      <!-- 5. Refleksi Menyeluruh -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-feather-pointed" style="color: var(--accent); margin-right: 6px;"></i> Refleksi Pengalaman Belajar</h4>
+        <p class="panel-text">Bagi saya, inilah makna menuntun: bukan memaksa murid mengikuti satu cara, melainkan menyediakan ruang yang membuat potensinya muncul. Pengalaman itu juga melatih <em>growth mindset</em> saya sendiri, karena saya mau mengakui penilaian awal saya keliru lalu memperbaiki cara mengajar.</p>
+        <p class="panel-text" style="margin-top: 0.8rem;">Ke depan, saya berkomitmen untuk tidak cepat menyimpulkan sebelum mengenal murid, merancang kegiatan yang memberi setiap murid jalan untuk menunjukkan kemampuannya, dan berefleksi setiap selesai mengajar. Saya ingin menjadi guru yang tidak hanya membuat murid mahir menulis dan berbahasa, tetapi juga mendampingi mereka tumbuh menjadi pribadi yang berkarakter, berdaya, dan siap menghadapi zamannya.</p>
+      </div>
+
+      <!-- Bagian Akhir: Menu Artefak Pembelajaran (2 Artefak) -->
+      <div class="panel-section artefak-section" style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px dashed var(--glass-border);">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0; font-size: 1.2rem; color: var(--accent);">
+            <i class="fa-solid fa-box-archive"></i> Menu Artefak Pembelajaran (2 Artefak)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(217,119,70,0.15); color: var(--accent); padding: 0.25rem 0.75rem; border-radius: 20px; font-weight: 700;">Bukti Dukung Refleksi</span>
+        </div>
+        <p class="panel-text" style="margin-bottom: 1.5rem;">
+          Berikut adalah 2 artefak pembelajaran yang saya jadikan bukti dukung utama hasil refleksi pengalaman belajar pada mata kuliah Filosofi Pendidikan dan Pendidikan Nilai:
+        </p>
+
+        <div class="artefak-cards-container" style="display: flex; flex-direction: column; gap: 1.2rem;">
+          
+          <!-- Artefak 1 -->
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #235347; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 1</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Topik 2: Refleksi dan Tindak Lanjut</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1UuCv7Wo5fOCWd_GfDPgJ7usX_kSb7mjv/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 0.9rem; font-size: 0.82rem; white-space: nowrap; text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka Artefak 1 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i>
+              </a>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Manifesto Pendidik Bertumbuh
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0.8rem;">
+              <strong>Bentuk Artefak:</strong> Manifesto bergambar yang saya susun setelah mempelajari kasus Sokola Rimba. Headline-nya adalah <em>“Pendidikan bukan untuk menggantikan budaya, tetapi menjembatani”</em>, dengan lima prinsip utama: memahami sebelum mengajar, pendidikan sebagai jembatan, fleksibel dan kontekstual, membangun hubungan dan kolaborasi, serta terus belajar dan bertumbuh.
+            </p>
+            <div style="background: rgba(217,119,70,0.06); border-left: 3px solid var(--accent); padding: 0.6rem 0.8rem; border-radius: 0 6px 6px 0; font-size: 0.85rem; color: var(--text-secondary);">
+              <strong>Alasan Pemilihan:</strong> Di sana pola pikir saya bergeser. Saya mulai melihat pendidikan bukan sebagai solusi tunggal, melainkan jembatan yang menghargai konteks dan budaya murid. Manifesto itu menjadi pegangan saya sebagai pendidik yang terus bertumbuh.
+            </div>
+          </div>
+
+          <!-- Artefak 2 -->
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #0F5EA8; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 2</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Topik 4: Refleksi dan Aksi Nyata</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1rmp1GZqTJakpoB_9fBSqmEC9rUIWDFiU/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 0.9rem; font-size: 0.82rem; white-space: nowrap; text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka Artefak 2 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i>
+              </a>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Refleksi Pengalaman PPL &amp; Tiga Aksi Nyata
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0.8rem;">
+              <strong>Bentuk Artefak:</strong> Dokumen refleksi pengalaman PPL di SMAN 8 Yogyakarta dan tiga aksi nyata (Diriku, Muridku, Sekolahku). Setiap aksi dilengkapi tujuan, keterkaitan dengan pemikiran Ki Hadjar Dewantara, dan indikator keberhasilan terukur.
+            </p>
+            <div style="background: rgba(15,94,168,0.06); border-left: 3px solid #0F5EA8; padding: 0.6rem 0.8rem; border-radius: 0 6px 6px 0; font-size: 0.85rem; color: var(--text-secondary);">
+              <strong>Alasan Pemilihan:</strong> Menghubungkan teori dengan pengalaman nyata di kelas, mengakui kesenjangan idealisme dan realitas empiris, serta menerjemahkan filosofi Ki Hadjar Dewantara menjadi aksi nyata yang terukur dalam pembelajaran KTI.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <!-- Modal: Pembelajaran Mendalam dan Asesmen Dasar -->
+  <div class="analysis-panel" id="analysisPanelPMAD">
+    <div class="panel-header">
+      <div>
+        <h3 class="panel-title">Analisis &amp; Refleksi Mata Kuliah</h3>
+        <p class="panel-subtitle">Pembelajaran Mendalam dan Asesmen Dasar &mdash; LK 2 Refleksi</p>
+      </div>
+      <button class="btn-close-panel" aria-label="Tutup Panel"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="panel-content">
+      
+      <!-- Dokumen Preview -->
+      <div class="panel-section">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px dashed var(--glass-border); padding-bottom: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0;">
+            <i class="fa-solid fa-file-pdf" style="color: #EF4444; margin-right: 6px;"></i> Dokumen LK 2 (Refleksi Pengalaman Belajar)
+          </h4>
+          <a href="https://drive.google.com/file/d/131Knei9ae3mvdp4mpOzd_yt9xrBvKyL4/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 1rem; font-size: 0.85rem;">
+            Buka di Drive <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+        <div class="pdf-preview-container" style="margin-top: 1rem; border: 1px solid var(--glass-border); border-radius: 12px; overflow: hidden; height: 480px;">
+          <iframe src="https://drive.google.com/file/d/131Knei9ae3mvdp4mpOzd_yt9xrBvKyL4/preview" width="100%" height="100%" allow="autoplay" style="border: none; display: block;"></iframe>
+        </div>
+      </div>
+
+      <!-- 1. Connection -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-link" style="color: var(--accent); margin-right: 6px;"></i> 1. Keterkaitan Materi dengan Peran Calon Guru (Connection)</h4>
+        <p class="panel-text">Mata kuliah ini memperdalam pemahaman saya bahwa perancangan pembelajaran harus dimulai dari tujuan akhir yang ingin dicapai melalui prinsip <em>Understanding by Design (UbD)</em>. Sebagai calon guru Bahasa Indonesia, saya menyadari bahwa asesmen bukanlah vonis akhir di ujung pembelajaran (<em>assessment of learning</em>), melainkan kompas penunjuk arah yang membimbing proses berpikir murid (<em>assessment for learning</em> dan <em>assessment as learning</em>).</p>
+        <p class="panel-text" style="margin-top: 0.8rem;">Saat melaksanakan PPL di SMAN 8 Yogyakarta pada materi Karya Tulis Ilmiah (KTI) kelas XI, prinsip asesmen autentik dan berkesinambungan menjadi landasan utama. Asesmen diagnostik membantu saya mengidentifikasi kesiapan awal siswa, sementara asesmen formatif berkala memandu mereka memperbaiki kerangka argumen hingga draf final karya ilmiah secara percaya diri.</p>
+      </div>
+
+      <!-- 2. Challenge -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-triangle-exclamation" style="color: #f59e0b; margin-right: 6px;"></i> 2. Tantangan &amp; Perbedaan dengan Praktik Selama Ini (Challenge)</h4>
+        <p class="panel-text">Sebelum mempelajari mata kuliah ini, saya cenderung menyusun modul ajar secara linierâ€”mulai dari menentukan materi dan aktivitas, baru kemudian membuat tes pilihan ganda di akhir siklus. Tantangan terbesarnya adalah merombak kebiasaan tersebut menjadi prinsip <em>backward design</em>, di mana bukti asesmen dan kriteria keberhasilan dirumuskan sebelum memilih strategi belajar.</p>
+        <div class="panel-blockquote">
+          Tantangan nyata di kelas adalah menyusun rubrik asesmen autentik yang benar-benar mampu mengukur kemampuan berpikir tingkat tinggi (HOTS) dan orisinalitas argumen siswa, tanpa membuat mereka terbebani secara psikologis.
+        </div>
+        <p class="panel-text">Selain itu, memberikan umpan balik deskriptif yang bermakna bagi 36 siswa dalam satu kelas membutuhkan manajemen waktu yang sangat cermat. Dari tantangan ini, saya belajar memanfaatkan instrumen penilaian antarteman (<em>peer-review</em>) terstruktur agar siswa aktif saling mengoreksi draf KTI sebelum penilaian akhir guru.</p>
+      </div>
+
+      <!-- 3. Concept -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-lightbulb" style="color: #eab308; margin-right: 6px;"></i> 3. Konsep Utama dan Penting yang Dipelajari (Concept)</h4>
+        <ul class="panel-list">
+          <li><strong>Understanding by Design (UbD):</strong> Alur perancangan mundur yang menetapkan hasil belajar yang diinginkan, merumuskan bukti asesmen autentik, baru menyusun instruksi kegiatan belajar.</li>
+          <li><strong>Trilogi Asesmen (Of, For, As Learning):</strong> Pergeseran porsi asesmen menuju <em>assessment for learning</em> (memantau proses dan memberikan feedback berkala) dan <em>assessment as learning</em> (melibatkan murid dalam refleksi diri).</li>
+          <li><strong>Asesmen Diagnostik (Kognitif &amp; Non-Kognitif):</strong> Pemetaan gaya belajar, minat, dan tingkat penguasaan konsep awal siswa sebelum pembelajaran dimulai.</li>
+          <li><strong>Rubrik Penilaian Analitik:</strong> Instrumen kriteria penilaian bertingkat yang transparan dan dibagikan sejak awal kepada siswa agar mereka mengetahui ekspektasi kualitas karya.</li>
+          <li><strong>Differentiated Assessment:</strong> Fleksibilitas asesmen yang mengakomodasi keberagaman profil peserta didik tanpa menurunkan standar capaian kompetensi minimum.</li>
+        </ul>
+      </div>
+
+      <!-- 4. Change -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-arrows-rotate" style="color: #10b981; margin-right: 6px;"></i> 4. Perubahan dan Aksi Nyata (Change)</h4>
+        <ul class="panel-list">
+          <li><strong>Untuk Diri Sendiri:</strong> Berkomitmen menerapkan alur UbD dalam setiap rancangan modul ajar serta menyusun rubrik asesmen yang jelas dan objektif sebelum memulai unit pembelajaran.</li>
+          <li><strong>Untuk Murid:</strong> Membagikan rubrik penilaian sejak awal proyek KTI, memanfaatkan asesmen formatif (tiket keluar dan lembar ceklis berkala), serta memberikan umpan balik deskriptif yang membangkitkan motivasi.</li>
+          <li><strong>Untuk Sekolah:</strong> Mengembangkan bank instrumen asesmen autentik berbasis proyek dan berbagi praktik baik penerapan rubrik portofolio dengan MGMP Bahasa Indonesia sekolah.</li>
+        </ul>
+      </div>
+
+      <!-- 5. Refleksi Menyeluruh -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-feather-pointed" style="color: var(--accent); margin-right: 6px;"></i> Refleksi Pengalaman Belajar</h4>
+        <p class="panel-text">Bagi saya, asesmen yang mendalam bukan tentang mencari kesalahan murid atau menghakimi angka kemampuan mereka, melainkan tentang menyalakan lentera yang menerangi langkah belajar mereka berikutnya. Pengalaman ini menyadarkan saya bahwa guru profesional adalah penuntun yang menggunakan asesmen sebagai jembatan dialog untuk membimbing setiap anak mencapai potensi terbaiknya.</p>
+      </div>
+
+      <!-- Bagian Akhir: Menu Artefak Pembelajaran (2 Artefak) -->
+      <div class="panel-section artefak-section" style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px dashed var(--glass-border);">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0; font-size: 1.2rem; color: var(--accent);">
+            <i class="fa-solid fa-box-archive"></i> Menu Artefak Pembelajaran (2 Artefak)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(217,119,70,0.15); color: var(--accent); padding: 0.25rem 0.75rem; border-radius: 20px; font-weight: 700;">Bukti Dukung Refleksi</span>
+        </div>
+        <p class="panel-text" style="margin-bottom: 1.5rem;">
+          Berikut adalah 2 artefak pembelajaran yang saya jadikan bukti dukung utama hasil refleksi pengalaman belajar pada mata kuliah Pembelajaran Mendalam dan Asesmen Dasar:
+        </p>
+
+        <div class="artefak-cards-container" style="display: flex; flex-direction: column; gap: 1.2rem;">
+          
+          <!-- Artefak 1 -->
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #235347; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 1</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Topik 2: Desain Pembelajaran Berbasis UbD</span>
+              </div>
+              <a href="https://drive.google.com/file/d/16EsMrRHsOSmyMUEo5VZvYPCfQEY23mgI/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 0.9rem; font-size: 0.82rem; white-space: nowrap; text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka Artefak 1 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i>
+              </a>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Modul Ajar Pembelajaran Mendalam Teks KTI Berbasis UbD
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0.8rem;">
+              <strong>Bentuk Artefak:</strong> Dokumen modul ajar terintegrasi alur <em>backward design</em> materi Karya Tulis Ilmiah Fase F. Memuat rumusan pertanyaan pemantik esensial, asesmen diagnostik kesiapan literasi, rancangan inkuiri kelompok, dan matriks rubrik performa analitik penulisan argumen ilmiah.
+            </p>
+            <div style="background: rgba(35,83,71,0.06); border-left: 3px solid #235347; padding: 0.6rem 0.8rem; border-radius: 0 6px 6px 0; font-size: 0.85rem; color: var(--text-secondary);">
+              <strong>Alasan Pemilihan:</strong> Membuktikan kompetensi saya dalam merancang pembelajaran terstruktur yang memprioritaskan pemahaman konsep mendalam dan keterampilan berpikir kritis siswa di atas sekadar penyelesaian kurikulum formal.
+            </div>
+          </div>
+
+          <!-- Artefak 2 -->
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #0F5EA8; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 2</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Topik 4: Asesmen Autentik &amp; Evaluasi Formatif</span>
+              </div>
+              <a href="https://drive.google.com/file/d/16EsMrRHsOSmyMUEo5VZvYPCfQEY23mgI/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 0.9rem; font-size: 0.82rem; white-space: nowrap; text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka Artefak 2 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i>
+              </a>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Instrumen Asesmen Formatif &amp; Rubrik Portofolio Karya Ilmiah
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0.8rem;">
+              <strong>Bentuk Artefak:</strong> Paket instrumen evaluasi proses mencakup panduan penilaian antarteman (<em>peer-review checklist</em>), rubrik analitik 4 dimensi penulisan argumen KTI, dan lembar refleksi diri siswa (<em>self-assessment</em>) yang diterapkan di SMAN 8 Yogyakarta.
+            </p>
+            <div style="background: rgba(15,94,168,0.06); border-left: 3px solid #0F5EA8; padding: 0.6rem 0.8rem; border-radius: 0 6px 6px 0; font-size: 0.85rem; color: var(--text-secondary);">
+              <strong>Alasan Pemilihan:</strong> Menunjukkan penerapan nyata <em>assessment as learning</em> yang melibatkan murid secara aktif merefleksikan kualitas karya mereka sendiri dan memberikan umpan balik berharga kepada rekan sekelasnya.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal: Pemahaman Tentang Peserta Didik dan Pembelajaran -->
+  <div class="analysis-panel" id="analysisPanelPPDP">
+    <div class="panel-header">
+      <div>
+        <h3 class="panel-title">Analisis &amp; Refleksi Mata Kuliah</h3>
+        <p class="panel-subtitle">Pemahaman Tentang Peserta Didik dan Pembelajaran &mdash; LK 2 Refleksi</p>
+      </div>
+      <button class="btn-close-panel" aria-label="Tutup Panel"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="panel-content">
+      
+      <!-- Dokumen Preview -->
+      <div class="panel-section">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px dashed var(--glass-border); padding-bottom: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0;">
+            <i class="fa-solid fa-file-pdf" style="color: #EF4444; margin-right: 6px;"></i> Dokumen LK 2 (Refleksi Pengalaman Belajar)
+          </h4>
+          <a href="https://drive.google.com/file/d/1xAXw_1c-pBm8HNWShA2LWZ8XZnriggCt/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 1rem; font-size: 0.85rem;">
+            Buka di Drive <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+        <div class="pdf-preview-container" style="margin-top: 1rem; border: 1px solid var(--glass-border); border-radius: 12px; overflow: hidden; height: 480px;">
+          <iframe src="https://drive.google.com/file/d/1xAXw_1c-pBm8HNWShA2LWZ8XZnriggCt/preview" width="100%" height="100%" allow="autoplay" style="border: none; display: block;"></iframe>
+        </div>
+      </div>
+
+      <!-- 1. Connection -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-link" style="color: var(--accent); margin-right: 6px;"></i> 1. Keterkaitan Materi dengan Peran Calon Guru (Connection)</h4>
+        <p class="panel-text">Mata kuliah ini berkaitan langsung dengan peran saya sebagai calon guru karena membuat saya sadar bahwa setiap murid datang ke kelas dengan kesiapan, minat, gaya belajar, dan kondisi psikologis yang berbeda. Keberagaman murid bukan hambatan yang harus diseragamkan, melainkan titik awal merancang pembelajaran yang berpihak pada mereka.</p>
+        <p class="panel-text" style="margin-top: 0.8rem;">Sebagai calon guru Bahasa Indonesia, keterkaitan ini terasa sangat nyata karena pembelajaran bahasa menuntut murid menyuarakan gagasan, baik lewat tulisan maupun lisan. Saat PPL mengajarkan Karya Tulis Ilmiah di SMAN 8 Yogyakarta dan ketika merancang pembelajaran puisi untuk kelas XI Fase F, saya melihat bahwa kemampuan murid menulis dan berbicara sangat dipengaruhi oleh rasa percaya diri dan rasa aman di kelas. Tugas saya bukan hanya mengajarkan keterampilan berbahasa, tetapi juga memahami kondisi murid sebelum menentukan strategi, media, dan produk belajarnya.</p>
+      </div>
+
+      <!-- 2. Challenge -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-triangle-exclamation" style="color: #f59e0b; margin-right: 6px;"></i> 2. Tantangan &amp; Perbedaan dengan Praktik Selama Ini (Challenge)</h4>
+        <p class="panel-text">Sebelum mengikuti mata kuliah ini, saya beranggapan bahwa semua murid bisa mengikuti pembelajaran dengan perlakuan yang sama, dan perlakuan seragam itulah yang adil. Rancangan pembelajaran saya cenderung satu jalur: satu jenis stimulus, satu cara mengerjakan, dan satu bentuk produk. Setelah mempelajari karakteristik murid, teori belajar, keberagaman kebutuhan, dan asesmen awal, saya memahami bahwa keadilan berarti memberi setiap murid apa yang ia butuhkan.</p>
+        <div class="panel-blockquote">
+          Tantangan nyata muncul saat PPL di SMAN 8 Yogyakarta. Ada satu murid yang jarang bicara saat diskusi dan sempat saya kira kurang memahami materi. Setelah didekati secara pribadi, ia ternyata punya gagasan yang baik dan hanya belum percaya diri menyampaikannya di depan seluruh kelas.
+        </div>
+        <p class="panel-text">Dari situ saya mencoba metode <em>gallery walk</em>, sehingga ia cukup menjelaskan hasil kerja kelompoknya kepada tim pengunjung yang kecil dan ia berani berbicara. Di sisi lain, manajemen waktu mengajar menjadi tantangan besar saya, karena waktu yang terbatas kerap menggoda guru untuk kembali ke cara yang seragam dan serba cepat. Hal ini menyadarkan saya bahwa memahami murid bukan kegiatan tambahan, melainkan fondasi perencanaan yang menuntut kecermatan memilih strategi.</p>
+      </div>
+
+      <!-- 3. Concept -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-lightbulb" style="color: #eab308; margin-right: 6px;"></i> 3. Konsep Utama dan Penting yang Dipelajari (Concept)</h4>
+        <ul class="panel-list">
+          <li><strong>Karakteristik &amp; Keberagaman Peserta Didik:</strong> Pemetaan kesiapan, minat, gaya belajar, dan kondisi psikologis. Diterapkan melalui stimulus berjenjang: kartu pemantik/struktur jelas bagi murid yang belum siap, serta video isu sosial, lagu tanpa lirik, atau gambar surealis bagi murid yang sudah siap.</li>
+          <li><strong>Teori Belajar &amp; Landasan Teoretis:</strong> Memahami bahwa setiap strategi bertumpu pada teori belajar: konstruktivisme Piaget yang melandasi <em>Think-Pair-Share</em>, teori belajar sosial Bandura yang melandasi <em>tutor teman sebaya</em>, serta humanisme Rogers dan Maslow yang melandasi <em>jurnal reflektif dan apresiasi diri</em>.</li>
+          <li><strong>Asesmen Awal (Diagnostik):</strong> Memetakan kondisi murid sebelum pembelajaran dimulai melalui asesmen non-kognitif dan kognitif (Google Form), ditambah kuis kilat interaktif (Mentimeter/Kahoot) tentang unsur puisi di awal pertemuan.</li>
+          <li><strong>Pembelajaran Berdiferensiasi (Konten, Proses, Produk):</strong> Pada proses memfasilitasi murid visual (<em>mind mapping</em> digital Canva/Miro), murid komunikatif (tutor sebaya), dan murid yang kurang percaya diri berbicara (opsi merekam suara/<em>voice note</em> atau video kelompok). Pada produk, murid bebas memilih poster tipografi, video musikalisasi, komik puisi, maupun infografis.</li>
+          <li><strong>Lingkungan Belajar yang Aman &amp; Inklusif (<em>Psychological Safety</em>):</strong> Murid baru berani berekspresi jika merasa aman. Diwujudkan melalui teknik relaksasi demam panggung (olah napas), apresiasi <em>digital gallery walk</em> dengan komentar positif timbal balik, serta umpan balik guru yang menguatkan.</li>
+        </ul>
+      </div>
+
+      <!-- 4. Change -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-arrows-rotate" style="color: #10b981; margin-right: 6px;"></i> 4. Perubahan dan Aksi Nyata (Change)</h4>
+        <ul class="panel-list">
+          <li><strong>Sebelum Pembelajaran:</strong> Membiasakan diri mengenali murid lewat asesmen diagnostik singkat di Google Form sebelum unit dimulai untuk menentukan stimulus, pembagian kelompok heterogen, media, dan variasi produk yang tepat sasaran.</li>
+          <li><strong>Selama Pembelajaran:</strong> Menyediakan lebih dari satu jalur keterlibatan: memadukan <em>writing workshop</em> dan <em>peer review</em>, menyediakan opsi rekaman suara/video bagi murid cemas berbicara, memakai <em>gallery walk</em> untuk ruang apresiasi yang adil, serta merancang linimasa proyek terukur.</li>
+          <li><strong>Setelah Pembelajaran:</strong> Melakukan tindak lanjut diferensiasi: mendampingi murid yang kesulitan dengan <em>scaffolding</em> bertahap (draf parsial), menantang murid yang siap dengan pengayaan mading digital/media massa, serta rutin mencatat jurnal observasi refleksi kelas.</li>
+        </ul>
+      </div>
+
+      <!-- 5. Refleksi Menyeluruh -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-feather-pointed" style="color: var(--accent); margin-right: 6px;"></i> Refleksi Pengalaman Belajar</h4>
+        <p class="panel-text">Sebelum mengikuti mata kuliah ini, saya percaya bahwa memperlakukan semua murid dengan cara yang sama adalah bentuk keadilan. Perkuliahan ini menggeser keyakinan itu: keadilan dalam pembelajaran berarti memberi setiap murid apa yang ia butuhkan untuk berkembang, dan hal itu hanya mungkin dicapai jika saya mengenal mereka terlebih dahulu. Murid yang diam di kelas bukan berarti tidak paham, melainkan membutuhkan ruang yang lebih aman. Menjadi guru yang berpihak pada murid berarti bersedia mendengarkan, menyediakan jalan belajar yang adil, dan memastikan setiap peserta didik merasa terlihat, aman, serta bertumbuh sesuai potensinya.</p>
+      </div>
+
+      <!-- Bagian Akhir: Menu Artefak Pembelajaran (2 Artefak) -->
+      <div class="panel-section artefak-section" style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px dashed var(--glass-border);">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0; font-size: 1.2rem; color: var(--accent);">
+            <i class="fa-solid fa-box-archive"></i> Menu Artefak Pembelajaran (2 Artefak)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(217,119,70,0.15); color: var(--accent); padding: 0.25rem 0.75rem; border-radius: 20px; font-weight: 700;">Bukti Dukung Refleksi</span>
+        </div>
+        <p class="panel-text" style="margin-bottom: 1.5rem;">
+          Berikut adalah 2 artefak pembelajaran yang saya jadikan bukti dukung utama hasil refleksi pengalaman belajar pada mata kuliah Pemahaman Tentang Peserta Didik dan Pembelajaran:
+        </p>
+
+        <div class="artefak-cards-container" style="display: flex; flex-direction: column; gap: 1.2rem;">
+          
+          <!-- Artefak 1 -->
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #235347; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 1</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Topik 3: Sintesis dan Strategi Keberagaman</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1-uTkkHTuyF9UV2AHYb2_uU45axDKNPul/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 0.9rem; font-size: 0.82rem; white-space: nowrap; text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka Artefak 1 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i>
+              </a>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Tiga Strategi Pembelajaran Responsif Keberagaman Murid (PPDP.3D Sintesis)
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0.8rem;">
+              <strong>Bentuk Artefak:</strong> Tabel sintesis kolaboratif memuat rancangan 3 strategi responsif keberagaman: <em>Think-Pair-Share</em> untuk menstimulasi nalar kritis (konstruktivisme Piaget), <em>Jurnal Reflektif &amp; Apresiasi Diri</em> untuk memupuk kepercayaan diri (humanisme Rogers &amp; Maslow), serta <em>Tutor Teman Sebaya Kelompok Kecil</em> untuk memperkuat pemahaman konsep (teori sosial Bandura), lengkap dengan tujuan dan langkah aktivitasnya.
+            </p>
+            <div style="background: rgba(35,83,71,0.06); border-left: 3px solid #235347; padding: 0.6rem 0.8rem; border-radius: 0 6px 6px 0; font-size: 0.85rem; color: var(--text-secondary);">
+              <strong>Alasan Pemilihan:</strong> Membuktikan bahwa strategi pembelajaran harus memiliki fondasi teoretis yang kokoh, menempatkan rasa aman psikologis (<em>psychological safety</em>) dan penguatan harga diri murid sebagai prioritas perencanaan, serta memanfaatkan heterogenitas kelas sebagai kekuatan belajar bersama.
+            </div>
+          </div>
+
+          <!-- Artefak 2 -->
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #0F5EA8; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 2</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Topik 4: Refleksi dan Tindak Lanjut Pembelajaran</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1QPUyTVpVBaab69ow1RB7elYwwUZM6Vd4/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 0.9rem; font-size: 0.82rem; white-space: nowrap; text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka Artefak 2 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i>
+              </a>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Rancangan Pembelajaran Puisi Berdiferensiasi &amp; Writing Workshop (PPDP.4E)
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0.8rem;">
+              <strong>Bentuk Artefak:</strong> Rekomendasi desain pembelajaran puisi (Elemen Menulis) kelas XI Fase F SMAN 8 Yogyakarta (4 x 45 menit, model PjBL) terintegrasi diferensiasi konten (stimulus berjenjang), proses (<em>writing workshop</em> dan <em>digital gallery walk</em>), opsi produk bervariasi (poster, komik, video musikalisasi), opsi <em>voice note</em> bagi murid cemas berbicara, asesmen diagnostik Google Form, serta tindak lanjut <em>scaffolding</em> dan pengayaan mading digital.
+            </p>
+            <div style="background: rgba(15,94,168,0.06); border-left: 3px solid #0F5EA8; padding: 0.6rem 0.8rem; border-radius: 0 6px 6px 0; font-size: 0.85rem; color: var(--text-secondary);">
+              <strong>Alasan Pemilihan:</strong> Menunjukkan kemampuan mengoperasionalkan prinsip diferensiasi secara konkret di kelas bahasa, menjawab tantangan manajemen waktu guru secara terstruktur, serta memberi ruang psikologis yang aman bagi murid introvert untuk tetap berprestasi tanpa paksaan satu format tunggal.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal: Literasi Anti-korupsi Berbasis Profil Pelajar Pancasila dalam Perspektif Islam -->
+  <div class="analysis-panel" id="analysisPanelAntikorupsi">
+    <div class="panel-header">
+      <div>
+        <h3 class="panel-title">Analisis &amp; Refleksi Mata Kuliah</h3>
+        <p class="panel-subtitle">Literasi Anti-korupsi Berbasis Profil Pelajar Pancasila dalam Perspektif Islam &mdash; LK 2 Refleksi</p>
+      </div>
+      <button class="btn-close-panel" aria-label="Tutup Panel"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="panel-content">
+      
+      <!-- Dokumen Preview -->
+      <div class="panel-section">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px dashed var(--glass-border); padding-bottom: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0;">
+            <i class="fa-solid fa-file-pdf" style="color: #EF4444; margin-right: 6px;"></i> Dokumen LK 2 (Refleksi Pengalaman Belajar)
+          </h4>
+          <a href="https://drive.google.com/file/d/10YpEmlJynE8RC7WGVla9RQ59DEGLBmGy/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 1rem; font-size: 0.85rem;">
+            Buka di Drive <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+        <div class="pdf-preview-container" style="margin-top: 1rem; border: 1px solid var(--glass-border); border-radius: 12px; overflow: hidden; height: 480px;">
+          <iframe src="https://drive.google.com/file/d/10YpEmlJynE8RC7WGVla9RQ59DEGLBmGy/preview" width="100%" height="100%" allow="autoplay" style="border: none; display: block;"></iframe>
+        </div>
+      </div>
+
+      <!-- 1. Connection -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-link" style="color: var(--accent); margin-right: 6px;"></i> 1. Keterkaitan Materi dengan Peran Calon Guru (Connection)</h4>
+        <p class="panel-text">Mata kuliah ini berkaitan langsung dengan peran saya sebagai calon guru karena menyadarkan bahwa tugas guru tidak hanya mengembangkan kapasitas akademik murid, melainkan juga membentuk karakter yang berlandaskan kejujuran, tanggung jawab, disiplin, kepedulian, dan integritas. Dari analisis film dan kasus, dua kasus di antaranya terjadi di lingkungan sekolah, membuktikan bahwa korupsi bukan sekadar urusan pejabat publik di tingkat atas, tetapi bisa berakar dari ruang pendidikan yang kelak menjadi tempat tugas saya.</p>
+        <p class="panel-text" style="margin-top: 0.8rem;">Sebagai calon guru Bahasa Indonesia, pendidikan antikorupsi dapat dihadirkan secara kontekstual melalui diskusi kasus, analisis teks, dan penanaman integritas akademik. Ketika membimbing Karya Tulis Ilmiah Fase F di SMAN 8 Yogyakarta, latihan antikorupsi diwujudkan secara konkret melalui etika sitasi rujukan dan pencegahan plagiarisme. Bersama tim PPL, saya juga melaksanakan sosialisasi literasi antikorupsi bertema gratifikasi di kelas XI F6, merasakan langsung dinamika sekaligus besarnya tantangan menanamkan nilai-nilai integritas di benak generasi muda.</p>
+      </div>
+
+      <!-- 2. Challenge -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-triangle-exclamation" style="color: #f59e0b; margin-right: 6px;"></i> 2. Tantangan &amp; Perbedaan dengan Praktik Selama Ini (Challenge)</h4>
+        <p class="panel-text">Sebelum mengikuti mata kuliah ini, saya memandang korupsi semata-mata sebagai delik hukum pejabat yang menyalahgunakan kekuasaan atau anggaran negara. Perkuliahan membongkar asumsi tersebut pada dua hal: pertama, korupsi berakar dari pembiaran kebiasaan kecil mencari jalan pintas yang dinormalisasi (seperti tersirat dalam film <em>Subur Itu Jujur</em> dan <em>Current Network</em>). Kedua, dari tinjauan fiqih Islam, korupsi tidak identik dengan mencuri (<em>sariqah</em>), melainkan pengkhianatan amanah (<em>ghulul</em>) atau suap (<em>risywah</em>).</p>
+        <div class="panel-blockquote">
+          Tantangan terbesar yang saya rasakan adalah memiliki pendirian teguh untuk tidak ikut arus kebatilan ketika kecurangan dinormalisasi secara kolektif—sebuah pilihan eksistensial antara kenyamanan dunia atau ketenangan akhirat.
+        </div>
+        <p class="panel-text">Tantangan pedagogis nyata muncul saat sosialisasi gratifikasi kelas XI F6 SMAN 8 Yogyakarta (12 Maret 2026). Respons 34 murid menyadarkan saya bahwa sosialisasi satu kali hanya menyentuh tataran pengetahuan kognitif, namun belum cukup membentuk karakter. Nilai antikorupsi harus diinternalisasikan secara berkelanjutan lewat keteladanan nyata, pembiasaan sehari-hari, dan metode interaktif yang memantik nalar kritis murid sejak awal pembelajaran.</p>
+      </div>
+
+      <!-- 3. Concept -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-lightbulb" style="color: #eab308; margin-right: 6px;"></i> 3. Konsep Utama dan Penting yang Dipelajari (Concept)</h4>
+        <ul class="panel-list">
+          <li><strong>Nilai Dasar Integritas Antikorupsi:</strong> Kejujuran, tanggung jawab, disiplin, kepedulian, dan integritas. Mengambil hikmah dari film <em>Subur Itu Jujur</em> bahwa integritas sejati bukan hanya pada panggung keputusan besar, melainkan konsistensi dalam keputusan-keputusan hening saat tidak ada siapa pun yang melihat.</li>
+          <li><strong>Korupsi dalam Perspektif Fiqih Islam:</strong> Membedah prinsip amanah, larangan memakan harta sesama secara batil (QS. Al-Baqarah: 188), serta distingsi hukum fiqih antara korupsi (kategori <em>ghulul</em> dan <em>risywah</em> yang berdimensi penyalahgunaan akses amanah) dengan pencurian biasa (<em>sariqah</em>).</li>
+          <li><strong>Pertimbangan Hukum dalam Negara Majemuk:</strong> Menimbang usulan sanksi pidana (seperti wacana potong ruas jari) dengan memperhatikan realitas Indonesia sebagai negara majemuk berkepastian hukum, kesiapan sistem peradilan, dan prinsip hak asasi manusia.</li>
+          <li><strong>Keteladanan Guru sebagai Kurikulum Paling Efektif:</strong> Belajar dari subplot Risa dalam film <em>Selamat Siang Risa</em> bahwa anak tidak perlu dicekoki ceramah verbal panjang lebar; keteladanan nyata sang ayah sudah cukup menancapkan nilai moral. Di kelas, guru menghidupinya lewat disiplin absensi, transparansi dana kelas, dan penilaian yang adil tanpa nepotisme.</li>
+          <li><strong>Keberanian Moral Menolak &amp; Melaporkan:</strong> Menghayati larangan tolong-menolong dalam dosa (QS. Al-Maidah: 2), memahami bahwa sikap pasif dan diam di hadapan ketidakadilan adalah bentuk pembiaran, serta mengintegrasikannya dengan Profil Pelajar Pancasila (bernalar kritis dan mandiri).</li>
+        </ul>
+      </div>
+
+      <!-- 4. Change -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-arrows-rotate" style="color: #10b981; margin-right: 6px;"></i> 4. Perubahan dan Aksi Nyata (Change)</h4>
+        <ul class="panel-list">
+          <li><strong>Jangka Pendek:</strong> Membiasakan diri jujur dan konsisten dalam hal-hal kecil (tugas, absensi, fasilitas, transparansi kas kelas), berani menegur kecurangan dalam penilaian, serta menolak kompromi dari siapa pun termasuk atasan.</li>
+          <li><strong>Jangka Menengah:</strong> Menghadirkan pendidikan antikorupsi di kelas Bahasa Indonesia lewat pemutaran film pendek, analisis teks studi kasus di awal sesi, serta memanfaatkan media poster ber-QR code interaktif ke materi digital.</li>
+          <li><strong>Jangka Panjang:</strong> Membangun ekosistem kelas berintegritas yang menghargai proses belajar di atas sekadar perolehan nilai, berkolaborasi dengan OSIS membentuk komunitas antikorupsi sekolah, dan menjadi pendidik yang benar-benar menghidupi nilai yang diajarkan.</li>
+        </ul>
+      </div>
+
+      <!-- 5. Refleksi Menyeluruh -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-feather-pointed" style="color: var(--accent); margin-right: 6px;"></i> Refleksi Pengalaman Belajar</h4>
+        <p class="panel-text">Sebelum mengikuti mata kuliah ini, saya memahami korupsi sebagai urusan pejabat tinggi dan uang negara. Perkuliahan ini menggeser pandangan itu menjadi cermin bagi diri sendiri: kecurangan kerap berhenti terasa sebagai kesalahan ketika dilakukan beramai-ramai. Integritas bukan tentang panggung besar, melainkan konsistensi dalam keputusan hening saat tak ada yang melihat. Dari perspektif Islam, korupsi adalah pengkhianatan amanah (<em>ghulul</em>). Sebagai calon guru Bahasa Indonesia, komitmen saya adalah menghidupi nilai kejujuran melalui teladan langsung di kelas, melatih kejujuran akademik lewat bimbingan karya tulis, dan berani menolak kompromi, karena setiap amanah kelak dipertanggungjawabkan di hadapan manusia dan di hadapan Allah Swt.</p>
+      </div>
+
+      <!-- Bagian Akhir: Menu Artefak Pembelajaran (2 Artefak) -->
+      <div class="panel-section artefak-section" style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px dashed var(--glass-border);">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0; font-size: 1.2rem; color: var(--accent);">
+            <i class="fa-solid fa-box-archive"></i> Menu Artefak Pembelajaran (2 Artefak)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(217,119,70,0.15); color: var(--accent); padding: 0.25rem 0.75rem; border-radius: 20px; font-weight: 700;">Bukti Dukung Refleksi</span>
+        </div>
+        <p class="panel-text" style="margin-bottom: 1.5rem;">
+          Berikut adalah 2 artefak pembelajaran yang saya jadikan bukti dukung utama hasil refleksi pengalaman belajar pada mata kuliah Literasi Anti-korupsi Berbasis Profil Pelajar Pancasila dalam Perspektif Islam:
+        </p>
+
+        <div class="artefak-cards-container" style="display: flex; flex-direction: column; gap: 1.2rem;">
+          
+          <!-- Artefak 1 -->
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #065f46; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 1</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Topik 3: Analisis Media Audiovisual Antikorupsi</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1bp-MSgX9AuPrOIQFblHAglCVo5tcndHN/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 0.9rem; font-size: 0.82rem; white-space: nowrap; text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka Artefak 1 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i>
+              </a>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Refleksi &amp; Rencana Tindak Lanjut Berbasis Tiga Film Antikorupsi (LAK.3E)
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0.8rem;">
+              <strong>Bentuk Artefak:</strong> Analisis penyampaian literasi antikorupsi melalui media audiovisual terhadap 3 film pendek KPK: <em>Subur Itu Jujur</em>, <em>Current Network</em>, dan <em>Selamat Siang Risa</em>. Membedah cara penyampaian pesan, refleksi diri terhadap kasus, analisis penyelesaian korupsi, serta rencana aksi tindak lanjut jangka pendek, menengah, dan panjang.
+            </p>
+            <div style="background: rgba(6,95,70,0.06); border-left: 3px solid #065f46; padding: 0.6rem 0.8rem; border-radius: 0 6px 6px 0; font-size: 0.85rem; color: var(--text-secondary);">
+              <strong>Alasan Pemilihan:</strong> Menunjukkan transformasi cara pandang dari melihat korupsi sebagai urusan pihak lain menjadi cermin introspeksi moral pribadi, menegaskan bahwa keteladanan nyata adalah kurikulum paling berdaya pengaruh dan sikap pasif di hadapan kecurangan adalah bentuk keterlibatan.
+            </div>
+          </div>
+
+          <!-- Artefak 2 -->
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #0F5EA8; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 2</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Topik 4: Refleksi Fiqih Islam &amp; Rencana Tindak Lanjut</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1zlS2QL2_wZMiRe0HgxBCbR-IYJT2azdT/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 0.9rem; font-size: 0.82rem; white-space: nowrap; text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka Artefak 2 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i>
+              </a>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Kajian Fiqih Korupsi, Tiga Analisis Kasus &amp; Komitmen Calon Guru (LAK.4E RTL)
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0.8rem;">
+              <strong>Bentuk Artefak:</strong> Dokumen telaah relasi korupsi dan pencurian dalam perspektif fiqih Islam (analisis konsep amanah, <em>ghulul</em>, dan <em>risywah</em> versus <em>sariqah</em>) yang dikontekstualisasikan pada 3 kasus lingkungan pendidikan (penggelapan dana kepala sekolah, pemalsuan akreditasi, dan usulan hukuman potong ruas jari), dilengkapi 4 butir komitmen integritas calon guru.
+            </p>
+            <div style="background: rgba(15,94,168,0.06); border-left: 3px solid #0F5EA8; padding: 0.6rem 0.8rem; border-radius: 0 6px 6px 0; font-size: 0.85rem; color: var(--text-secondary);">
+              <strong>Alasan Pemilihan:</strong> Menghubungkan pemahaman normatif dalil syariat secara kritis dengan tantangan integritas riil di dunia persekolahan, serta merumuskan komitmen tindakan nyata yang spesifik dalam menolak kompromi demi menjaga martabat profesi keguruan.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal: Pola Pikir Bertumbuh (Growth Mindset) dalam Pembelajaran -->
+  <div class="analysis-panel" id="analysisPanelGrowthMindset">
+    <div class="panel-header">
+      <div>
+        <h3 class="panel-title">Analisis &amp; Refleksi Mata Kuliah</h3>
+        <p class="panel-subtitle">Pola Pikir Bertumbuh (Growth Mindset) dalam Pembelajaran &mdash; LK 2 Refleksi</p>
+      </div>
+      <button class="btn-close-panel" aria-label="Tutup Panel"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="panel-content">
+      
+      <!-- Dokumen Preview -->
+      <div class="panel-section">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px dashed var(--glass-border); padding-bottom: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0;">
+            <i class="fa-solid fa-file-pdf" style="color: #EF4444; margin-right: 6px;"></i> Dokumen LK 2 (Refleksi Pengalaman Belajar)
+          </h4>
+          <a href="https://drive.google.com/file/d/1EzXG4JBtLUMdS39jSJRQVnVpM3RlYNmX/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 1rem; font-size: 0.85rem;">
+            Buka di Drive <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+        <div class="pdf-preview-container" style="margin-top: 1rem; border: 1px solid var(--glass-border); border-radius: 12px; overflow: hidden; height: 480px;">
+          <iframe src="https://drive.google.com/file/d/1EzXG4JBtLUMdS39jSJRQVnVpM3RlYNmX/preview" width="100%" height="100%" allow="autoplay" style="border: none; display: block;"></iframe>
+        </div>
+      </div>
+
+      <!-- 1. Connection -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-link" style="color: var(--accent); margin-right: 6px;"></i> 1. Keterkaitan Materi dengan Peran Calon Guru (Connection)</h4>
+        <p class="panel-text">Materi Pola Pikir Bertumbuh (<em>Growth Mindset</em>) dalam Pembelajaran berkaitan erat dengan peran saya sebagai calon guru Bahasa Indonesia. Kemampuan murid tidak berkembang dengan kecepatan yang sama; ada murid yang cepat memahami materi, ada pula yang butuh waktu dan strategi berbeda. Mata kuliah ini membantu saya melihat bahwa kesulitan belajar tidak boleh langsung dibaca sebagai tanda ketidakmampuan. Tugas guru adalah membantu murid percaya bahwa kemampuan bisa terus dikembangkan lewat usaha, latihan, dan kemauan belajar dari kesalahan.</p>
+        <p class="panel-text" style="margin-top: 0.8rem;">Situasi yang saya olah di LK 4.2—seperti murid takut maju ke depan, enggan bertanya, atau marah saat dikoreksi—sangat mudah terjadi di kelas Bahasa Indonesia ketika murid diminta menganalisis cerpen atau menyuarakan pendapat. Dalam situasi rentan seperti itu, kata-kata guru ikut menentukan apakah murid mau mencoba lagi atau justru memilih diam.</p>
+      </div>
+
+      <!-- 2. Challenge -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-triangle-exclamation" style="color: #f59e0b; margin-right: 6px;"></i> 2. Tantangan &amp; Perbedaan dengan Praktik Selama Ini (Challenge)</h4>
+        <p class="panel-text">Hal yang berbeda dari kebiasaan saya selama ini adalah cara memandang kesulitan dan kesalahan murid. Kebiasaan menilai dari hasil akhir semata (jawaban benar dan nilai angka) perlu saya geser menjadi memperhatikan proses, usaha, dan strategi murid. Kesalahan dalam menulis atau menganalisis teks saya pelajari sebagai bahan belajar, bukan tanda murid kurang mampu.</p>
+        <div class="panel-blockquote">
+          Tantangan nyata muncul saat menyusun rancangan pembelajaran cerpen kelas X bersama tim (tugas PPB-4.3): bagaimana membuka kelas tanpa membuat murid merasa tertekan oleh rasa takut salah dan keyakinan keliru bahwa kemampuan menulis itu bawaan lahir.
+        </div>
+        <p class="panel-text">Untuk memecah hambatan perfeksionisme tersebut, saya merancang aktivitas <em>Menulis Cepat</em>: murid menulis paragraf pembuka cerpen selama 10 menit tanpa boleh menghapus. Selain itu, saran rekan kelompok agar <em>peer review</em> dibuat lebih terstruktur saya jawab dengan menyediakan kalimat respons panduan yang jelas, sehingga murid tidak canggung memberi umpan balik konstruktif.</p>
+      </div>
+
+      <!-- 3. Concept -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-lightbulb" style="color: #eab308; margin-right: 6px;"></i> 3. Konsep Utama dan Penting yang Dipelajari (Concept)</h4>
+        <ul class="panel-list">
+          <li><strong>Pola Pikir Bertumbuh:</strong> Keyakinan bahwa kemampuan dapat dikembangkan melalui usaha terarah, strategi yang tepat, umpan balik berkelanjutan, serta pembiasaan kekuatan kata 'belum' (<em>the power of 'yet'</em>).</li>
+          <li><strong>Kesalahan sebagai Peluang Belajar (<em>Opportunity-Based Thinking</em>):</strong> Mengikis rasa malu dengan membahas kekeliruan secara kolaboratif melalui strategi <em>Celebration of Mistakes</em>, di mana murid menuliskan satu kesulitan beserta pelajaran berharga yang dipetik.</li>
+          <li><strong>Cognitive Framing &amp; Scaffolding:</strong> Membuka pembelajaran dengan kalimat yang menormalkan rasa sulit (<em>"tidak apa-apa jika belum langsung paham"</em>), lalu memberikan tangga bantuan bertahap dari cerpen sederhana hingga analisis mandiri.</li>
+          <li><strong>Umpan Balik Berfokus pada Proses:</strong> Memberi umpan balik yang membedah langkah nyata murid dan dampaknya bagi pembaca, menilai proses bertahap dan bukan melabeli murid sebagai pribadi.</li>
+          <li><strong>Refleksi &amp; Asesmen Formatif Berkelanjutan:</strong> Memanfaatkan jurnal refleksi mingguan, portofolio draf sebelum dan sesudah revisi, serta <em>Wall of Drafts</em> agar murid menyaksikan langsung bahwa tulisan berkembang lewat proses.</li>
+        </ul>
+      </div>
+
+      <!-- 4. Change -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-arrows-rotate" style="color: #10b981; margin-right: 6px;"></i> 4. Perubahan dan Aksi Nyata (Change)</h4>
+        <ul class="panel-list">
+          <li><strong>Respons Pendorong:</strong> Membiasakan tutur kata yang mendorong usaha dan menawarkan alternatif strategi baru ketika murid merasa buntu atau belum berhasil.</li>
+          <li><strong>Budaya Draf &amp; Revisi:</strong> Menyediakan ruang draf berulang, sesi <em>peer review</em> berkalimat panduan terstruktur, serta kesempatan merevisi karya agar murid belajar menghargai proses daripada sekadar skor nilai.</li>
+          <li><strong>Refleksi Penutup Terpola:</strong> Menutup setiap pertemuan dengan refleksi singkat (satu kesulitan dan satu pelajaran yang didapat) sebagai kompas perbaikan strategi pembelajaran guru di sesi berikutnya.</li>
+        </ul>
+      </div>
+
+      <!-- 5. Refleksi Menyeluruh -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-feather-pointed" style="color: var(--accent); margin-right: 6px;"></i> Refleksi Pengalaman Belajar</h4>
+        <p class="panel-text">Sebelum mempelajari pola pikir bertumbuh, saya cenderung menilai perkembangan murid dari hasil akhir: jawaban yang benar dan nilai yang bagus. Ketika murid kesulitan menganalisis cerpen atau ragu menyampaikan pendapat, saya mudah membacanya sebagai tanda ia kurang mampu, bukan tanda ia membutuhkan strategi lain. Mata kuliah Pola Pikir Bertumbuh menggeser cara pandang itu: kemampuan berkembang lewat usaha, strategi, dan umpan balik, sementara kesalahan adalah petunjuk berharga tentang bagian yang perlu diperbaiki. Gagasan paling berharga yang saya bawa pulang adalah bahwa keberanian murid untuk mencoba dibentuk oleh rancangan dan kata-kata guru. Pada praktik mengajar berikutnya, saya berkomitmen menghargai setiap usaha dan proses draf, sekaligus menerapkan pola pikir bertumbuh pada diri sendiri: ketika strategi saya belum berhasil, saya akan merefleksikannya dan mencoba pendekatan lain.</p>
+      </div>
+
+      <!-- Bagian Akhir: Menu Artefak Pembelajaran (2 Artefak) -->
+      <div class="panel-section artefak-section" style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px dashed var(--glass-border);">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0; font-size: 1.2rem; color: var(--accent);">
+            <i class="fa-solid fa-box-archive"></i> Menu Artefak Pembelajaran (2 Artefak)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(217,119,70,0.15); color: var(--accent); padding: 0.25rem 0.75rem; border-radius: 20px; font-weight: 700;">Bukti Dukung Refleksi</span>
+        </div>
+        <p class="panel-text" style="margin-bottom: 1.5rem;">
+          Berikut adalah 2 artefak pembelajaran yang saya jadikan bukti dukung utama hasil refleksi pengalaman belajar pada mata kuliah Pola Pikir Bertumbuh (Growth Mindset) dalam Pembelajaran:
+        </p>
+
+        <div class="artefak-cards-container" style="display: flex; flex-direction: column; gap: 1.2rem;">
+          
+          <!-- Artefak 1 -->
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #1e293b; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 1</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Topik 4: Proyek Pembelajaran Pola Pikir Bertumbuh</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1D4WRX0Vzu_Rh37vadO7yvtLTSaCh0SYh/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 0.9rem; font-size: 0.82rem; white-space: nowrap; text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka Artefak 1 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i>
+              </a>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Desain Pembelajaran Cerpen Berbasis Pola Pikir Bertumbuh (PPB-4.3)
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0.8rem;">
+              <strong>Bentuk Artefak:</strong> Rancangan pembelajaran Bahasa Indonesia kelas X Fase E materi teks cerpen (analisis unsur intrinsik &amp; penulisan pembuka cerpen, 6 JP x 45 menit / 3 pertemuan, model PjBL) memuat 4 komponen pola pikir bertumbuh (<em>cognitive framing</em>, <em>scaffolding</em>, <em>opportunity-based thinking</em>, <em>formative assessment</em>), terintegrasi strategi <em>Celebration of Mistakes</em>, jurnal refleksi, <em>Wall of Drafts</em>, serta catatan monitoring dan evaluasi kolaboratif.
+            </p>
+            <div style="background: rgba(30,41,59,0.06); border-left: 3px solid #1e293b; padding: 0.6rem 0.8rem; border-radius: 0 6px 6px 0; font-size: 0.85rem; color: var(--text-secondary);">
+              <strong>Alasan Pemilihan:</strong> Menerapkan konsep pola pikir bertumbuh secara utuh ke dalam modul ajar operasional, membuktikan bahwa proses menulis adalah perjalanan bertahap (bukan bakat instan), serta merekam tantangan nyata guru dalam merancang pembukaan kelas yang nyaman dan rubrik umpan balik teman sebaya yang suportif.
+            </div>
+          </div>
+
+          <!-- Artefak 2 -->
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #0F5EA8; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 2</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Topik 4: Komunikasi Pedagogis Respons Guru</span>
+              </div>
+              <a href="https://drive.google.com/file/d/15racEw7m1DGw0sg9oHRGp5yezpTFL1wM/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 0.9rem; font-size: 0.82rem; white-space: nowrap; text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka Artefak 2 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i>
+              </a>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Mengubah Respons Guru untuk Membangun Kelas Bertumbuh (PPB-LK 4.2)
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0.8rem;">
+              <strong>Bentuk Artefak:</strong> Lembar kerja analisis 10 skenario tantangan nyata di kelas (seperti murid merasa tidak bisa, takut maju ke depan, enggan bertanya, atau marah saat dikoreksi), mengubah respons guru yang menilai kemampuan menjadi respons bertumbuh yang berfokus pada usaha, strategi baru, dan kekuatan kata 'belum'.
+            </p>
+            <div style="background: rgba(15,94,168,0.06); border-left: 3px solid #0F5EA8; padding: 0.6rem 0.8rem; border-radius: 0 6px 6px 0; font-size: 0.85rem; color: var(--text-secondary);">
+              <strong>Alasan Pemilihan:</strong> Melatih keterampilan komunikasi guru secara presisi dalam merespons keraguan dan kesalahan murid di kelas nyata, menegaskan bahwa pola pikir bertumbuh baru bermakna ketika terwujud secara nyata dalam pilihan tutur kata sehari-hari guru.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal: Praktik Pengalaman Lapangan (PPL) Terbimbing -->
+  <div class="analysis-panel" id="analysisPanelPPL1">
+    <div class="panel-header">
+      <div>
+        <h3 class="panel-title">Analisis &amp; Refleksi Mata Kuliah</h3>
+        <p class="panel-subtitle">Praktik Pengalaman Lapangan (PPL) Terbimbing &mdash; LK 2 Refleksi</p>
+      </div>
+      <button class="btn-close-panel" aria-label="Tutup Panel"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="panel-content">
+      
+      <!-- Dokumen Preview -->
+      <div class="panel-section">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px dashed var(--glass-border); padding-bottom: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0;">
+            <i class="fa-solid fa-file-pdf" style="color: #EF4444; margin-right: 6px;"></i> Dokumen LK 2 (Refleksi Pengalaman Belajar)
+          </h4>
+          <a href="https://drive.google.com/file/d/15rFOX_flFvw_ZPl-Y1O3x57iQ2MyQ97H/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 1rem; font-size: 0.85rem;">
+            Buka di Drive <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+        <div class="pdf-preview-container" style="margin-top: 1rem; border: 1px solid var(--glass-border); border-radius: 12px; overflow: hidden; height: 480px;">
+          <iframe src="https://drive.google.com/file/d/15rFOX_flFvw_ZPl-Y1O3x57iQ2MyQ97H/preview" width="100%" height="100%" allow="autoplay" style="border: none; display: block;"></iframe>
+        </div>
+      </div>
+
+      <!-- 1. Connection -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-link" style="color: var(--accent); margin-right: 6px;"></i> 1. Keterkaitan Materi dengan Peran Calon Guru (Connection)</h4>
+        <p class="panel-text">Mata kuliah PPL Terbimbing berkaitan langsung dengan peran saya sebagai calon guru Bahasa Indonesia, karena di sinilah teori yang saya pelajari diuji di kelas yang sesungguhnya. Di SMAN 8 Yogyakarta, saya melewati rangkaian orientasi sekolah (mulai 23 Februari 2026), observasi manajemen sekolah, asistensi mengajar materi drama bersama Guru Pamong, hingga praktik pembelajaran terbimbing tiga pertemuan dengan materi Karya Tulis Ilmiah berbasis proyek artikel ilmiah.</p>
+        <p class="panel-text" style="margin-top: 0.8rem;">Dari rangkaian itu saya memahami bahwa guru bukan hanya penyampai materi. Guru adalah perancang pembelajaran, pengelola kelas, komunikator yang harus memastikan pesannya benar-benar sampai, sekaligus pengambil keputusan ketika kondisi kelas tidak sesuai rencana. Orientasi dan observasi juga membuat saya sadar bahwa kelas adalah bagian integral dari ekosistem sekolah yang memiliki visi, aturan, dan budaya yang perlu saya jadikan pegangan dalam merancang pembelajaran.</p>
+      </div>
+
+      <!-- 2. Challenge -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-triangle-exclamation" style="color: #f59e0b; margin-right: 6px;"></i> 2. Tantangan &amp; Perbedaan dengan Praktik Selama Ini (Challenge)</h4>
+        <p class="panel-text">Sebelum PPL, saya mengira kesiapan mengajar terutama ditentukan oleh penguasaan materi dan rancangan pembelajaran yang rapi. Melalui PPL Terbimbing, saya memahami bahwa mengajar adalah siklus berkelanjutan: mengenali kebutuhan murid, merencanakan, melaksanakan, mengevaluasi, merefleksi, lalu menindaklanjuti. Rancangan adalah pegangan, tetapi keputusan di kelas tetap harus berangkat dari kebutuhan murid pada saat itu.</p>
+        <div class="panel-blockquote">
+          Tantangan terbesar saya ada pada waktu dan kejelasan instruksi. Pada pertemuan ketiga, jam pertama terpotong waktu istirahat sehingga ulangan harian harus digeser ke jam kedua dan memerlukan tambahan 15 menit. Pada pertemuan kedua, sebagian besar murid mengaku tidak tahu ada LKPD yang harus dikerjakan, padahal sudah saya unggah di Padlet dan disampaikan di akhir sesi sebelumnya.
+        </div>
+        <p class="panel-text">Dari pengalaman itu saya belajar prinsip pedagogis berharga: <em>menyampaikan informasi tidak sama dengan memastikan informasi diterima</em>. Keputusan terbaik di kelas lahir dari mendengarkan murid: presentasi artikel disesuaikan menjadi penyampaian progres kelompok dan tenggat pengumpulan artikel diperpanjang secara realistis hingga Rabu pukul 10.00 WIB, menyadarkan saya bahwa pembelajaran berbasis proyek memerlukan perencanaan alokasi waktu yang lebih longgar.</p>
+      </div>
+
+      <!-- 3. Concept -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-lightbulb" style="color: #eab308; margin-right: 6px;"></i> 3. Konsep Utama dan Penting yang Dipelajari (Concept)</h4>
+        <ul class="panel-list">
+          <li><strong>Siklus Praktik Mengajar Berkelanjutan:</strong> Identifikasi kebutuhan murid, perencanaan, pelaksanaan, evaluasi, refleksi, dan tindak lanjut. Dibuka dengan apersepsi dialogis tentang progres dan kendala penulisan artikel murid sebagai pijakan memodifikasi kegiatan inti kelas.</li>
+          <li><strong>Konteks dan Manajemen Sekolah:</strong> Memahami visi-misi, tata tertib (Tim 7K &amp; Satgas Anti-Bullying), 7 aspek manajemen SMAN 8 Yogyakarta, dan penerapan siklus PDCA (<em>Plan-Do-Check-Act</em>) agar perancangan modul ajar selaras dengan budaya sekolah (misalnya pembatasan acara besar maksimal 4 kali setahun).</li>
+          <li><strong>Pembelajaran Adaptif &amp; Keputusan Reflektif:</strong> Kelenturan menggeser ulangan harian, memanfaatkan jam awal untuk ulasan materi dan penuntasan LKPD, serta mengubah format presentasi tanpa mengorbankan capaian tujuan pembelajaran.</li>
+          <li><strong>Pengelolaan Kelas &amp; Kejelasan Multi-Saluran:</strong> Kontrak pembelajaran awal untuk menenangkan kelas yang datang setelah jam olahraga, instruksi eksplisit lewat multi-saluran (lisan, papan/slide, dan platform digital), media <em>sticky note</em> pada <em>gallery walk</em> untuk merangkul keragaman murid, serta ulangan dengan 2 kode soal demi menjaga kejujuran akademik.</li>
+          <li><strong>Umpan Balik Klinis &amp; Refleksi Mandiri:</strong> Menghargai koreksi Guru Pamong terkait kata tidak baku pada bahan ajar, presensi murid dispensasi FLS2N, <em>ice breaking</em>, dan pendekatan personal murid pendiam, sekaligus melatih kemandirian refleksi ketika pengamat berhalangan hadir.</li>
+        </ul>
+      </div>
+
+      <!-- 4. Change -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-arrows-rotate" style="color: #10b981; margin-right: 6px;"></i> 4. Perubahan dan Aksi Nyata (Change)</h4>
+        <ul class="panel-list">
+          <li><strong>Instruksi Multi-Saluran:</strong> Menyampaikan tugas secara eksplisit lewat beberapa saluran (lisan, tulisan di papan/slide, platform digital) dan selalu memverifikasi pemahaman murid lewat pertanyaan konfirmasi singkat.</li>
+          <li><strong>Alokasi Waktu &amp; Skenario Cadangan:</strong> Menyiapkan kegiatan alternatif (<em>buffer time</em>), memberi kelonggaran waktu pada asesmen/ulangan, serta mempertimbangkan ritme jadwal kelas (misalnya setelah jam olahraga atau jam terakhir).</li>
+          <li><strong>Ketelitian Bahan Ajar &amp; Durasi Proyek:</strong> Lebih teliti memeriksa kebakuan kata pada materi ajar, mencocokkan presensi dengan dispensasi kegiatan sekolah, serta merancang alokasi waktu yang lebih longgar dan proporsional untuk pembelajaran berbasis proyek (PjBL).</li>
+          <li><strong>Refleksi Tertulis Rutin:</strong> Membiasakan refleksi tertulis terstruktur setelah setiap pertemuan mengajar, termasuk saat mengevaluasi pembelajaran secara mandiri tanpa kehadiran pengamat.</li>
+        </ul>
+      </div>
+
+      <!-- 5. Refleksi Menyeluruh -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-feather-pointed" style="color: var(--accent); margin-right: 6px;"></i> Refleksi Pengalaman Belajar</h4>
+        <p class="panel-text">Mata kuliah PPL Terbimbing mengajarkan saya bahwa rencana yang baik bukan rencana yang kaku dan tidak pernah berubah, melainkan rencana yang adaptif dan bisa disesuaikan tanpa kehilangan tujuan. Pengalaman mengajar di SMAN 8 Yogyakarta menyadarkan saya bahwa mengajar adalah seni membaca situasi: mendengarkan suara murid saat waktu terpotong, menggagas <em>gallery walk</em> dengan <em>sticky note</em> agar siswa tenang maupun ekspresif dapat saling mengapresiasi, dan berlapang dada menerima koreksi dari Guru Pamong. Ke depan, saya berkomitmen menjadikan setiap pengalaman mengajar sebagai bahan evaluasi berkelanjutan, merancang pembelajaran yang lebih realistis dengan waktu yang tersedia, dan tetap memberi ruang bagi murid untuk bersuara demi menghadirkan pembelajaran yang bermakna dan memanusiakan anak.</p>
+      </div>
+
+      <!-- Bagian Akhir: Menu Artefak Pembelajaran (2 Artefak) -->
+      <div class="panel-section artefak-section" style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px dashed var(--glass-border);">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0; font-size: 1.2rem; color: var(--accent);">
+            <i class="fa-solid fa-box-archive"></i> Menu Artefak Pembelajaran (2 Artefak)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(217,119,70,0.15); color: var(--accent); padding: 0.25rem 0.75rem; border-radius: 20px; font-weight: 700;">Bukti Dukung Refleksi</span>
+        </div>
+        <p class="panel-text" style="margin-bottom: 1.5rem;">
+          Berikut adalah 2 artefak pembelajaran yang saya jadikan bukti dukung utama hasil refleksi pengalaman belajar pada mata kuliah Praktik Pengalaman Lapangan (PPL) Terbimbing:
+        </p>
+
+        <div class="artefak-cards-container" style="display: flex; flex-direction: column; gap: 1.2rem;">
+          
+          <!-- Artefak 1 -->
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #0c4a6e; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 1</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Topik 1: Orientasi &amp; Observasi Manajemen Sekolah</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1_epTY5P9bg1ZaaZzJgY1V2Ytj0X4-Rd4/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 0.9rem; font-size: 0.82rem; white-space: nowrap; text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka Artefak 1 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i>
+              </a>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Laporan Orientasi dan Observasi Manajemen Sekolah (LK 1 PPLT)
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0.8rem;">
+              <strong>Bentuk Artefak:</strong> Dokumen laporan komprehensif orientasi sekolah (visi-misi, struktur organisasi, tata tertib, sarana prasarana) dan observasi 7 aspek manajemen SMAN 8 Yogyakarta (kesiswaan, kurikulum, SDM, sarana prasarana, anggaran, sistem informasi, dan ketatalaksanaan), dilengkapi interpretasi siklus PDCA bagi mahasiswa PPL.
+            </p>
+            <div style="background: rgba(12,74,110,0.06); border-left: 3px solid #0c4a6e; padding: 0.6rem 0.8rem; border-radius: 0 6px 6px 0; font-size: 0.85rem; color: var(--text-secondary);">
+              <strong>Alasan Pemilihan:</strong> Menjadi dasar pemahaman ekologis sebelum mengajar bahwa perencanaan pembelajaran tidak dapat dipisahkan dari konteks kultur dan regulasi sekolah (misalnya sinkronisasi jadwal dengan pembatasan event besar dan pembinaan kesiswaan berjenjang).
+            </div>
+          </div>
+
+          <!-- Artefak 2 -->
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #0F5EA8; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 2</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Topik 3: Refleksi Praktik Pembelajaran Terbimbing</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1IrLy-K5kpQCEq9Or3NA7w2muDhUjb7UC/view?usp=sharing" target="_blank" class="btn btn-primary" style="padding: 0.4rem 0.9rem; font-size: 0.82rem; white-space: nowrap; text-decoration: none;">
+                <i class="fa-solid fa-file-pdf"></i> Buka Artefak 2 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75rem; margin-left: 4px;"></i>
+              </a>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Refleksi Praktik Pembelajaran Terbimbing Pertemuan 3 (LK.4.PPLT.3)
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0.8rem;">
+              <strong>Bentuk Artefak:</strong> Dokumen refleksi mendalam pelaksanaan pertemuan ketiga pembelajaran Karya Tulis Ilmiah berbasis proyek di kelas XI Fase F. Menguraikan apersepsi dialogis, kegiatan yang berhasil dan belum berhasil, ulangan harian 2 kode paket soal, adaptasi jadwal akibat terpotong jam istirahat, perpanjangan tenggat artikel, serta evaluasi diri mandiri.
+            </p>
+            <div style="background: rgba(15,94,168,0.06); border-left: 3px solid #0F5EA8; padding: 0.6rem 0.8rem; border-radius: 0 6px 6px 0; font-size: 0.85rem; color: var(--text-secondary);">
+              <strong>Alasan Pemilihan:</strong> Merekam secara jujur keputusan pedagogis reflektif yang diambil di tengah dinamika riil kelas, membuktikan kelenturan guru dalam memprioritaskan kebutuhan belajar murid di atas kekakuan rencana di atas kertas.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  <!-- ==================== SEMESTER 2 ANALYSIS PANELS ==================== -->
+
+  <!-- Modal 1: Pembelajaran Mendalam dan Asesmen Lanjut -->
+  <div class="analysis-panel" id="analysisPanelPMAL">
+    <div class="panel-header">
+      <div>
+        <h3 class="panel-title">Analisis &amp; Refleksi Mata Kuliah</h3>
+        <p class="panel-subtitle">Pembelajaran Mendalam dan Asesmen Lanjut &mdash; LK 2 Refleksi</p>
+      </div>
+      <button class="btn-close-panel" aria-label="Tutup Panel"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="panel-content">
+      
+      <!-- Dokumen Preview Placeholder -->
+      <div class="panel-section">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px dashed var(--glass-border); padding-bottom: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0;">
+            <i class="fa-solid fa-file-pdf" style="color: #EF4444; margin-right: 6px;"></i> Dokumen LK 2 (Refleksi Pengalaman Belajar)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(15,118,110,0.15); color: #0f766e; padding: 0.3rem 0.8rem; border-radius: 20px; font-weight: 700;">
+            <i class="fa-solid fa-clock"></i> Dokumen LK 2 Menyusul
+          </span>
+        </div>
+        <div style="margin-top: 1rem; border: 2px dashed var(--glass-border); border-radius: 12px; height: 160px; display: flex; flex-direction: column; align-items: center; justify-content: center; background: rgba(15,118,110,0.03); text-align: center; padding: 1.5rem;">
+          <i class="fa-solid fa-cloud-arrow-up" style="font-size: 2.2rem; color: #0f766e; margin-bottom: 0.6rem; opacity: 0.8;"></i>
+          <p style="color: var(--text-primary); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.2rem;">Ruang Pratinjau LK 2 Telah Disiapkan</p>
+          <p style="color: var(--text-secondary); font-size: 0.85rem; margin: 0;">Embed live preview Google Drive dan tombol tautan akan langsung aktif setelah file dikirimkan.</p>
+        </div>
+      </div>
+
+      <!-- 1. Connection -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-link" style="color: var(--accent); margin-right: 6px;"></i> 1. Keterkaitan Materi dengan Peran Calon Guru (Connection)</h4>
+        <p class="panel-text">Mata kuliah Pembelajaran Mendalam dan Asesmen Lanjut memperkuat kapasitas calon guru dalam merancang penilaian autentik berbasis rubrik komprehensif, mengelola diferensiasi konten, proses, dan produk secara bertingkat, serta memastikan proses asesmen berfungsi sebagai alat ukur sekaligus penggerak pembelajaran bermakna.</p>
+      </div>
+
+      <!-- 2. Challenge -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-triangle-exclamation" style="color: #f59e0b; margin-right: 6px;"></i> 2. Tantangan &amp; Perbedaan dengan Praktik Selama Ini (Challenge)</h4>
+        <p class="panel-text">Tantangan terbesar adalah pergeseran paradigma dari asesmen yang berorientasi sekadar skor angka menjadi asesmen berkelanjutan (<em>assessment as, for, and of learning</em>). Menyiapkan rubrik analitik yang adil bagi keberagaman kesiapan belajar murid menuntut kejelian diagnostik yang tinggi.</p>
+      </div>
+
+      <!-- 3. Concept -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-lightbulb" style="color: #eab308; margin-right: 6px;"></i> 3. Konsep Utama dan Penting yang Dipelajari (Concept)</h4>
+        <ul class="panel-list">
+          <li><strong>Backward Design Terintegrasi:</strong> Menyelaraskan tujuan capaian pembelajaran kompleks dengan bukti asesmen autentik dan langkah pembelajaran scaffolding.</li>
+          <li><strong>Diferensiasi Pembelajaran Lanjut:</strong> Penyesuaian berjenjang pada konten, proses, dan produk berdasarkan asesmen diagnostik berkala.</li>
+          <li><strong>Rubrik Holistik &amp; Analitik:</strong> Kriteria evaluasi transparan untuk memfasilitasi penilaian diri (<em>self-assessment</em>) dan penilaian antarteman (<em>peer-assessment</em>).</li>
+        </ul>
+      </div>
+
+      <!-- 4. Change -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-arrows-rotate" style="color: #10b981; margin-right: 6px;"></i> 4. Perubahan dan Aksi Nyata (Change)</h4>
+        <ul class="panel-list">
+          <li><strong>Pengembangan Rubrik Terbuka:</strong> Membagikan rubrik penilaian kepada murid di awal proyek agar mereka memahami ekspektasi kualitas karya.</li>
+          <li><strong>Umpan Balik Deskriptif:</strong> Memberikan feedback formatif secara teratur dan spesifik sebelum karya akhir dikumpulkan.</li>
+        </ul>
+      </div>
+
+      <!-- 5. Refleksi Menyeluruh -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-feather-pointed" style="color: var(--accent); margin-right: 6px;"></i> Refleksi Pengalaman Belajar</h4>
+        <p class="panel-text">Asesmen sejati bukanlah vonis di akhir pembelajaran, melainkan cermin refleksi dan pemandu langkah untuk memastikan setiap anak berkembang sesuai potensinya.</p>
+      </div>
+
+      <!-- Menu Artefak Pembelajaran -->
+      <div class="panel-section artefak-section" style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px dashed var(--glass-border);">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0; font-size: 1.2rem; color: #0f766e;">
+            <i class="fa-solid fa-box-archive"></i> Menu Artefak Pembelajaran (2 Artefak)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(15,118,110,0.15); color: #0f766e; padding: 0.25rem 0.75rem; border-radius: 20px; font-weight: 700;">Bukti Dukung Refleksi</span>
+        </div>
+        <p class="panel-text" style="margin-bottom: 1.5rem;">
+          Ruang 2 artefak pembelajaran pendukung untuk mata kuliah Pembelajaran Mendalam dan Asesmen Lanjut:
+        </p>
+
+        <div class="artefak-cards-container" style="display: flex; flex-direction: column; gap: 1.2rem;">
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #0f766e; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 1</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Bukti Dukung Pembelajaran 1</span>
+              </div>
+              <span style="font-size: 0.8rem; color: var(--text-secondary); background: rgba(0,0,0,0.05); padding: 0.3rem 0.7rem; border-radius: 6px;"><i class="fa-solid fa-clock"></i> Tautan Menyusul</span>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Artefak Pembelajaran Terpilih 1
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0;">
+              <strong>Bentuk Artefak:</strong> Dokumen perangkat modul ajar atau instrumen asesmen autentik lanjut.
+            </p>
+          </div>
+
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #115e59; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 2</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Bukti Dukung Pembelajaran 2</span>
+              </div>
+              <span style="font-size: 0.8rem; color: var(--text-secondary); background: rgba(0,0,0,0.05); padding: 0.3rem 0.7rem; border-radius: 6px;"><i class="fa-solid fa-clock"></i> Tautan Menyusul</span>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Artefak Pembelajaran Terpilih 2
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0;">
+              <strong>Bentuk Artefak:</strong> Rubrik penilaian analitik/holistik atau dokumentasi portofolio belajar murid.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal 2: Teknologi Baru dalam Pengajaran dan Pembelajaran -->
+  <div class="analysis-panel" id="analysisPanelTBPP">
+    <div class="panel-header">
+      <div>
+        <h3 class="panel-title">Analisis &amp; Refleksi Mata Kuliah</h3>
+        <p class="panel-subtitle">Teknologi Baru dalam Pengajaran dan Pembelajaran &mdash; LK 2 Refleksi</p>
+      </div>
+      <button class="btn-close-panel" aria-label="Tutup Panel"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="panel-content">
+      
+      <!-- Dokumen Preview Placeholder -->
+      <div class="panel-section">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px dashed var(--glass-border); padding-bottom: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0;">
+            <i class="fa-solid fa-file-pdf" style="color: #EF4444; margin-right: 6px;"></i> Dokumen LK 2 (Refleksi Pengalaman Belajar)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(67,56,202,0.15); color: #4338ca; padding: 0.3rem 0.8rem; border-radius: 20px; font-weight: 700;">
+            <i class="fa-solid fa-clock"></i> Dokumen LK 2 Menyusul
+          </span>
+        </div>
+        <div style="margin-top: 1rem; border: 2px dashed var(--glass-border); border-radius: 12px; height: 160px; display: flex; flex-direction: column; align-items: center; justify-content: center; background: rgba(67,56,202,0.03); text-align: center; padding: 1.5rem;">
+          <i class="fa-solid fa-cloud-arrow-up" style="font-size: 2.2rem; color: #4338ca; margin-bottom: 0.6rem; opacity: 0.8;"></i>
+          <p style="color: var(--text-primary); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.2rem;">Ruang Pratinjau LK 2 Telah Disiapkan</p>
+          <p style="color: var(--text-secondary); font-size: 0.85rem; margin: 0;">Embed live preview Google Drive dan tombol tautan akan langsung aktif setelah file dikirimkan.</p>
+        </div>
+      </div>
+
+      <!-- 1. Connection -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-link" style="color: var(--accent); margin-right: 6px;"></i> 1. Keterkaitan Materi dengan Peran Calon Guru (Connection)</h4>
+        <p class="panel-text">Mata kuliah ini membekali calon guru dengan wawasan integrasi teknologi terkini (AI, media interaktif, platform kolaborasi daring) berbasis kerangka TPACK (<em>Technological Pedagogical Content Knowledge</em>) guna mewujudkan pembelajaran yang interaktif dan adaptif terhadap karakteristik generasi digital.</p>
+      </div>
+
+      <!-- 2. Challenge -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-triangle-exclamation" style="color: #f59e0b; margin-right: 6px;"></i> 2. Tantangan &amp; Perbedaan dengan Praktik Selama Ini (Challenge)</h4>
+        <p class="panel-text">Tantangan utamanya adalah menghindari perangkap teknosentrisme, di mana teknologi hanya digunakan sebagai pengganti media konvensional tanpa transformasi pedagogis yang bermakna. Guru dituntut memilih teknologi yang benar-benar memperdalam keterlibatan kognitif murid.</p>
+      </div>
+
+      <!-- 3. Concept -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-lightbulb" style="color: #eab308; margin-right: 6px;"></i> 3. Konsep Utama dan Penting yang Dipelajari (Concept)</h4>
+        <ul class="panel-list">
+          <li><strong>Kerangka Kerja TPACK:</strong> Sinergi antara pemahaman konten materi, pedagogi yang mendidik, dan pemilihan teknologi yang tepat guna.</li>
+          <li><strong>Pemanfaatan AI dalam Pembelajaran:</strong> Etika, potensi personalisasi belajar, serta eksplorasi alat bantu digital interaktif dalam kelas.</li>
+          <li><strong>Model SAMR (Substitution, Augmentation, Modification, Redefinition):</strong> Evaluasi tingkat kedalaman integrasi teknologi dalam desain instruksional.</li>
+        </ul>
+      </div>
+
+      <!-- 4. Change -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-arrows-rotate" style="color: #10b981; margin-right: 6px;"></i> 4. Perubahan dan Aksi Nyata (Change)</h4>
+        <ul class="panel-list">
+          <li><strong>Media Interaktif Kontekstual:</strong> Mengembangkan materi multimedia digital yang mendorong eksplorasi aktif murid daripada presentasi pasif.</li>
+          <li><strong>Literasi Digital &amp; Etika AI:</strong> Membimbing murid menggunakan platform digital secara etis, bertanggung jawab, dan produktif.</li>
+        </ul>
+      </div>
+
+      <!-- 5. Refleksi Menyeluruh -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-feather-pointed" style="color: var(--accent); margin-right: 6px;"></i> Refleksi Pengalaman Belajar</h4>
+        <p class="panel-text">Teknologi tidak akan pernah menggantikan guru yang hebat, tetapi teknologi di tangan guru yang hebat dapat mentransformasi dunia pendidikan menjadi luar biasa.</p>
+      </div>
+
+      <!-- Menu Artefak Pembelajaran -->
+      <div class="panel-section artefak-section" style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px dashed var(--glass-border);">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0; font-size: 1.2rem; color: #4338ca;">
+            <i class="fa-solid fa-box-archive"></i> Menu Artefak Pembelajaran (2 Artefak)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(67,56,202,0.15); color: #4338ca; padding: 0.25rem 0.75rem; border-radius: 20px; font-weight: 700;">Bukti Dukung Refleksi</span>
+        </div>
+        <p class="panel-text" style="margin-bottom: 1.5rem;">
+          Ruang 2 artefak pembelajaran pendukung untuk mata kuliah Teknologi Baru dalam Pengajaran dan Pembelajaran:
+        </p>
+
+        <div class="artefak-cards-container" style="display: flex; flex-direction: column; gap: 1.2rem;">
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #4338ca; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 1</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Bukti Dukung Pembelajaran 1</span>
+              </div>
+              <span style="font-size: 0.8rem; color: var(--text-secondary); background: rgba(0,0,0,0.05); padding: 0.3rem 0.7rem; border-radius: 6px;"><i class="fa-solid fa-clock"></i> Tautan Menyusul</span>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Artefak Pembelajaran Terpilih 1
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0;">
+              <strong>Bentuk Artefak:</strong> Produk media pembelajaran digital atau modul ajar berbasis integrasi TPACK.
+            </p>
+          </div>
+
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #3730a3; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 2</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Bukti Dukung Pembelajaran 2</span>
+              </div>
+              <span style="font-size: 0.8rem; color: var(--text-secondary); background: rgba(0,0,0,0.05); padding: 0.3rem 0.7rem; border-radius: 6px;"><i class="fa-solid fa-clock"></i> Tautan Menyusul</span>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Artefak Pembelajaran Terpilih 2
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0;">
+              <strong>Bentuk Artefak:</strong> Video praktik pemanfaatan platform teknologi atau rancangan asesmen berbasis digital.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal 3: Pembelajaran Sosial Emosional -->
+  <div class="analysis-panel" id="analysisPanelPSE">
+    <div class="panel-header">
+      <div>
+        <h3 class="panel-title">Analisis &amp; Refleksi Mata Kuliah</h3>
+        <p class="panel-subtitle">Pembelajaran Sosial Emosional &mdash; LK 2 Refleksi</p>
+      </div>
+      <button class="btn-close-panel" aria-label="Tutup Panel"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="panel-content">
+      
+      <!-- Dokumen Preview Placeholder -->
+      <div class="panel-section">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px dashed var(--glass-border); padding-bottom: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0;">
+            <i class="fa-solid fa-file-pdf" style="color: #EF4444; margin-right: 6px;"></i> Dokumen LK 2 (Refleksi Pengalaman Belajar)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(190,18,60,0.15); color: #be123c; padding: 0.3rem 0.8rem; border-radius: 20px; font-weight: 700;">
+            <i class="fa-solid fa-clock"></i> Dokumen LK 2 Menyusul
+          </span>
+        </div>
+        <div style="margin-top: 1rem; border: 2px dashed var(--glass-border); border-radius: 12px; height: 160px; display: flex; flex-direction: column; align-items: center; justify-content: center; background: rgba(190,18,60,0.03); text-align: center; padding: 1.5rem;">
+          <i class="fa-solid fa-cloud-arrow-up" style="font-size: 2.2rem; color: #be123c; margin-bottom: 0.6rem; opacity: 0.8;"></i>
+          <p style="color: var(--text-primary); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.2rem;">Ruang Pratinjau LK 2 Telah Disiapkan</p>
+          <p style="color: var(--text-secondary); font-size: 0.85rem; margin: 0;">Embed live preview Google Drive dan tombol tautan akan langsung aktif setelah file dikirimkan.</p>
+        </div>
+      </div>
+
+      <!-- 1. Connection -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-link" style="color: var(--accent); margin-right: 6px;"></i> 1. Keterkaitan Materi dengan Peran Calon Guru (Connection)</h4>
+        <p class="panel-text">Pembelajaran Sosial Emosional (PSE) membimbing calon guru untuk memandang murid secara utuh sebagai manusia seutuhnya, bukan hanya wadah intelektual. Guru berperan menghadirkan iklim kelas yang aman, mendukung kesejahteraan psikologis (<em>well-being</em>), dan menumbuhkan kecerdasan emosional.</p>
+      </div>
+
+      <!-- 2. Challenge -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-triangle-exclamation" style="color: #f59e0b; margin-right: 6px;"></i> 2. Tantangan &amp; Perbedaan dengan Praktik Selama Ini (Challenge)</h4>
+        <p class="panel-text">Tantangannya terletak pada integrasi PSE yang sering disalahpahami sebagai materi hafalan terpisah. Padahal, PSE harus dileburkan secara natural ke dalam pembukaan pelajaran, dinamika kerja kelompok, resolusi konflik di kelas, hingga penutupan sesi belajar.</p>
+      </div>
+
+      <!-- 3. Concept -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-lightbulb" style="color: #eab308; margin-right: 6px;"></i> 3. Konsep Utama dan Penting yang Dipelajari (Concept)</h4>
+        <ul class="panel-list">
+          <li><strong>5 Kompetensi Sosial Emosional (CASEL):</strong> Kesadaran diri, manajemen diri, kesadaran sosial, keterampilan berelasi, dan pengambilan keputusan yang bertanggung jawab.</li>
+          <li><strong>Praktik Kesadaran Penuh (Mindfulness):</strong> Teknik STOP (<em>Stop, Take a breath, Observe, Proceed</em>) untuk mengembalikan fokus dan ketenangan emosi murid.</li>
+          <li><strong>Well-being Ekosistem Sekolah:</strong> Menciptakan budaya saling menghargai dan empati yang melibatkan guru, murid, dan staf sekolah.</li>
+        </ul>
+      </div>
+
+      <!-- 4. Change -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-arrows-rotate" style="color: #10b981; margin-right: 6px;"></i> 4. Perubahan dan Aksi Nyata (Change)</h4>
+        <ul class="panel-list">
+          <li><strong>Penerapan Roda Emosi &amp; Check-in Awal:</strong> Melakukan pengecekan kondisi emosional murid sebelum memulai pelajaran agar mereka merasa didengar dan diterima.</li>
+          <li><strong>Pembiasaan Refleksi Empatik:</strong> Memfasilitasi dialog penyelesaian masalah antar-murid dengan pendekatan restoratif, bukan hukuman represif.</li>
+        </ul>
+      </div>
+
+      <!-- 5. Refleksi Menyeluruh -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-feather-pointed" style="color: var(--accent); margin-right: 6px;"></i> Refleksi Pengalaman Belajar</h4>
+        <p class="panel-text">Mendidik pikiran tanpa mendidik hati bukanlah pendidikan sama sekali. PSE mengingatkan bahwa kehadiran yang welas asih adalah fondasi dari setiap pembelajaran yang berhasil.</p>
+      </div>
+
+      <!-- Menu Artefak Pembelajaran -->
+      <div class="panel-section artefak-section" style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px dashed var(--glass-border);">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0; font-size: 1.2rem; color: #be123c;">
+            <i class="fa-solid fa-box-archive"></i> Menu Artefak Pembelajaran (2 Artefak)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(190,18,60,0.15); color: #be123c; padding: 0.25rem 0.75rem; border-radius: 20px; font-weight: 700;">Bukti Dukung Refleksi</span>
+        </div>
+        <p class="panel-text" style="margin-bottom: 1.5rem;">
+          Ruang 2 artefak pembelajaran pendukung untuk mata kuliah Pembelajaran Sosial Emosional:
+        </p>
+
+        <div class="artefak-cards-container" style="display: flex; flex-direction: column; gap: 1.2rem;">
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #be123c; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 1</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Bukti Dukung Pembelajaran 1</span>
+              </div>
+              <span style="font-size: 0.8rem; color: var(--text-secondary); background: rgba(0,0,0,0.05); padding: 0.3rem 0.7rem; border-radius: 6px;"><i class="fa-solid fa-clock"></i> Tautan Menyusul</span>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Artefak Pembelajaran Terpilih 1
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0;">
+              <strong>Bentuk Artefak:</strong> Modul ajar terintegrasi 5 KSE (CASEL) dan panduan kegiatan mindfulness.
+            </p>
+          </div>
+
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #9f1239; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 2</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Bukti Dukung Pembelajaran 2</span>
+              </div>
+              <span style="font-size: 0.8rem; color: var(--text-secondary); background: rgba(0,0,0,0.05); padding: 0.3rem 0.7rem; border-radius: 6px;"><i class="fa-solid fa-clock"></i> Tautan Menyusul</span>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Artefak Pembelajaran Terpilih 2
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0;">
+              <strong>Bentuk Artefak:</strong> Lembar kerja refleksi emosi murid atau dokumentasi implementasi iklim kelas positif.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal 4: Praktik Pengalaman Lapangan Mandiri -->
+  <div class="analysis-panel" id="analysisPanelPPL2">
+    <div class="panel-header">
+      <div>
+        <h3 class="panel-title">Analisis &amp; Refleksi Mata Kuliah</h3>
+        <p class="panel-subtitle">Praktik Pengalaman Lapangan Mandiri &mdash; LK 2 Refleksi</p>
+      </div>
+      <button class="btn-close-panel" aria-label="Tutup Panel"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="panel-content">
+      
+      <!-- Dokumen Preview Placeholder -->
+      <div class="panel-section">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px dashed var(--glass-border); padding-bottom: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0;">
+            <i class="fa-solid fa-file-pdf" style="color: #EF4444; margin-right: 6px;"></i> Dokumen LK 2 (Refleksi Pengalaman Belajar)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(3,105,161,0.15); color: #0369a1; padding: 0.3rem 0.8rem; border-radius: 20px; font-weight: 700;">
+            <i class="fa-solid fa-clock"></i> Dokumen LK 2 Menyusul
+          </span>
+        </div>
+        <div style="margin-top: 1rem; border: 2px dashed var(--glass-border); border-radius: 12px; height: 160px; display: flex; flex-direction: column; align-items: center; justify-content: center; background: rgba(3,105,161,0.03); text-align: center; padding: 1.5rem;">
+          <i class="fa-solid fa-cloud-arrow-up" style="font-size: 2.2rem; color: #0369a1; margin-bottom: 0.6rem; opacity: 0.8;"></i>
+          <p style="color: var(--text-primary); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.2rem;">Ruang Pratinjau LK 2 Telah Disiapkan</p>
+          <p style="color: var(--text-secondary); font-size: 0.85rem; margin: 0;">Embed live preview Google Drive dan tombol tautan akan langsung aktif setelah file dikirimkan.</p>
+        </div>
+      </div>
+
+      <!-- 1. Connection -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-link" style="color: var(--accent); margin-right: 6px;"></i> 1. Keterkaitan Materi dengan Peran Calon Guru (Connection)</h4>
+        <p class="panel-text">PPL Mandiri merupakan puncak pembuktian kematangan profesional calon guru di mana seluruh teori, modul, dan strategi pembelajaran dipraktikkan secara mandiri dan bertanggung jawab penuh di kelas riil sekolah mitra.</p>
+      </div>
+
+      <!-- 2. Challenge -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-triangle-exclamation" style="color: #f59e0b; margin-right: 6px;"></i> 2. Tantangan &amp; Perbedaan dengan Praktik Selama Ini (Challenge)</h4>
+        <p class="panel-text">Jika pada PPL Terbimbing asistensi guru pamong masih sangat dominan, pada PPL Mandiri guru dituntut memiliki otonomi pedagogis penuh, kecekatan dalam manajemen kelas, dan kepekaan dalam mengambil keputusan adaptif di saat situasi pembelajaran tidak terduga.</p>
+      </div>
+
+      <!-- 3. Concept -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-lightbulb" style="color: #eab308; margin-right: 6px;"></i> 3. Konsep Utama dan Penting yang Dipelajari (Concept)</h4>
+        <ul class="panel-list">
+          <li><strong>Kemandirian Pembelajaran &amp; Manajemen Kelas:</strong> Penguasaan kelas utuh mulai apersepsi, kegiatan inti berdiferensiasi, hingga asesmen dan refleksi penutup.</li>
+          <li><strong>Lesson Study Siklus Lengkap:</strong> Penerapan tahapan <em>Plan</em> (perencanaan), <em>Do</em> (pelaksanaan pembelajaran), dan <em>See</em> (refleksi kolegial bersama dosen dan pamong).</li>
+          <li><strong>Penelitian Tindakan Kelas (PTK) Kolaboratif:</strong> Menemukan solusi berbasis bukti atas kendala literasi atau motivasi belajar di kelas.</li>
+        </ul>
+      </div>
+
+      <!-- 4. Change -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-arrows-rotate" style="color: #10b981; margin-right: 6px;"></i> 4. Perubahan dan Aksi Nyata (Change)</h4>
+        <ul class="panel-list">
+          <li><strong>Pengambilan Keputusan Cepat &amp; Tepat:</strong> Mampu menyesuaikan ritme pembelajaran secara real-time tanpa mengorbankan ketercapaian tujuan pembelajaran.</li>
+          <li><strong>Refleksi Kritis Berkelanjutan:</strong> Menjadikan masukan observer dan data hasil belajar murid sebagai pijakan menyempurnakan pertemuan berikutnya.</li>
+        </ul>
+      </div>
+
+      <!-- 5. Refleksi Menyeluruh -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-feather-pointed" style="color: var(--accent); margin-right: 6px;"></i> Refleksi Pengalaman Belajar</h4>
+        <p class="panel-text">PPL Mandiri mengukuhkan jati diri saya bahwa menjadi guru sejati adalah perpaduan antara kecakapan merancang pembelajaran, kebesaran hati mendengarkan murid, dan kemauan tanpa henti untuk terus belajar.</p>
+      </div>
+
+      <!-- Menu Artefak Pembelajaran -->
+      <div class="panel-section artefak-section" style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px dashed var(--glass-border);">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0; font-size: 1.2rem; color: #0369a1;">
+            <i class="fa-solid fa-box-archive"></i> Menu Artefak Pembelajaran (2 Artefak)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(3,105,161,0.15); color: #0369a1; padding: 0.25rem 0.75rem; border-radius: 20px; font-weight: 700;">Bukti Dukung Refleksi</span>
+        </div>
+        <p class="panel-text" style="margin-bottom: 1.5rem;">
+          Ruang 2 artefak pembelajaran pendukung untuk mata kuliah Praktik Pengalaman Lapangan Mandiri:
+        </p>
+
+        <div class="artefak-cards-container" style="display: flex; flex-direction: column; gap: 1.2rem;">
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #0369a1; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 1</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Bukti Dukung Pembelajaran 1</span>
+              </div>
+              <span style="font-size: 0.8rem; color: var(--text-secondary); background: rgba(0,0,0,0.05); padding: 0.3rem 0.7rem; border-radius: 6px;"><i class="fa-solid fa-clock"></i> Tautan Menyusul</span>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Artefak Pembelajaran Terpilih 1
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0;">
+              <strong>Bentuk Artefak:</strong> Dokumen modul ajar mandiri siklus pembelajaran atau laporan orientasi mandiri.
+            </p>
+          </div>
+
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #075985; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 2</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Bukti Dukung Pembelajaran 2</span>
+              </div>
+              <span style="font-size: 0.8rem; color: var(--text-secondary); background: rgba(0,0,0,0.05); padding: 0.3rem 0.7rem; border-radius: 6px;"><i class="fa-solid fa-clock"></i> Tautan Menyusul</span>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Artefak Pembelajaran Terpilih 2
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0;">
+              <strong>Bentuk Artefak:</strong> Dokumen refleksi Lesson Study siklus mandiri atau laporan evaluasi pembelajaran komprehensif.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal 5: Projek Kepemimpinan -->
+  <div class="analysis-panel" id="analysisPanelPK">
+    <div class="panel-header">
+      <div>
+        <h3 class="panel-title">Analisis &amp; Refleksi Mata Kuliah</h3>
+        <p class="panel-subtitle">Projek Kepemimpinan &mdash; LK 2 Refleksi</p>
+      </div>
+      <button class="btn-close-panel" aria-label="Tutup Panel"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="panel-content">
+      
+      <!-- Dokumen Preview Placeholder -->
+      <div class="panel-section">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px dashed var(--glass-border); padding-bottom: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0;">
+            <i class="fa-solid fa-file-pdf" style="color: #EF4444; margin-right: 6px;"></i> Dokumen LK 2 (Refleksi Pengalaman Belajar)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(126,34,206,0.15); color: #7e22ce; padding: 0.3rem 0.8rem; border-radius: 20px; font-weight: 700;">
+            <i class="fa-solid fa-clock"></i> Dokumen LK 2 Menyusul
+          </span>
+        </div>
+        <div style="margin-top: 1rem; border: 2px dashed var(--glass-border); border-radius: 12px; height: 160px; display: flex; flex-direction: column; align-items: center; justify-content: center; background: rgba(126,34,206,0.03); text-align: center; padding: 1.5rem;">
+          <i class="fa-solid fa-cloud-arrow-up" style="font-size: 2.2rem; color: #7e22ce; margin-bottom: 0.6rem; opacity: 0.8;"></i>
+          <p style="color: var(--text-primary); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.2rem;">Ruang Pratinjau LK 2 Telah Disiapkan</p>
+          <p style="color: var(--text-secondary); font-size: 0.85rem; margin: 0;">Embed live preview Google Drive dan tombol tautan akan langsung aktif setelah file dikirimkan.</p>
+        </div>
+      </div>
+
+      <!-- 1. Connection -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-link" style="color: var(--accent); margin-right: 6px;"></i> 1. Keterkaitan Materi dengan Peran Calon Guru (Connection)</h4>
+        <p class="panel-text">Mata kuliah Projek Kepemimpinan membentuk profil guru bukan sekadar sebagai pengajar di ruang kelas, melainkan sebagai pemimpin pembelajaran (<em>instructional leader</em>) dan agen perubahan sosial yang mampu menggerakkan komunitas sekolah dan masyarakat.</p>
+      </div>
+
+      <!-- 2. Challenge -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-triangle-exclamation" style="color: #f59e0b; margin-right: 6px;"></i> 2. Tantangan &amp; Perbedaan dengan Praktik Selama Ini (Challenge)</h4>
+        <p class="panel-text">Tantangan terbesar adalah membangun komunikasi dan kemitraan kolaboratif lintas sektor, memetakan aset komunitas (<em>asset-based thinking</em>), serta menjaga keberlanjutan projek agar memberikan dampak nyata dan terukur bagi sasaran penerima manfaat.</p>
+      </div>
+
+      <!-- 3. Concept -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-lightbulb" style="color: #eab308; margin-right: 6px;"></i> 3. Konsep Utama dan Penting yang Dipelajari (Concept)</h4>
+        <ul class="panel-list">
+          <li><strong>Pendekatan Berbasis Aset (Asset-Based Community Development):</strong> Mengidentifikasi kekuatan, potensi, dan sumber daya lingkungan sebagai modal utama inovasi.</li>
+          <li><strong>Manajemen Siklus Projek (Project Cycle Management):</strong> Perencanaan berbasis SMART, analisis risiko (mitigasi), eksekusi kerja sama tim, dan pelaporan evaluatif.</li>
+          <li><strong>Kepemimpinan Melayani (Servant Leadership):</strong> Menempatkan kepentingan dan kebutuhan murid serta komunitas sebagai kompas utama aksi.</li>
+        </ul>
+      </div>
+
+      <!-- 4. Change -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-arrows-rotate" style="color: #10b981; margin-right: 6px;"></i> 4. Perubahan dan Aksi Nyata (Change)</h4>
+        <ul class="panel-list">
+          <li><strong>Inisiasi Program Berkelanjutan:</strong> Merancang projek kolaboratif yang terstruktur, memiliki tolok ukur keberhasilan jelas, dan dapat diteruskan oleh mitra komunitas.</li>
+          <li><strong>Penguatan Budaya Kolaborasi:</strong> Melatih keterampilan mendengarkan secara aktif, memimpin musyawarah mufakat, dan mengapresiasi kontribusi setiap anggota tim.</li>
+        </ul>
+      </div>
+
+      <!-- 5. Refleksi Menyeluruh -->
+      <div class="panel-section">
+        <h4 class="panel-section-title"><i class="fa-solid fa-feather-pointed" style="color: var(--accent); margin-right: 6px;"></i> Refleksi Pengalaman Belajar</h4>
+        <p class="panel-text">Kepemimpinan sejati bukan tentang posisi atau jabatan, melainkan tentang jejak keteladanan, kepedulian yang diwujudkan dalam aksi nyata, dan komitmen untuk menyalakan harapan di tengah masyarakat.</p>
+      </div>
+
+      <!-- Menu Artefak Pembelajaran -->
+      <div class="panel-section artefak-section" style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px dashed var(--glass-border);">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h4 class="panel-section-title" style="margin-bottom: 0; border: none; padding-bottom: 0; font-size: 1.2rem; color: #7e22ce;">
+            <i class="fa-solid fa-box-archive"></i> Menu Artefak Pembelajaran (2 Artefak)
+          </h4>
+          <span style="font-size: 0.8rem; background: rgba(126,34,206,0.15); color: #7e22ce; padding: 0.25rem 0.75rem; border-radius: 20px; font-weight: 700;">Bukti Dukung Refleksi</span>
+        </div>
+        <p class="panel-text" style="margin-bottom: 1.5rem;">
+          Ruang 2 artefak pembelajaran pendukung untuk mata kuliah Projek Kepemimpinan:
+        </p>
+
+        <div class="artefak-cards-container" style="display: flex; flex-direction: column; gap: 1.2rem;">
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #7e22ce; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 1</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Bukti Dukung Pembelajaran 1</span>
+              </div>
+              <span style="font-size: 0.8rem; color: var(--text-secondary); background: rgba(0,0,0,0.05); padding: 0.3rem 0.7rem; border-radius: 6px;"><i class="fa-solid fa-clock"></i> Tautan Menyusul</span>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Artefak Pembelajaran Terpilih 1
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0;">
+              <strong>Bentuk Artefak:</strong> Dokumen proposal rencana projek kepemimpinan atau pemetaan aset komunitas sekolah.
+            </p>
+          </div>
+
+          <div class="artefak-item-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="background: #6b21a8; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px;">ARTEFAK 2</span>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);"><i class="fa-solid fa-tag"></i> Bukti Dukung Pembelajaran 2</span>
+              </div>
+              <span style="font-size: 0.8rem; color: var(--text-secondary); background: rgba(0,0,0,0.05); padding: 0.3rem 0.7rem; border-radius: 6px;"><i class="fa-solid fa-clock"></i> Tautan Menyusul</span>
+            </div>
+            <h5 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 700;">
+              Artefak Pembelajaran Terpilih 2
+            </h5>
+            <p class="panel-text" style="font-size: 0.9rem; margin-bottom: 0;">
+              <strong>Bentuk Artefak:</strong> Laporan evaluasi akhir pelaksanaan projek, dokumentasi aksi, atau publikasi dampak sosial.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="main.js?v=5"></script>
+</body>
+</html>
+
