@@ -1738,6 +1738,69 @@ body::after {
   visibility: visible;
 }
 
+/* PSE Panel Primary Buttons (High contrast & accessible) */
+#analysisPanelPSE .btn-primary {
+  color: #ffffff !important;
+  background: #be123c !important;
+  border: 1px solid #9f1239 !important;
+  font-weight: 600 !important;
+  box-shadow: 0 4px 14px rgba(190, 18, 60, 0.3) !important;
+  transition: all 0.25s ease !important;
+}
+
+#analysisPanelPSE .btn-primary * {
+  color: #ffffff !important;
+}
+
+#analysisPanelPSE .btn-primary:hover {
+  background: #9f1239 !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 18px rgba(190, 18, 60, 0.45) !important;
+}
+
+/* PPL2 Panel Primary Buttons (High contrast & accessible) */
+#analysisPanelPPL2 .btn-primary {
+  color: #ffffff !important;
+  background: #0369a1 !important;
+  border: 1px solid #0284c7 !important;
+  font-weight: 600 !important;
+  box-shadow: 0 4px 14px rgba(3, 105, 161, 0.3) !important;
+  transition: all 0.25s ease !important;
+}
+
+#analysisPanelPPL2 .btn-primary * {
+  color: #ffffff !important;
+}
+
+#analysisPanelPPL2 .btn-primary:hover {
+  background: #075985 !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 18px rgba(3, 105, 161, 0.45) !important;
+}
+
+/* PK Panel Primary Buttons (High contrast & accessible) */
+#analysisPanelPK .btn-primary {
+  color: #ffffff !important;
+  background: #7e22ce !important;
+  border: 1px solid #9333ea !important;
+  font-weight: 600 !important;
+  box-shadow: 0 4px 14px rgba(126, 34, 206, 0.3) !important;
+  transition: all 0.25s ease !important;
+}
+
+#analysisPanelPK .btn-primary * {
+  color: #ffffff !important;
+}
+
+#analysisPanelPK .btn-primary:hover {
+  background: #6b21a8 !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 18px rgba(126, 34, 206, 0.45) !important;
+}
+
 .panel-header {
   padding: 1.5rem 2rem;
   border-bottom: 1px solid var(--glass-border);
