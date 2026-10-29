@@ -1498,11 +1498,13 @@ body::after {
 .pill-yellow { color: #D97706; background: #FEF3C7; }
 .pill-purple { color: #7C3AED; background: #EDE9FE; }
 .pill-red { color: #DC2626; background: #FEE2E2; }
+.pill-blue { color: #0284c7; background: #e0f2fe; }
 
 [data-theme="dark"] .pill-green { color: #34D399; background: rgba(5,150,105,0.2); }
 [data-theme="dark"] .pill-yellow { color: #FBBF24; background: rgba(217,119,6,0.2); }
 [data-theme="dark"] .pill-purple { color: #A78BFA; background: rgba(124,58,237,0.2); }
 [data-theme="dark"] .pill-red { color: #F87171; background: rgba(220,38,38,0.2); }
+[data-theme="dark"] .pill-blue { color: #38bdf8; background: rgba(2,132,199,0.2); }
 
 /* ==========================
    Model Guru Section

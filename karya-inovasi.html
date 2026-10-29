@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Karya Inovasi Pendidikan - Lembar Kerja 4 (LK 4) E-Portfolio Guru Profesional PPG Prajabatan." />
+  <title>Karya Inovasi Pendidikan | E-Portfolio Guru Profesional PPG</title>
+  
+  <!-- Favicon PPG -->
+  <link rel="icon" href="LOGO WEB.jpg" type="image/jpeg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css?v=4" />
+</head>
+<body>
+
+  <!-- Animated Particle Background -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="portfolio.html#hero" class="nav-logo" aria-label="PPG Logo">
+        <span class="logo-text" style="color: #0F5EA8; display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 1.5rem;">
+          <i class="fa-solid fa-graduation-cap"></i> PPG
+        </span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="portfolio.html#hero">Beranda</a></li>
+        <li><a href="portfolio.html#about">Profil</a></li>
+        <li><a href="portfolio.html#education">Pendidikan</a></li>
+        <li><a href="portfolio.html#identifikasi-diri">Identifikasi Diri</a></li>
+        <li><a href="portfolio.html#refleksi-mk">Refleksi Mata Kuliah</a></li>
+        <li><a href="portfolio.html#refleksi-ppg">Refleksi Program PPG</a></li>
+        <li><a href="karya-inovasi.html" class="active">Karya Inovasi Pendidikan</a></li>
+        <li><a href="portfolio.html#model-guru">Model Guru</a></li>
+        <li><a href="portfolio.html#gallery">Gallery</a></li>
+        <li><a href="portfolio.html#contact">Kontak</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="action-btn theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Mode Gelap/Terang">
+          <i class="fa-solid fa-moon theme-icon"></i>
+        </button>
+        <button class="action-btn home-btn" id="homeBtn" aria-label="Home" title="Kembali ke Portofolio Utama" onclick="window.location.href='portfolio.html#karya-inovasi';">
+          <i class="fa-solid fa-arrow-left" style="color: #39BDE8;"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header Banner -->
+  <header style="padding-top: 7.5rem; padding-bottom: 2rem; background: linear-gradient(180deg, var(--bg-secondary) 0%, transparent 100%);">
+    <div class="container" style="text-align: center;">
+      <div style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(5, 150, 105, 0.1); color: #059669; padding: 0.4rem 1.2rem; border-radius: 30px; font-weight: 700; font-size: 0.85rem; margin-bottom: 1rem; border: 1px solid rgba(5, 150, 105, 0.2);">
+        <i class="fa-solid fa-lightbulb"></i> LEMBAR KERJA 4 (LK 4) &bull; KARYA INOVATIF
+      </div>
+      <h1 style="font-family: var(--font-head); font-size: 2.5rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0.8rem; line-height: 1.2;">
+        Karya Inovasi Pendidikan
+      </h1>
+      <p style="color: var(--text-secondary); max-width: 820px; margin: 0 auto 1.5rem auto; font-size: 1.05rem; line-height: 1.6;">
+        Desain Pembelajaran Mendalam Teks Berita Berbasis <em>Discovery Learning</em> Terintegrasi <em>E-Book</em> Interaktif untuk Murid Kelas XI Fase F SMA Muhammadiyah 2 Yogyakarta.
+      </p>
+      
+      <!-- Breadcrumb Link -->
+      <div style="display: inline-flex; align-items: center; gap: 0.75rem; background: var(--bg-primary); padding: 0.5rem 1.2rem; border-radius: 20px; border: 1px solid var(--glass-border); font-size: 0.88rem; box-shadow: var(--shadow-sm);">
+        <a href="portfolio.html" style="color: var(--accent); text-decoration: none; font-weight: 600;"><i class="fa-solid fa-house"></i> E-Portfolio</a>
+        <span style="color: var(--text-secondary); opacity: 0.5;">/</span>
+        <a href="portfolio.html#refleksi-ppg" style="color: var(--text-secondary); text-decoration: none;">Refleksi Program PPG</a>
+        <span style="color: var(--text-secondary); opacity: 0.5;">/</span>
+        <span style="color: var(--text-primary); font-weight: 600;">Karya Inovasi Pendidikan (LK 4)</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Karya Inovasi Section -->
+  <section class="analisis section" id="karya-inovasi" style="padding-top: 1rem;">
+    <div class="container">
+
+      <!-- Main Document Card (Layout Identik Refleksi Program PPG) -->
+      <div class="penilaian-grid">
+        <div class="penilaian-card card-cyan">
+          <div class="card-bg-number">04</div>
+          <div class="penilaian-card-body">
+            
+            <!-- Kolom Kiri: Uraian & Detail Dokumen -->
+            <div class="penilaian-text">
+              <div class="lampiran-badge badge-cyan"><i class="fa-solid fa-lightbulb"></i> LEMBAR KERJA 4 (LK 4)</div>
+              <h3 class="penilaian-title">Rancangan Pembelajaran Teks Berita Berbasis Discovery Learning Berbantuan E-Book</h3>
+              <p class="penilaian-desc">Dokumen komprehensif Lembar Kerja 4 (LK 4) yang merumuskan karya inovasi pembelajaran terpadu: perpaduan Modul Pembelajaran Mendalam <em>Discovery Learning</em> (2 pertemuan @ 4&times;35 menit) dengan <em>E-Book Teks Berita Interaktif</em> sebagai pegangan mandiri siswa pada tahap <em>verification</em>. Berangkat dari asesmen diagnostik di kelas XI SMA Muhammadiyah 2 Yogyakarta guna menumbuhkan penalaran kritis, kepekaan analisis fakta-opini di era digital, dan efisiensi waktu pembelajaran.</p>
+              
+              <ul class="penilaian-details">
+                <li><span class="detail-label">Dokumen</span> <span class="detail-value">Lembar Kerja 4 (LK 4) PPG</span></li>
+                <li><span class="detail-label">Nama Karya</span> <span class="detail-value">Pembelajaran Mendalam Teks Berita &amp; E-Book Flipbook</span></li>
+                <li><span class="detail-label">Sasaran</span> <span class="detail-value">Kelas XI Fase F SMA Muhammadiyah 2 Yogyakarta (XI-F6)</span></li>
+                <li><span class="detail-label">Format Dokumen</span> <span class="detail-value">PDF Resmi LK 4 &amp; Live Flipbook E-Book Web</span></li>
+                <li><span class="detail-label">Tautan E-Book</span> <span class="detail-value"><a href="https://orisasatifaalqaf.github.io/E-Book-Teks-Berita/" target="_blank" style="color: #059669; font-weight: 600; text-decoration: underline;">orisasatifaalqaf.github.io/E-Book-Teks-Berita</a></span></li>
+                <li><span class="detail-label">Status</span> <span class="detail-value">Terimplementasi &amp; Terlampir</span></li>
+              </ul>
+              
+              <div class="penilaian-actions" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                <div style="width: 100%; font-size: 0.85rem; font-weight: 600; color: #cbd5e1; margin-bottom: 0.2rem; white-space: nowrap;">Dokumen Lembar Kerja 4 (LK 4):</div>
+                <a href="#" onclick="document.getElementById('iframe-karya-inovasi').src='https://drive.google.com/file/d/1bMeC6gyP9Nyz6zDXx5coe6iLxDl1yq9_/preview'; return false;" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.85rem;"><i class="fa-solid fa-eye"></i> Preview Dokumen</a>
+                <a href="https://drive.google.com/file/d/1bMeC6gyP9Nyz6zDXx5coe6iLxDl1yq9_/view?usp=sharing" target="_blank" class="btn btn-light-blue" style="padding: 0.5rem 1rem; font-size: 0.85rem;"><i class="fa-brands fa-google-drive"></i> Unduh di Drive</a>
+                
+                <div style="width: 100%; font-size: 0.85rem; font-weight: 600; color: #cbd5e1; margin-top: 0.5rem; margin-bottom: 0.2rem; white-space: nowrap;">Akses Produk Inovasi Digital:</div>
+                <a href="https://orisasatifaalqaf.github.io/E-Book-Teks-Berita/" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.85rem; background: #059669; border-color: #059669;"><i class="fa-solid fa-book-open-reader"></i> Buka E-Book Interaktif</a>
+                <a href="portfolio.html#karya-inovasi" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.85rem;"><i class="fa-solid fa-table-columns"></i> Lihat di Portfolio</a>
+              </div>
+            </div>
+            
+            <!-- Kolom Kanan: Preview Dokumen PDF Google Drive -->
+            <div class="penilaian-preview" style="padding: 0; background: transparent;">
+              <iframe id="iframe-karya-inovasi" src="https://drive.google.com/file/d/1bMeC6gyP9Nyz6zDXx5coe6iLxDl1yq9_/preview" width="100%" height="100%" style="border: none; border-radius: 16px; min-height: 520px; background-color: #f1f5f9;" title="Preview Desain Karya Inovatif LK 4"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Bottom Pills Desain Karya Inovatif -->
+      <div class="penilaian-bottom-pills" style="margin-top: 1.5rem; margin-bottom: 2.5rem;">
+        <div class="bottom-pill pill-purple"><i class="fa-solid fa-book-journal-whills"></i> E-Book Interaktif 8 Bab</div>
+        <div class="bottom-pill pill-blue"><i class="fa-solid fa-magnifying-glass"></i> Discovery Learning 2 Pertemuan</div>
+        <div class="bottom-pill pill-green"><i class="fa-solid fa-layer-group"></i> Diferensiasi Berjenjang (TaRL)</div>
+        <div class="bottom-pill pill-yellow"><i class="fa-solid fa-shield-halved"></i> 5 Langkah Cek Fakta</div>
+        <div class="bottom-pill pill-red"><i class="fa-solid fa-gamepad"></i> Game Wordwall &amp; Kuis Formatif</div>
+      </div>
+
+      <!-- Live E-Book Showcase Card -->
+      <div style="background: var(--bg-secondary); border: 1px solid var(--glass-border); border-radius: 20px; padding: 2rem; margin-bottom: 2.5rem; box-shadow: var(--shadow-sm);">
+        <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; justify-content: space-between;">
+          <div style="flex: 1 1 450px;">
+            <div style="display: inline-flex; align-items: center; gap: 0.5rem; color: #059669; font-weight: 700; font-size: 0.85rem; margin-bottom: 0.5rem;">
+              <i class="fa-solid fa-circle-check"></i> PRODUK INOVASI DIGITAL LIVE
+            </div>
+            <h3 style="font-size: 1.5rem; color: var(--text-primary); margin-bottom: 0.8rem; font-weight: 800;">
+              E-Book Teks Berita Interaktif (Flipbook)
+            </h3>
+            <p style="color: var(--text-secondary); line-height: 1.6; font-size: 0.95rem; margin-bottom: 1rem;">
+              E-Book ini dirancang khusus sebagai pendamping tahap <em>verification</em> pada model Discovery Learning. Terdiri dari 8 bab lengkap (Bab 1–5 materi inti, Bab 6–7 pengayaan penulisan &amp; produksi vlog, serta Bab 8 asesmen mandiri) dengan beragam fitur interaktif digital seperti game anagram Wordwall <em>"Detektif Berita"</em>, video pemantik YouTube, kuis Google Form, serta kotak refleksi mandiri.
+            </p>
+            <div style="display: flex; gap: 0.8rem; flex-wrap: wrap;">
+              <a href="https://orisasatifaalqaf.github.io/E-Book-Teks-Berita/" target="_blank" class="btn btn-primary" style="background: #059669; border-color: #059669;">
+                <i class="fa-solid fa-up-right-from-square"></i> Buka E-Book di Tab Baru
+              </a>
+              <button onclick="document.getElementById('iframe-ebook-live').scrollIntoView({behavior: 'smooth'})" class="btn btn-outline">
+                <i class="fa-solid fa-window-maximize"></i> Buka Tinjauan Langsung
+              </button>
+            </div>
+          </div>
+          <div style="flex: 0 0 280px; background: var(--bg-primary); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--glass-border);">
+            <div style="font-weight: 700; font-size: 0.9rem; margin-bottom: 0.8rem; color: var(--text-primary);"><i class="fa-solid fa-list-check" style="color: #059669;"></i> Fitur Unggulan E-Book:</div>
+            <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.7;">
+              <li><i class="fa-solid fa-check" style="color: #059669;"></i> Tampilan buku bolak-balik (Flipbook)</li>
+              <li><i class="fa-solid fa-check" style="color: #059669;"></i> Daftar isi hipertaut langsung klik</li>
+              <li><i class="fa-solid fa-check" style="color: #059669;"></i> Game anagram Wordwall</li>
+              <li><i class="fa-solid fa-check" style="color: #059669;"></i> Video YouTube terintegrasi</li>
+              <li><i class="fa-solid fa-check" style="color: #059669;"></i> Asesmen formatif Google Form</li>
+              <li><i class="fa-solid fa-check" style="color: #059669;"></i> Akses mandiri via QR Code di kelas</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Embedded E-Book Live Web Preview -->
+        <div id="iframe-ebook-live" style="margin-top: 1.5rem; border-radius: 16px; overflow: hidden; border: 1px solid var(--glass-border); box-shadow: var(--shadow-md);">
+          <div style="background: var(--bg-primary); padding: 0.75rem 1.2rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--glass-border); font-size: 0.85rem; color: var(--text-secondary);">
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <span style="display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: #EF4444;"></span>
+              <span style="display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: #F59E0B;"></span>
+              <span style="display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: #10B981;"></span>
+              <span style="margin-left: 0.5rem; font-weight: 600; color: var(--text-primary);"><i class="fa-solid fa-globe"></i> orisasatifaalqaf.github.io/E-Book-Teks-Berita/</span>
+            </div>
+            <a href="https://orisasatifaalqaf.github.io/E-Book-Teks-Berita/" target="_blank" style="color: var(--accent); text-decoration: none; font-weight: 600;">
+              Layar Penuh <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <iframe src="https://orisasatifaalqaf.github.io/E-Book-Teks-Berita/" width="100%" height="560px" style="border: none; background: white;" title="E-Book Teks Berita Interaktif"></iframe>
+        </div>
+      </div>
+
+      <!-- Sintesis Hasil Analisis Desain Karya Inovatif (LK 4) -->
+      <div class="refleksi-sintesis-container" style="margin-top: 2rem;">
+        <div style="text-align: center; margin-bottom: 1.5rem;">
+          <span class="lampiran-badge badge-cyan" style="font-size: 0.88rem; padding: 0.4rem 1.2rem;">
+            <i class="fa-solid fa-cubes-stacked"></i> SINTESIS LIMA INDIKATOR DESAIN KARYA INOVATIF (LK 4)
+          </span>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; max-width: 800px; margin: 0.5rem auto 0 auto; line-height: 1.6;">
+            Uraian komprehensif rancangan inovasi berdasarkan asesmen diagnostik, perumusan 5 prinsip produk, integrasi teknologi flipbook, uji implementasi kelas, dan 5 tahapan evaluasi keberhasilan
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem;">
+          <!-- Indikator 1 -->
+          <div style="background: var(--bg-secondary); border: 1px solid var(--glass-border); border-radius: 18px; padding: 1.8rem; box-shadow: 0 4px 15px rgba(0,0,0,0.03); display: flex; flex-direction: column;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem;">
+              <div style="width: 42px; height: 42px; border-radius: 12px; background: #D1FAE5; color: #059669; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0;">
+                <i class="fa-solid fa-clipboard-question"></i>
+              </div>
+              <h4 style="font-size: 1.15rem; color: var(--text-primary); margin: 0; font-weight: 700;">1. Identifikasi Kebutuhan &amp; Tantangan</h4>
+            </div>
+            <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.92rem; color: var(--text-secondary); line-height: 1.6; display: flex; flex-direction: column; gap: 0.65rem;">
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #059669; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Kesiapan Kognitif Tinggi:</strong> Rata-rata diagnostik 95,29 (97,1% murid kategori baik&ndash;sangat baik) sehingga membutuhkan materi eksplorasi mandiri yang menantang.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #059669; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Celah Analisis Spesifik:</strong> Kemampuan membedakan kalimat opini baru mencapai 82,4% dan identifikasi struktur tubuh berita 85,3%.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #059669; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Modalitas Visual &amp; Percaya Diri:</strong> Gaya belajar visual sangat dominan, namun sebagian siswa masih pasif dan membutuhkan dorongan rasa percaya diri.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #059669; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Kendala Waktu &amp; Instruksi:</strong> Pengerjaan LKM melampaui estimasi waktu, penjelasan lisan guru belum menjangkau siswa belakang, dan alokasi terbatas (2 pertemuan).</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #059669; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Tantangan Inti:</strong> Memfasilitasi siswa menemukan &amp; memverifikasi konsep fakta-opini secara mandiri dan kritis di tengah arus informasi digital.</span></li>
+            </ul>
+          </div>
+
+          <!-- Indikator 2 -->
+          <div style="background: var(--bg-secondary); border: 1px solid var(--glass-border); border-radius: 18px; padding: 1.8rem; box-shadow: 0 4px 15px rgba(0,0,0,0.03); display: flex; flex-direction: column;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem;">
+              <div style="width: 42px; height: 42px; border-radius: 12px; background: #FEF3C7; color: #D97706; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0;">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <h4 style="font-size: 1.15rem; color: var(--text-primary); margin: 0; font-weight: 700;">2. Perumusan Gagasan &amp; 5 Prinsip Inovasi</h4>
+            </div>
+            <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.92rem; color: var(--text-secondary); line-height: 1.6; display: flex; flex-direction: column; gap: 0.65rem;">
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #D97706; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Sinergi Dua Komponen:</strong> Memadukan modul mendalam Discovery Learning (2 pertemuan) + E-Book Teks Berita interaktif khusus tahap <em>verification</em>.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #D97706; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Kebaruan:</strong> Pemanfaatan flipbook interaktif pertama di sekolah yang dirancang presisi menyatu dengan sintaks Discovery Learning, bukan sekadar bacaan luar.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #D97706; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Kreativitas:</strong> Stimulus Kabar A &amp; B di Padlet, pesan berantai tanpa sumber, game anagram <em>"Detektif Berita"</em> (Wordwall), video YouTube, &amp; kuis Formatif.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #D97706; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Relevansi:</strong> Berangkat dari data diagnostik kelas, selaras Capaian Pembelajaran Bahasa Indonesia Fase F, dan menjawab urgensi literasi media digital.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #D97706; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Kebermanfaatan &amp; Efektivitas:</strong> Siswa dapat merujuk mandiri kapan saja, guru tidak mengulang penjelasan dasar, serta melatih kolaborasi &amp; penalaran kritis.</span></li>
+            </ul>
+          </div>
+
+          <!-- Indikator 3 -->
+          <div style="background: var(--bg-secondary); border: 1px solid var(--glass-border); border-radius: 18px; padding: 1.8rem; box-shadow: 0 4px 15px rgba(0,0,0,0.03); display: flex; flex-direction: column;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem;">
+              <div style="width: 42px; height: 42px; border-radius: 12px; background: #E0F2FE; color: #0284C7; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0;">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <h4 style="font-size: 1.15rem; color: var(--text-primary); margin: 0; font-weight: 700;">3. Riset, Prototipe &amp; Fitur E-Book</h4>
+            </div>
+            <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.92rem; color: var(--text-secondary); line-height: 1.6; display: flex; flex-direction: column; gap: 0.65rem;">
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #0284C7; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Landasan Riset:</strong> Menelaah buku teks nasional kelas XI (Cerdas Cergas) serta komparasi karya e-booklet reciprocal learning &amp; teks eksposisi Canva.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #0284C7; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Struktur 8 Bab Lengkap:</strong> Bab 1&ndash;5 materi inti (unsur ADIKSIMBA, struktur, kaidah), Bab 6&ndash;7 pengayaan (naskah berita &amp; vlog), Bab 8 latihan &amp; refleksi.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #0284C7; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Fitur Interaktif Canggih:</strong> Tampilan buku bolak-balik (flipbook), daftar isi terhubung langsung, tautan video YouTube, kotak <em>"Coba Sendiri"</em>, &amp; tugas pendalaman.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #0284C7; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Alur Discovery 2 Pertemuan:</strong> Pertemuan 1 fokus struktur &amp; ADIKSIMBA; Pertemuan 2 fokus kaidah kebahasaan, fakta vs opini, dan kartu fokus kaidah (TaRL).</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #0284C7; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Aksesibilitas Digital Fleksibel:</strong> Tersedia online via gawai maupun scan QR Code di kelas (<a href="https://orisasatifaalqaf.github.io/E-Book-Teks-Berita/" target="_blank" style="color: #0284C7; text-decoration: underline;">Tautan Live</a>).</span></li>
+            </ul>
+          </div>
+
+          <!-- Indikator 4 -->
+          <div style="background: var(--bg-secondary); border: 1px solid var(--glass-border); border-radius: 18px; padding: 1.8rem; box-shadow: 0 4px 15px rgba(0,0,0,0.03); display: flex; flex-direction: column;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem;">
+              <div style="width: 42px; height: 42px; border-radius: 12px; background: #EDE9FE; color: #7C3AED; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0;">
+                <i class="fa-solid fa-chalkboard-user"></i>
+              </div>
+              <h4 style="font-size: 1.15rem; color: var(--text-primary); margin: 0; font-weight: 700;">4. Implementasi Nyata di Kelas XI-F6</h4>
+            </div>
+            <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.92rem; color: var(--text-secondary); line-height: 1.6; display: flex; flex-direction: column; gap: 0.65rem;">
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #7C3AED; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Pertemuan 1 (6 Okt 2026; 30/35 hadir):</strong> Pembukaan berkesadaran (<em>Sugeng Siyang</em>, <em>Jempol Sengguh</em>, <em>Cuaca Diriku</em>), stimulus Padlet, LKM 1, &amp; verifikasi Bab 1&ndash;3 E-Book.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #7C3AED; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Pertemuan 2 (7 Okt 2026; 31/35 hadir):</strong> Fokus kaidah kebahasaan &amp; fakta-opini melalui LKM 2, kartu fokus kaidah, Kuis Kilat Google Form, &amp; verifikasi Bab 4&ndash;5.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #7C3AED; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Budaya Kelas Positif &amp; PSE:</strong> Mengintegrasikan pembelajaran sosial emosional dan kearifan lokal kejogjaan (sikap <em>Andhap Asor</em> dan saling menghargai).</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #7C3AED; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Respon Sangat Positif:</strong> Murid antusias berdiskusi, E-Book mempermudah verifikasi mandiri secara lancar, serta diapresiasi langsung oleh Guru Pamong.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #7C3AED; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Catatan Refleksi:</strong> Instruksi lisan perlu diperkuat dengan proyeksi teks instruksi di slide secara kontinu agar dipahami merata hingga barisan belakang.</span></li>
+            </ul>
+          </div>
+
+          <!-- Indikator 5 -->
+          <div style="background: var(--bg-secondary); border: 1px solid var(--glass-border); border-radius: 18px; padding: 1.8rem; box-shadow: 0 4px 15px rgba(0,0,0,0.03); display: flex; flex-direction: column;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem;">
+              <div style="width: 42px; height: 42px; border-radius: 12px; background: #FEE2E2; color: #DC2626; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0;">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <h4 style="font-size: 1.15rem; color: var(--text-primary); margin: 0; font-weight: 700;">5. Rencana Lanjutan &amp; 5 Tahap Evaluasi</h4>
+            </div>
+            <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.92rem; color: var(--text-secondary); line-height: 1.6; display: flex; flex-direction: column; gap: 0.65rem;">
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #DC2626; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Penyempurnaan Manajemen Waktu:</strong> Menetapkan timer layar pengerjaan LKM 25 menit, perpindahan kelompok 2 menit, &amp; refleksi lisan terstruktur 8 menit.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #DC2626; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Diferensiasi Remedial &amp; Pengayaan:</strong> Remedial bagi yang belum tuntas via tugas pendalaman Bab 3 &amp; 5; pengayaan naskah/vlog berita via Bab 6 &amp; 7.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #DC2626; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Lima Dimensi Evaluasi:</strong> 1) Validasi isi &amp; kelayakan ahli, 2) Observasi proses nalar kritis, 3) Hasil belajar vs diagnostik, 4) Angket persepsi siswa (&ge;80%), 5) Refleksi RTL.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #DC2626; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>5 Langkah Cek Fakta Digital:</strong> Pembiasaan memeriksa kredibilitas: cek sumber, tanggal terbit, baca utuh, bandingkan media lain, &amp; cek keaslian foto/video.</span></li>
+              <li style="display: flex; gap: 0.5rem;"><i class="fa-solid fa-circle-check" style="color: #DC2626; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i> <span><strong>Perluasan Diseminasi:</strong> Mengaplikasikan modul &amp; E-Book ini pada kelas XI Fase F lainnya serta mengumpulkan data kuantitatif komprehensif.</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <i class="fa-solid fa-graduation-cap"></i> PPG Prajabatan 2026
+          </div>
+          <p class="footer-tagline">
+            E-Portfolio Guru Profesional &bull; Pendidikan Bahasa dan Sastra Indonesia &bull; Universitas Ahmad Dahlan
+          </p>
+        </div>
+        <div class="footer-nav">
+          <div class="footer-links">
+            <ul class="footer-link-col">
+              <li><a href="portfolio.html#hero">Beranda</a></li>
+              <li><a href="portfolio.html#about">Profil</a></li>
+              <li><a href="portfolio.html#education">Pendidikan</a></li>
+              <li><a href="portfolio.html#identifikasi-diri">Identifikasi Diri</a></li>
+            </ul>
+            <ul class="footer-link-col">
+              <li><a href="portfolio.html#refleksi-mk">Refleksi Mata Kuliah</a></li>
+              <li><a href="portfolio.html#refleksi-ppg">Refleksi Program PPG</a></li>
+              <li><a href="karya-inovasi.html">Karya Inovasi Pendidikan</a></li>
+            </ul>
+            <ul class="footer-link-col">
+              <li><a href="portfolio.html#model-guru">Model Guru</a></li>
+              <li><a href="portfolio.html#gallery">Gallery</a></li>
+              <li><a href="portfolio.html#contact">Kontak</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          &copy; 2026 Orisa Satifa Alqaf. Seluruh hak cipta dilindungi undang-undang.
+        </div>
+        <div class="footer-badge">
+          <i class="fa-solid fa-award"></i> Portofolio Digital PPG Prajabatan
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Theme toggle & basic controls
+    document.addEventListener('DOMContentLoaded', () => {
+      const themeToggle = document.getElementById('themeToggle');
+      const themeIcon = themeToggle.querySelector('.theme-icon');
+      const html = document.documentElement;
+
+      const savedTheme = localStorage.getItem('theme');
+      const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      
+      if (savedTheme === 'dark' || (!savedTheme && systemDark)) {
+        html.setAttribute('data-theme', 'dark');
+        if (themeIcon) themeIcon.classList.replace('fa-moon', 'fa-sun');
+      }
+
+      if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+          const currentTheme = html.getAttribute('data-theme');
+          if (currentTheme === 'dark') {
+            html.setAttribute('data-theme', 'light');
+            localStorage.setItem('theme', 'light');
+            if (themeIcon) themeIcon.classList.replace('fa-sun', 'fa-moon');
+          } else {
+            html.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
+            if (themeIcon) themeIcon.classList.replace('fa-moon', 'fa-sun');
+          }
+        });
+      }
+
+      // Mobile Menu
+      const hamburger = document.getElementById('hamburger');
+      const navLinks = document.getElementById('navLinks');
+      if (hamburger && navLinks) {
+        hamburger.addEventListener('click', () => {
+          navLinks.classList.toggle('active');
+        });
+      }
+    });
+  </script>
+</body>
+</html>
+
